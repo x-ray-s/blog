@@ -95,3 +95,5 @@ pagedown pageup 以及移动到顶和底，都需要把手离开键盘区，使�
 
 + [简明 VIM 练级攻略](https://coolshell.cn/articles/5426.html)
 + [tips and tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
++ [vim genius](http://vimgenius.com)
++ [vim adventures](https://vim-adventures.com/)
