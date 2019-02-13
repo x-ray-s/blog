@@ -22,26 +22,25 @@ title: 使用vscode常用配置
 
 ```json
 {
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": {
-        "vue-html": "html",
-        "vue": "html"
-    },
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "html",
-        "vue"
-    ],
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
-    "vetur.format.defaultFormatterOptions": {
-        "wrap_attributes": "force-aligned"
-    },
-    "stylusSupremacy.insertColons": false,
-    "stylusSupremacy.insertSemicolons": false,
-    "stylusSupremacy.insertBraces": false,
-    "stylusSupremacy.insertNewLineAroundImports": false,
-    "stylusSupremacy.insertNewLineAroundBlocks": false
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "sortAttributes": true
+    }
+  },
+  "stylusSupremacy.insertColons": false,
+  "stylusSupremacy.insertSemicolons": false,
+  "stylusSupremacy.insertBraces": false,
+  "stylusSupremacy.insertNewLineAroundImports": false,
+  "stylusSupremacy.insertNewLineAroundBlocks": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.shellArgs.osx": []
 }
 ```
 
