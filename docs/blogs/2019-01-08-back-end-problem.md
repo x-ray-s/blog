@@ -27,6 +27,8 @@ model.User.findOne({
 })
 ```
 
++ 强制删除 Model `Model.sync({ force: true })`
+
 ## Typescript
 
 + 使用 Jest 时，错误信息： **Cannot find name expect**
@@ -42,4 +44,23 @@ model.User.findOne({
 +        "node_modules"
     ]
 }
+```
+
+## Joi 验证
+
++ 验证可选值时
+
+```js
+allowUnknown: true
+```
+
++ 跳过可选值
+
+```js
+stripUnknown: true
+```
+
++ 单个可选值
+```
+Joi.optional()
 ```
