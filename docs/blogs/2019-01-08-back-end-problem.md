@@ -61,6 +61,13 @@ stripUnknown: true
 ```
 
 + 单个可选值
-```
+```js
 Joi.optional()
+```
+
++ 允许对象为空
+```js
+payload: Joi.object({
+    name: Joi.string()
+}).allow(null)
 ```
