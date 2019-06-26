@@ -8,6 +8,12 @@ title: 记录一个 HTTP 响应头的规则问题
 
 在使用 Ligthhouse 检查网站优化时，发现 Diagnostics(诊断) 类目下有个 __Serve static assets with an efficient cache policy__ （静态服务资源使用有效的缓存策略），并且提示 **A long cache lifetime can speed up repeat visits to your page. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/cache-policy?utm_medium=devtools&utm_source=lighthouse)**。但问题是在 Network 中已经显示资源 __from disk cache__，这究竟是为什么呢。
 
+当前场景下关于缓存的设置：
+
++ ETag ✅
++ Last-Modified ✅
++ Cache-Control ❎
+
 现在问题就变成了:
 + 为什么没有设置 `cache-control` 非强制验证缓存，仍然返回 200 from disk cache ?
 + 浏览器在处理没有 `cache-control` 的请求时，使用什么缓存策略 ?
@@ -32,3 +38,7 @@ title: 记录一个 HTTP 响应头的规则问题
 ### 参考
 
 + [HTTP 缓存](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#invalidating_and_updating_cached_responses)
+
+### 扩展
++ [关闭缓存](https://stackoverflow.com/questions/49547/how-do-we-control-web-page-caching-across-all-browsers)
++ [浏览器历史与缓存](https://madhatted.com/2013/6/16/you-do-not-understand-browser-history)
