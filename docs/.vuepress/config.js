@@ -15,7 +15,6 @@ function getResult(json, key) {
 }
 module.exports = {
   title: "Halo world",
-  serviceWorker: true,
   themeConfig: {
     nav: [
       { text: "Blogs", link: "/blogs/" },
