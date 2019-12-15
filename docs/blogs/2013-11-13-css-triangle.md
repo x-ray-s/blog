@@ -1,7 +1,5 @@
 ---
 title: CSS制作三角形
-
-category: css
 ---
 用css制作的step模块，主要知识点是border的用法。
 <!--more-->

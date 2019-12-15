@@ -1,7 +1,5 @@
 ---
 title: css优先级
-
-category: css
 ---
 所谓CSS优先级，即是指CSS样式在浏览器中被解析的先后顺序。
 <ul>

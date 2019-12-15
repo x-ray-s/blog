@@ -1,7 +1,5 @@
 ---
 title: 如何优雅的科学上网
-
-category: notes
 ---
 
 ### 代理软件

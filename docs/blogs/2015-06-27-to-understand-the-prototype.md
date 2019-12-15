@@ -1,7 +1,5 @@
 ---
 title: 理解原型
-
-category: javascript
 ---
 每个函数都有一个prototype属性，这个属性是一个指针指向一个对象，这个独享可以让所有对象实例共享它所包含的属性和方法。
 创建一个构造函数，构造函数中的prototype指向与原型对象，原型对象中会自动获得一个constructor属性，属性包含一个指向prototype所在构造函数的指针。

@@ -1,7 +1,5 @@
 ---
 title: PHP在windows系统下使用mail()
-
-category: notes
 ---
 下载sendmail 地址:http://glob.com.au/sendmail/
 

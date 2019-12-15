@@ -1,7 +1,5 @@
 ---
 title: 读书笔记-你不知道的javascript(上) 第一部分
-
-category: javascript
 ---
 
 ### 第一部分 作用域和闭包

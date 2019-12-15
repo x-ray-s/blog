@@ -1,8 +1,6 @@
 ---
 
 title: 前端项目管理
-
-category: notes
 ---
 
 ## 项目结构
@@ -10,16 +8,13 @@ category: notes
 在开始一个项目时，首先要对项目的目录结构进行合理的安排，方便以后的开发与维护，良好的结构可以减少了沟通与熟悉项目的时间，维护起来也比较容易，也为日后新进入项目的人能更快投入到工作中做了更好的铺垫。
 
 ```javascript
-
 ----asset
   ----styles
   ----scripts
-  ----images
-----lib
+  ----images----lib
   --js
   --css
-  --font
-----dist
+  --font----dist
   ----css
   ----js
   ----img

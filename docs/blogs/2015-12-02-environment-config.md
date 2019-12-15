@@ -1,7 +1,5 @@
 ---
 title: Mac中开发环境的配置
-
-category: notes
 ---
 
 ### 购买代理

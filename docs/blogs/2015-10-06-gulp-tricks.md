@@ -1,7 +1,5 @@
 ---
 title: Gulp guide for beginners
-
-category: javascript
 ---
 
 ##这是一篇简单又实用的gulp指南

@@ -1,8 +1,6 @@
 ---
 
 title: line-height的值带单位与不带单位的区别
-
-category: css
 ---
 line-height:1.5和line-height:150%有什么区别呢？
 

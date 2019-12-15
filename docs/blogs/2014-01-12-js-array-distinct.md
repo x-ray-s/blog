@@ -1,7 +1,5 @@
 ---
 title: js 数组去重
-
-category: javascript
 ---
 ```javascript
 <script type="text/javascript">

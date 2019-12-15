@@ -1,7 +1,5 @@
 ---
 title: display:inline-block的兼容问题
-
-category: css
 ---
 有些人认为ie6不支持inline-block,这是一种错误的认识，只是IE6对inline-block的支持不太好，块级元素不支持设置为inline-block，但是行内元素是支持inline-block的，下面给出测试代码作为参考。同时也扩展了一下隐藏文字内容的一些小技巧。
 <!--more-->

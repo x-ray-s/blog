@@ -1,7 +1,5 @@
 ---
 title: JavaScript设计模式
-
-category: javascript
 ---
 
 ###单体模式

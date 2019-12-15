@@ -1,7 +1,5 @@
 ---
 title: BEC商务英语词汇-03
-
-category: notes
 ---
 ### consist of 组成
 

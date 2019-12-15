@@ -1,7 +1,5 @@
 ---
 title: 数组
-
-category: javascript
 ---
 以数组作为操作数并使用typeof操作符，其结果将会返回"object".
 

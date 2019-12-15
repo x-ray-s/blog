@@ -1,7 +1,5 @@
 ---
 title: new操作符
-
-category: javascript
 ---
 当以new操作符调用构造函数时，函数内部将会发生一下情况
 

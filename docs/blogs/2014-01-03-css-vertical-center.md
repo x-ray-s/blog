@@ -1,7 +1,5 @@
 ---
 title: 兼容ie/chrome的水平垂直居中
-
-category: css
 ---
 兼容浏览的垂直水平居中，内容可任意宽高。高级浏览器使用display:table,ie6,7使用定位relative/absolute/relative,null/50%/-50%的结构。
 简单方法就是直接用table布局。

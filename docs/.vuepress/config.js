@@ -28,5 +28,8 @@ module.exports = {
       "/daily/": getResult(daily, "daily"),
       "/notes/": getResult(notes, "notes")
     }
-  }
+  },
+  plugins: [
+    require('./voice')
+  ]
 };

@@ -1,7 +1,5 @@
 ---
 title: 单词-python syntax
-
-category: notes
 ---
 you earned the badge
 

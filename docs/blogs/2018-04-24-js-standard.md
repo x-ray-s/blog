@@ -1,6 +1,5 @@
 ---
 title: js代码规范化
-
 ---
 
 # {{$page.title}}

@@ -1,7 +1,5 @@
 ---
 title: 如何使用ubuntu操作系统
-
-category: notes
 ---
 ### 更新软件
 进入ubuntu software center，然后出现界面，点击左上角Edit，选择software sources，在Download from中选择Other，选择中国的服务器，然后打开终端输入：**sudo apt-get update** 更新系统软件列表。

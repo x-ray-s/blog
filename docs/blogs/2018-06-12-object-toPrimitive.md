@@ -1,6 +1,5 @@
 ---
 title: js隐式转换
-
 ---
 
 # {{$page.title}}

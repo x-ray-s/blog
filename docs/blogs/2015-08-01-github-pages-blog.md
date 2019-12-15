@@ -1,7 +1,5 @@
 ---
 title: 使用github pages搭建博客
-
-category: notes
 ---
 
 ##Getting Started

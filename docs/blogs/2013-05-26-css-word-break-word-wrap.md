@@ -1,8 +1,6 @@
 ---
 
 title: CSS文本属性word-break和word-wrap
-
-category: css
 ---
 CSS手册中对这两个属性的概念比较难理解，什么亚洲语言和非亚洲语言...其实就可以理解成中英文两种。
 

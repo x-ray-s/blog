@@ -1,7 +1,5 @@
 ---
 title: 前端代码规范
-
-category: javascript
 ---
 
 ##良好的注释与缩进

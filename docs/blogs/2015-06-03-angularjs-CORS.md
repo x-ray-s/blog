@@ -1,7 +1,5 @@
 ---
 title: AngularJS 跨域请求（CORS）的设置。
-
-category: javascript
 ---
 ```javascript
 $http({

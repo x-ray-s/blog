@@ -1,8 +1,6 @@
 ---
 
 title: Introduction to CodeIgniter
-
-category: notes
 ---
 Why Should I Use CodeIgniter?
 

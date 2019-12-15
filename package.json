@@ -15,9 +15,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fs-extra": "^6.0.1"
-  },
-  "devDependencies": {
-    "vuepress": "^0.10.2"
+    "@vuepress/shared-utils": "^1.2.0",
+    "fs-extra": "^6.0.1",
+    "vuepress": "^1.2.0"
   }
 }

@@ -1,6 +1,5 @@
 ---
 title: 一份项目内使用的的readme参考
-
 ---
 
 # {{$page.title}}
@@ -25,8 +24,7 @@ npm run dev
 注：js与less的编译文件为 `['js/*.js', 'js/**/index.js', 'less/*/*.less', 'less/**/index.less']`
 
 ```
-npm run dev
----- or ----
+npm run dev---- or ----
 gulp dev
 ```
 

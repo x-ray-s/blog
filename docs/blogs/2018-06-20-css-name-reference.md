@@ -1,6 +1,5 @@
 ---
 title: css命名参考
-
 ---
 
 # {{$page.title}}

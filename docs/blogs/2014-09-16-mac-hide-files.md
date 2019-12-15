@@ -1,7 +1,5 @@
 ---
 title: Mac系统显示隐藏文件
-
-category: notes
 ---
 命令行方式
 

@@ -1,7 +1,5 @@
 ---
 title: 给mysql默认root用户设置密码
-
-category: notes
 ---
 ```mysql
 mysql> update mysql.user set password=PASSWORD（'新密码'） where User='root';

@@ -1,9 +1,8 @@
 ---
 title: HTML5 简化标签使用
-
-category: html
 ---
-记得学习XHTML标签语法时，有一条很重要的内容，<strong>就是XHTML元素必须被关闭</strong>。但在HTML5中，对标签做了一定的简化，一些标签不再必须被关闭了。
+
+记得学习 XHTML 标签语法时，有一条很重要的内容，**就是 XHTML 元素必须被关闭**。但在 HTML5 中，对标签做了一定的简化，一些标签不再必须被关闭了。
 
 不允许写的结束符的标签：area、basebr、col、command、Embed、hr、img、input、keygen、link、meta、param、source、Track、wbr
 

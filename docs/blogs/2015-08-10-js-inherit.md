@@ -1,7 +1,5 @@
 ---
 title: JavaScript继承
-
-category: javascript
 ---
 ##类式继承
 

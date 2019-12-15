@@ -1,7 +1,5 @@
 ---
 title: AngularJS中通过ui-route将数据传递给视图。
-
-category: [javascript]
 ---
 
 ```html

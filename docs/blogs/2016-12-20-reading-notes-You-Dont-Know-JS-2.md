@@ -1,7 +1,5 @@
 ---
 title: 读书笔记-你不知道的javascript(上) 第二部分
-
-category: javascript
 ---
 
 ### 第二部分 this和对象原型

@@ -1,6 +1,5 @@
 ---
 title: 使用vscode常用配置
-
 ---
 
 # {{$page.title}}

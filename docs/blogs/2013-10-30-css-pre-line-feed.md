@@ -1,7 +1,5 @@
 ---
 title: 解决pre标签内自动换行
-
-category: css
 ---
 ```css
 pre {

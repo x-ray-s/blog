@@ -154,7 +154,7 @@ npm run watch
 
 看！不需要手动重启服务了，每次改动，只需要重新刷新浏览器就看到结果了
 
-> <small>现在我们并不需要太早的引入 Nodemon，虽然它非常棒也很好用。</small>
+> 现在我们并不需要太早的引入 Nodemon，虽然它非常棒也很好用。
 
 ## 3. 参数
 
@@ -368,7 +368,7 @@ $.ajax({
 
 访问 http://localhost:3002/index 会报 js 的跨域错误
 
-> <small>Access to XMLHttpRequest at 'http://localhost:3000/api/welcome/kenny' from origin 'http://localhost:3002' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.</small>
+> Access to XMLHttpRequest at 'http://localhost:3000/api/welcome/kenny' from origin 'http://localhost:3002' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 ```js{5-9}
 // server.js
@@ -385,7 +385,7 @@ const server = Hapi.server({
 
 保存后，你会发现终端会有以下错误
 
-> <small>[1] "origin" must be an array</small>
+> [1] "origin" must be an array
 
 这就是 Hapi 的另一个优势，配置检查，因为 Hapi 作为以配置先行的框架，做了很多配置的检查，在你使用了不允许或不规范的配置时，会有相应的错误产生，方便你对于问题的捕捉和解决。
 
@@ -492,7 +492,7 @@ server.route({
 })
 ```
 
-> <small>这个例子并不适合实际的业务场景，只是为了更简单的描述如何设置和取消cookie</small>
+> 这个例子并不适合实际的业务场景，只是为了更简单的描述如何设置和取消cookie
 
 ## 9. 认证与授权
 
