@@ -26,13 +26,13 @@ title: 一句话搞懂 HTTP 缓存
 
 验证优先级 `ETag` > `Last-Modified`
 
-`ETag` 发起 `If-None-Match`， `Last-Modified` 发起 `if-modified-since`
+`ETag` 发起 `If-None-Match`， `Last-Modified` 发起 `If-Modified-Since`
 
 一般情况下不会用到 `Cache-Control` 的代理和重新验证的几个属性，遇到的时候想到就好。
 
 深入的重点：
 
-关于缓存验证，新鲜度，直接看下面的番号吧。对于缓存相关请求头的详细信息，请直接查阅 MDN。
+关于缓存验证，新鲜度，直接看下面的番号吧。对于缓存相关请求头的详细信息，请直接查阅 MDN。别人说的再多也不如自己从规范中理解和总结。
 
 重中之重：
 
@@ -51,4 +51,4 @@ title: 一句话搞懂 HTTP 缓存
 
 Github 地址: [http-cache-learn](https://github.com/KennyWho/http-cache-learn)
 
-感谢大家素质三连。
+编码不易，感谢大家素质三连。
