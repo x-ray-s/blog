@@ -22,3 +22,4 @@ async function postApi(_path) {
 postApi("blogs");
 postApi("daily");
 postApi("notes");
+postApi("daily-interview-question");
