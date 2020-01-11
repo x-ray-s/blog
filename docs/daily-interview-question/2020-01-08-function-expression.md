@@ -2,6 +2,8 @@
 title: 2020-1-8
 ---
 
+# 函数表达式
+
 下面代码中 y 的输出是什么？
 
 ```js
@@ -23,6 +25,33 @@ console.log(y);
 因此在 `if` 声明块中，`f` 的值为 `undefined`
 
 [https://runkit.com/kennywho/named-function-expression](https://runkit.com/kennywho/named-function-expression)
+
+### 扩展
+
+1.下面两段代码有什么不同？[Question 17](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions#question-17a-what-is-the-difference-between-declaring-a-function-in-the-formats-listed-below)
+
+```js
+var foo = function() {
+  // Some code
+};
+
+function bar() {
+  // Some code
+}
+```
+
+2.哪种情况下函数定义不会提升？[Question 18](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions#question-18-in-which-case-the-function-definition-is-not-hoisted-in-javascript)
+
+3.下面代码输出什么?
+
+```js
+(function() {
+  console.log(typeof displayFunc);
+  var displayFunc = function() {
+    console.log("Hi I am inside displayFunc");
+  };
+})();
+```
 
 ## 参考
 

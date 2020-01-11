@@ -34,5 +34,5 @@ module.exports = {
       )
     }
   },
-  plugins: [require("./voice")]
+  plugins: [require("./voice"), "@vuepress/last-updated"]
 };

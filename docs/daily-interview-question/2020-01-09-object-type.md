@@ -2,6 +2,8 @@
 title: 2020-1-9
 ---
 
+# 对象类型
+
 > What is a potential pitfall with using typeof bar === "object" to determine if bar is an object? How can this pitfall be avoided?
 
 当使用 `typeof bar === "object"` 去判断 bar 是否是一个 object，潜在的陷阱是是什么？如何避免这个陷阱？
@@ -85,6 +87,10 @@ typeof "number"
 ```
 
 [https://runkit.com/kennywho/object-types](https://runkit.com/kennywho/object-types)
+
+### 相关问题
+
+- [Question 37](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions#question-37-best-way-to-detect-reference-values-of-any-type-in-javascript-)
 
 ## 参考
 

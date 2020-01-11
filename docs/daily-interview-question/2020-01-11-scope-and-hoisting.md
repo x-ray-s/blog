@@ -1,6 +1,8 @@
 ---
-title: 2020-1-10
+title: 2020-1-11
 ---
+
+# 提升 和 作用域
 
 关于提升（hoisting) 和 作用域（scope)的几个重要的点
 
@@ -38,7 +40,9 @@ function fnScope1() {
 }
 ```
 
-题目 1
+### 题目
+
+1.下面代码输出什么？
 
 ```js
 var b = 1;
@@ -56,7 +60,23 @@ outer();
 // output ?
 ```
 
-题目 2
+2.下面代码输出什么？[Question 19](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions#question-19-what-will-be-the-output-of-the-following-code)
+
+```js
+var salary = "1000$";
+
+(function() {
+  console.log("Original salary was " + salary);
+
+  var salary = "5000$";
+
+  console.log("My New Salary " + salary);
+})();
+```
+
+### 相关问题和练习
+
+- [hositing](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions#hoisting)
 
 ## 参考
 
