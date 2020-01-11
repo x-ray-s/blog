@@ -18,16 +18,19 @@ console.log(y);
 
 > 然后函数名称将会（且只会）作为函数体（作用域内）的本地变量。
 
+> 注意 :函数表达式 function expressions 不会被提升:
+
 因此在 `if` 声明块中，`f` 的值为 `undefined`
 
-[https://runkit.com/kennywho/named-function-expression]()
+[https://runkit.com/kennywho/named-function-expression](https://runkit.com/kennywho/named-function-expression)
 
 ## 参考
 
 - [函数表达式](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/function)
 - [圆括号运算符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Grouping)
+- [`function`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/function)
 
 ## 进阶
 
-- [if statement](https://es5.github.io/#x12.5)
-- [if 语句](https://www.w3.org/html/ig/zh/wiki/ES5/%E8%AF%AD%E5%8F%A5#if_.E8.AF.AD.E5.8F.A5)
+- [if statement - en](https://es5.github.io/#x12.5)
+- [if 语句 - cn](https://www.w3.org/html/ig/zh/wiki/ES5/%E8%AF%AD%E5%8F%A5#if_.E8.AF.AD.E5.8F.A5)

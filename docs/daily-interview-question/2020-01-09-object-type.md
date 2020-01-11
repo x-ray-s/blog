@@ -1,5 +1,5 @@
 ---
-title: 2020-01-09
+title: 2020-1-9
 ---
 
 > What is a potential pitfall with using typeof bar === "object" to determine if bar is an object? How can this pitfall be avoided?
@@ -63,10 +63,32 @@ uu[Symbol.toStringTag] = "xyz";
 console.log(Object.prototype.toString.call(uu) === "[object xyz]"); // true
 ```
 
-[https://runkit.com/kennywho/object-types]()
+### 看下第二道题
+
+```js
+typeof typeof 1;
+```
+
+AST:
+
+-- ExpressionStatement<br>
+----- UnaryExpression (typeof)<br>
+-------- UnaryExpression (typeof)<br>
+----------- Literal (1)<br>
+
+**Therefore ↓**
+
+```
+typeof (typeof 1);
+typeof "number"
+"string"
+```
+
+[https://runkit.com/kennywho/object-types](https://runkit.com/kennywho/object-types)
 
 ## 参考
 
 - [`Object.prototype.toString()`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/toString)
 - [`Symbol.toStringTag`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag)
 - [Object Types](http://xahlee.info/js/javascript_whats_object.html)
+- [`typeof 运算符`](https://www.w3.org/html/ig/zh/wiki/ES5/%E8%A1%A8%E8%BE%BE%E5%BC%8F#typeof_.E8.BF.90.E7.AE.97.E7.AC.A6)
