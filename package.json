@@ -1,0 +1,22 @@
+{
+  "name": "github-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "node ./dir.js && vuepress dev docs",
+    "docs:build": "node ./dir.js && vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vuepress/shared-utils": "^1.2.0",
+    "fs-extra": "^6.0.1",
+    "vuepress": "^1.2.0"
+  }
+}
