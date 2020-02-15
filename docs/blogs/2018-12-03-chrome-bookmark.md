@@ -6,7 +6,7 @@ title: 分享 Chrome 书签
 
 ## 如何使用
 
-[获取书签](http://blog.x-ray.work/bookshelf/)
+[获取书签](https://blog.x-ray.work/bookshelf/)
 
 从上面链接获取`html`，并下载到本地
 
