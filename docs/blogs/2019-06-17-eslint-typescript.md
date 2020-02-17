@@ -89,7 +89,7 @@ module.exports = {
 yarn add eslint-plugin-vue -D
 ```
 
-```patch
+```git
 .eslintrc.js
 
 --- parser
@@ -98,7 +98,7 @@ yarn add eslint-plugin-vue -D
 ...
 ```
 
-```patch
+```git
 vscode setting.json
 
 "eslint.validate": [
