@@ -1,5 +1,5 @@
 ---
-title: 2020-2-13
+title: Prototype Chain 2020-2-13
 ---
 
 # Prototype Chain
