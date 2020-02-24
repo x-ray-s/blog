@@ -1,5 +1,5 @@
 ---
-title: 2020-1-10
+title: Object type 2020-1-10
 ---
 
 # 对象类型
