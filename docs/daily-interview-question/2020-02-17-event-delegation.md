@@ -1,5 +1,5 @@
 ---
-title: 2020-2-17
+title: Event Delegation 2020-2-17
 ---
 
 # Event Delegation
