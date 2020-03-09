@@ -1,5 +1,5 @@
 ---
-title: 英语发音规则
+title: 发音组件
 ---
 
 # {{$page.title}}
