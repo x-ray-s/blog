@@ -1,5 +1,5 @@
 ---
-title: 读音组件
+title: 发音组件
 ---
 
 # {{$page.title}}
