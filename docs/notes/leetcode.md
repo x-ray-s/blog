@@ -7,4 +7,4 @@ title: leetcode 记录
 - [最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) 3.19
 - [最小个 k 数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) 3.20
 - [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) 3.23
-- [按摩师](https://leetcode-cn.com/problems/the-masseuse-lcci/) 3.24
+- [按摩师](https://leetcode-cn.com/problems/the-masseuse-lcci/) 3.24 放弃
