@@ -11,6 +11,7 @@ cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
 echo 'blog.x-ray.work' > CNAME
+echo 'x-ray.js.org' >> CNAME
 
 git init
 git add -A
