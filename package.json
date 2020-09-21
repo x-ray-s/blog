@@ -8,20 +8,20 @@
   },
   "scripts": {
     "test": "jest",
-    "docs:dev": "node ./dir.js && vuepress dev docs",
+    "docs:dev": "node ./dir.js && vuepress dev docs --temp .temp",
     "docs:build": "node ./dir.js && vuepress build docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vuepress/shared-utils": "^1.5.3",
+    "@vuepress/shared-utils": "^1.5.4",
     "fs-extra": "^6.0.1",
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
     "babel-jest": "^25.2.6"
   }
 }
