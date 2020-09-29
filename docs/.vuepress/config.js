@@ -37,4 +37,9 @@ module.exports = {
     },
   },
   plugins: [require('./voice'), '@vuepress/last-updated'],
+  markdown: {
+    extendMarkdown: md => {
+      md.use(require('markdown-it-imsize'))
+    },
+  },
 }

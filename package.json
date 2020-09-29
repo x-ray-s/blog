@@ -17,6 +17,7 @@
   "dependencies": {
     "@vuepress/shared-utils": "^1.5.4",
     "fs-extra": "^6.0.1",
+    "markdown-it-imsize": "^2.0.1",
     "vuepress": "^1.5.4"
   },
   "devDependencies": {

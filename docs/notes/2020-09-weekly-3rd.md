@@ -10,8 +10,8 @@ title: 9月 第三周
 
 ### VS Code 扩展
 
-[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) Tailwind 的智能语法提示
-[WASDMAP](https://marketplace.visualstudio.com/items?itemName=mvromer.wasdmap) 修改方向键为 WASD
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) Tailwind 的智能语法提示
+- [WASDMAP](https://marketplace.visualstudio.com/items?itemName=mvromer.wasdmap) 修改方向键为 WASD
 
 发现一个在 `.vue` 中使用 `stylus` 的问题，因为 `vetur` 中是用的 `language-stylus` 不支持 `@apply` rules, 所以在使用 `Tailwind CSS` 时，无法高亮 `@apply` 规则。
 
