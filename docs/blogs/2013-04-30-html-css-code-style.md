@@ -17,20 +17,21 @@ blank"><em>《Google HTML/CSS 代码风格指南》</em></a>
 
 ```html
 <!-- Not recommended -->
-<script
-  type="text/javascript"
-  src="http://www.google.com/js/gweb/analytics/autotrack.js"
-></script>
+<script type="text/javascript" src="http://www.google.com/js/gweb/analytics/autotrack.js"></script>
 
 <!-- Recommended -->
-<script
-  type="text/javascript"
-  src="//www.google.com/js/gweb/analytics/autotrack.js"
-></script>
+<script type="text/javascript" src="//www.google.com/js/gweb/analytics/autotrack.js"></script>
+```
 
-/* Not recommended */ .example { background:
-url(http://www.google.com/images/example); } /* Recommended */ .example {
-background: url(//www.google.com/images/example); }
+```css
+/* Not recommended */
+.example {
+  background: url(http://www.google.com/images/example);
+}
+/* Recommended */
+.example {
+  background: url(//www.google.com/images/example);
+}
 ```
 
 <h3>通用的格式化规则</h3>
@@ -73,10 +74,8 @@ background: url(//www.google.com/images/example); }
 <!-- Not recommended -->
 <p>
   What?_
-
-  <!-- Recommended -->
 </p>
-
+<!-- Recommended -->
 <p>Yes please.</p>
 ```
 
@@ -86,8 +85,8 @@ background: url(//www.google.com/images/example); }
 
 使用 UTF-8 编码（没有 BOM），即无 BOM 格式编码
 确保你的的编辑器使用 UTF-8 作为字符编码，没有字节顺序标记
-详细说明 HTML 模板和文档中编码通过&lt;meta charset="utf-8" /&gt;。不要臆想 style sheets 样式表中编码为 UTF-8.
-（更多关于编码以及何时和如何详细说明它们可以访问http://www.w3.org/International/tutorials/tutorial-char-enc/en/all.html）
+详细说明 HTML 模板和文档中编码通过`<meta charset="utf-8" />`。不要臆想 style sheets 样式表中编码为 UTF-8.
+（更多关于编码以及何时和如何详细说明它们可以[访问](http://www.w3.org/International/tutorials/tutorial-char-enc/en/all.html)
 
 **注释**
 
@@ -139,8 +138,8 @@ HTML5(HTML 句法)被所有的 HTML 文档支持：
 <article>
   This is only a test.
 
-  <!-- Recommended -->
-  <!DOCTYPE html>
+<!-- Recommended -->
+<!DOCTYPE html>
   <meta charset="utf-8" />
   <title>Test</title>
   <article>This is only a test.</article>
@@ -535,16 +534,16 @@ body {
 
 ```css
 /* Not recommended */
-@import url("//www.google.com/css/maia.css");
+@import url('//www.google.com/css/maia.css');
 
 html {
-  font-family: "open sans", arial, sans-serif;
+  font-family: 'open sans', arial, sans-serif;
 }
 /* Recommended */
 @import url(//www.google.com/css/maia.css);
 
 html {
-  font-family: "open sans", arial, sans-serif;
+  font-family: 'open sans', arial, sans-serif;
 }
 ```
 
