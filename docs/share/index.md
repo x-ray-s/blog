@@ -34,6 +34,8 @@
 
 通过 [💰](https://xray.cowtransfer.com/s/d290f10b3ad645) 来支持我的[付费网盘](https://xray.cowtransfer.com/)。
 
+也可以通过下方微信二维码打赏。
+
 🍺 for me.
 
 ![wechat](./qrcode.png =250x250)
