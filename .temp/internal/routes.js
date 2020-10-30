@@ -45,19 +45,19 @@ export const routes = [
     },
   },
   {
-    name: "v-3b1a59c6",
-    path: "/blogs/2013-06-03-html5-tags-rules.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b1a59c6").then(next)
-    },
-  },
-  {
     name: "v-5aa5105d",
     path: "/blogs/2013-05-26-css-word-break-word-wrap.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-5aa5105d").then(next)
+    },
+  },
+  {
+    name: "v-3b1a59c6",
+    path: "/blogs/2013-06-03-html5-tags-rules.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b1a59c6").then(next)
     },
   },
   {
@@ -157,19 +157,19 @@ export const routes = [
     },
   },
   {
-    name: "v-26e09b1d",
-    path: "/blogs/2014-09-16-mac-hide-files.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-26e09b1d").then(next)
-    },
-  },
-  {
     name: "v-7649aeba",
     path: "/blogs/2015-04-18-windows-php-send-mail.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7649aeba").then(next)
+    },
+  },
+  {
+    name: "v-26e09b1d",
+    path: "/blogs/2014-09-16-mac-hide-files.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-26e09b1d").then(next)
     },
   },
   {
@@ -341,14 +341,6 @@ export const routes = [
     },
   },
   {
-    name: "v-9760e246",
-    path: "/blogs/2017-03-27-debounce.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9760e246").then(next)
-    },
-  },
-  {
     name: "v-4632fafd",
     path: "/blogs/2017-03-05-ajax.html",
     component: GlobalLayout,
@@ -362,6 +354,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-d68d8706").then(next)
+    },
+  },
+  {
+    name: "v-9760e246",
+    path: "/blogs/2017-03-27-debounce.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9760e246").then(next)
     },
   },
   {
@@ -461,19 +461,19 @@ export const routes = [
     },
   },
   {
-    name: "v-4aee28bd",
-    path: "/blogs/2018-08-03-learn-fe.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4aee28bd").then(next)
-    },
-  },
-  {
     name: "v-09e6d846",
     path: "/blogs/2018-07-20-cache-in-web.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-09e6d846").then(next)
+    },
+  },
+  {
+    name: "v-4aee28bd",
+    path: "/blogs/2018-08-03-learn-fe.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4aee28bd").then(next)
     },
   },
   {
@@ -669,6 +669,14 @@ export const routes = [
     },
   },
   {
+    name: "v-4db4ff61",
+    path: "/blogs/2020-10-30-windows-ios-debug.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4db4ff61").then(next)
+    },
+  },
+  {
     name: "v-a9775154",
     path: "/blogs/",
     component: GlobalLayout,
@@ -689,19 +697,19 @@ export const routes = [
     },
   },
   {
-    name: "v-cfaa0346",
-    path: "/daily-interview-question/2020-01-10-object-type.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-cfaa0346").then(next)
-    },
-  },
-  {
     name: "v-b67d4606",
     path: "/daily-interview-question/2020-01-11-weekend-share-hyper.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-b67d4606").then(next)
+    },
+  },
+  {
+    name: "v-cfaa0346",
+    path: "/daily-interview-question/2020-01-10-object-type.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-cfaa0346").then(next)
     },
   },
   {
