@@ -21,3 +21,9 @@ adb shell "settings put global captive_portal_https_url https://captive.v2ex.co/
 在同一个 DOM 节点重复挂载组件可以使用 `ReactDom.render()`, 与其对应的移除挂载为 `ReactDom.unmountComponentAtNode()`
 
 使用 [`useImperativeMethods`](https://react.html.cn/docs/hooks-reference.html#useimperativemethods) 可以对子组件内部的 `useRef` 引用暴露给父级的 `ref` 进行调用。
+
+### Google
+
+本周万圣节，谷歌首页出现新的[小游戏](https://www.google.com/doodles/halloween-2020?hl=en)
+
+![screenshoot](./Halloween.png)
