@@ -46,3 +46,7 @@
 
 - 重物移动搬家器
 - 腐质土 营养土 水苔 陶土粒
+
+## 宠物
+
+- [宠物吹水机](https://item.taobao.com/item.htm?spm=a230r.1.14.20.6afedf16wNcAOS&id=618914773068&ns=1&abbucket=2#detail)
