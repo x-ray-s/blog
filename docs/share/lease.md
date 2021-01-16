@@ -47,4 +47,4 @@
 
 ## 宠物
 
-- [宠物吹风机](https://item.taobao.com/item.htm?spm=a1z09.12.0.0.11ca2e8djhX63z&id=618914773068&_u=d2bduvd5758)
+- [宠物吹水机](https://item.taobao.com/item.htm?spm=a230r.1.14.20.6afedf16wNcAOS&id=618914773068&ns=1&abbucket=2#detail)

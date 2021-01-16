@@ -22,6 +22,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-c6260a30",
     path: "/blogs/2013-05-26-css-word-break-word-wrap.html",
     component: GlobalLayout,
@@ -38,9 +39,13 @@ export const routes = [
 =======
     name: "v-c0bb8546",
     path: "/blogs/2013-05-12-css-syntax-shorthand.html",
+=======
+    name: "v-47608f06",
+    path: "/about.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c0bb8546").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-47608f06").then(next)
     },
   },
   {
@@ -53,8 +58,21 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-1936e2e8",
     path: "/blogs/2013-05-12-css-syntax-shorthand.html",
+=======
+    name: "v-c0bb8546",
+    path: "/blogs/2013-05-12-css-syntax-shorthand.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c0bb8546").then(next)
+    },
+  },
+  {
+    name: "v-62f1075d",
+    path: "/blogs/2013-05-14-ie6-min-height.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-1936e2e8").then(next)
@@ -102,9 +120,20 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-6ec191ce",
     path: "/blogs/2013-12-04-ie6-important.html",
 =======
+=======
+    name: "v-7937dabd",
+    path: "/blogs/2013-11-01-css-li-line-feed.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7937dabd").then(next)
+    },
+  },
+  {
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-3a8fa13d",
     path: "/blogs/2013-11-13-css-triangle.html",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
@@ -123,6 +152,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-42a9b5c6",
     path: "/blogs/2014-06-27-javascript-is-array.html",
     component: GlobalLayout,
@@ -135,6 +165,13 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7937dabd").then(next)
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+=======
+    name: "v-6d2b2d03",
+    path: "/blogs/2013-12-04-ie6-important.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6d2b2d03").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -147,6 +184,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-4b592670",
 =======
     name: "v-6d2b2d03",
@@ -157,6 +195,8 @@ export const routes = [
     },
   },
   {
+=======
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-fdc5fa06",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
     path: "/blogs/2014-01-12-js-array-distinct.html",
@@ -175,12 +215,23 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-df2dcc30",
     path: "/blogs/2014-01-03-css-vertical-center.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-df2dcc30").then(next)
 =======
+=======
+    name: "v-b875c5c6",
+    path: "/blogs/2014-06-27-new-operator.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b875c5c6").then(next)
+    },
+  },
+  {
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-26e09b1d",
     path: "/blogs/2014-09-16-mac-hide-files.html",
     component: GlobalLayout,
@@ -199,6 +250,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-afa05ba0",
     path: "/blogs/2015-05-08-introduction-to-codeigniter.html",
     component: GlobalLayout,
@@ -216,6 +268,10 @@ export const routes = [
   {
     name: "v-18a29230",
     path: "/blogs/2015-06-06-angularjs-transfer-data-between-the-view.html",
+=======
+    name: "v-4bfd3be5",
+    path: "/blogs/2015-05-08-introduction-to-codeigniter.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-18a29230").then(next)
@@ -230,6 +286,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD
     name: "v-7aefe7f0",
     path: "/blogs/2015-06-25-python-synstax.html",
@@ -247,18 +304,26 @@ export const routes = [
 =======
     name: "v-6610a406",
     path: "/blogs/2015-06-25-python-synstax.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6610a406").then(next)
-    },
-  },
-  {
+=======
     name: "v-076bb85d",
     path: "/blogs/2015-06-06-angularjs-transfer-data-between-the-view.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-076bb85d").then(next)
+    },
+  },
+  {
+    name: "v-6610a406",
+    path: "/blogs/2015-06-25-python-synstax.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+<<<<<<< HEAD
+      ensureAsyncComponentsLoaded("Layout", "v-076bb85d").then(next)
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+=======
+      ensureAsyncComponentsLoaded("Layout", "v-6610a406").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -287,9 +352,20 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-ad223db0",
     path: "/blogs/2015-07-19-how-to-use-ubuntu.html",
 =======
+=======
+    name: "v-fa4e2e06",
+    path: "/blogs/2015-07-27-wamp-localhost-not-found.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-fa4e2e06").then(next)
+    },
+  },
+  {
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-897fa7f2",
     path: "/blogs/2015-08-01-github-pages-blog.html",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
@@ -308,21 +384,26 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-5935bc20",
 =======
     name: "v-fa4e2e06",
     path: "/blogs/2015-07-27-wamp-localhost-not-found.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-fa4e2e06").then(next)
-    },
-  },
-  {
+=======
     name: "v-ae72ab86",
     path: "/blogs/2015-08-10-js-inherit.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-ae72ab86").then(next)
+    },
+  },
+  {
+    name: "v-0ce8119f",
+    path: "/blogs/2015-10-06-gulp-tricks.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0ce8119f").then(next)
     },
   },
   {
@@ -358,6 +439,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-0ce8119f",
     path: "/blogs/2015-10-06-gulp-tricks.html",
     component: GlobalLayout,
@@ -368,6 +450,9 @@ export const routes = [
   },
   {
     name: "v-6100e840",
+=======
+    name: "v-b440ef16",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     path: "/blogs/2015-11-18-js-module.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
@@ -375,6 +460,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD
     name: "v-2c90be68",
     path: "/blogs/2015-12-02-mac-proxy.html",
@@ -392,18 +478,26 @@ export const routes = [
 =======
     name: "v-2e964101",
     path: "/blogs/2015-12-02-mac-proxy.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2e964101").then(next)
-    },
-  },
-  {
+=======
     name: "v-fac398c6",
     path: "/blogs/2015-12-02-environment-config.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-fac398c6").then(next)
+    },
+  },
+  {
+    name: "v-2e964101",
+    path: "/blogs/2015-12-02-mac-proxy.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+<<<<<<< HEAD
+      ensureAsyncComponentsLoaded("Layout", "v-fac398c6").then(next)
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+=======
+      ensureAsyncComponentsLoaded("Layout", "v-2e964101").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -523,6 +617,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-7ced7a48",
     path: "/blogs/2018-06-12-object-toPrimitive.html",
     component: GlobalLayout,
@@ -535,6 +630,8 @@ export const routes = [
     name: "v-04b99288",
     path: "/blogs/2018-06-19-how-to-write-a-readme-document.html",
 =======
+=======
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-d0ab5186",
     path: "/blogs/2018-06-12-object-toPrimitive.html",
     component: GlobalLayout,
@@ -543,12 +640,20 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-2f653386",
     path: "/blogs/2018-06-20-css-name-reference.html",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-04b99288").then(next)
+=======
+    name: "v-a047bf06",
+    path: "/blogs/2018-06-19-how-to-write-a-readme-document.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a047bf06").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -560,7 +665,19 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-ce231a30",
+=======
+    name: "v-2f653386",
+    path: "/blogs/2018-06-20-css-name-reference.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2f653386").then(next)
+    },
+  },
+  {
+    name: "v-11f19c5d",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     path: "/blogs/2018-06-25-git-flow.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
@@ -601,9 +718,20 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-7ce4a228",
     path: "/blogs/2018-07-16-http.html",
 =======
+=======
+    name: "v-74ef109d",
+    path: "/blogs/2018-07-16-http.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-74ef109d").then(next)
+    },
+  },
+  {
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-09e6d846",
     path: "/blogs/2018-07-20-cache-in-web.html",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
@@ -622,6 +750,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-48d31fa8",
 =======
     name: "v-74ef109d",
@@ -632,6 +761,8 @@ export const routes = [
     },
   },
   {
+=======
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-5342c19d",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
     path: "/blogs/2018-08-25-workflow-share.html",
@@ -666,6 +797,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-0c984d88",
     path: "/blogs/2018-11-12-node-install.html",
     component: GlobalLayout,
@@ -682,25 +814,13 @@ export const routes = [
 =======
     name: "v-1a4aebc6",
     path: "/blogs/2018-11-20-node-lession-1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1a4aebc6").then(next)
-    },
-  },
-  {
+=======
     name: "v-21b19225",
     path: "/blogs/2018-11-08-linux.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-21b19225").then(next)
-    },
-  },
-  {
-    name: "v-6180e906",
-    path: "/blogs/2018-11-22-docker-cmd.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6180e906").then(next)
     },
   },
   {
@@ -709,7 +829,27 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-e8ad9c06").then(next)
+    },
+  },
+  {
+    name: "v-1a4aebc6",
+    path: "/blogs/2018-11-20-node-lession-1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1a4aebc6").then(next)
+    },
+  },
+  {
+    name: "v-6180e906",
+    path: "/blogs/2018-11-22-docker-cmd.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+<<<<<<< HEAD
+      ensureAsyncComponentsLoaded("Layout", "v-e8ad9c06").then(next)
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+=======
+      ensureAsyncComponentsLoaded("Layout", "v-6180e906").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -786,8 +926,19 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-1e5195e8",
 =======
+=======
+    name: "v-5819559d",
+    path: "/blogs/2019-06-26-http-cache.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5819559d").then(next)
+    },
+  },
+  {
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-b3ee0646",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
     path: "/blogs/2019-10-19-performace.html",
@@ -806,6 +957,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-5f3c22b0",
     path: "/blogs/2019-06-26-http-cache.html",
     component: GlobalLayout,
@@ -818,6 +970,13 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-5819559d").then(next)
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+=======
+    name: "v-b1c7d486",
+    path: "/blogs/2019-12-20-http-cache.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b1c7d486").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -838,6 +997,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-039285e8",
     path: "/blogs/2020-08-12-windows-registry-protocol.html",
     component: GlobalLayout,
@@ -850,6 +1010,13 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-b1c7d486").then(next)
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+=======
+    name: "v-35db60bd",
+    path: "/blogs/2020-08-12-windows-develop-platform.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-35db60bd").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -870,6 +1037,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-358d6928",
     path: "/blogs/2020-11-02-dev-platform.html",
 =======
@@ -881,6 +1049,8 @@ export const routes = [
     },
   },
   {
+=======
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-4db4ff61",
     path: "/blogs/2020-10-30-windows-ios-debug.html",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
@@ -903,6 +1073,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-44f992f0",
     path: "/blogs/2020-10-03-electron-updater.html",
     component: GlobalLayout,
@@ -922,6 +1093,16 @@ export const routes = [
     name: "v-2b8847c8",
     path: "/daily-interview-question/2020-01-09-function-expression.html",
 =======
+=======
+    name: "v-14824bbd",
+    path: "/daily-interview-question/2020-01-09-function-expression.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-14824bbd").then(next)
+    },
+  },
+  {
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-cfaa0346",
     path: "/daily-interview-question/2020-01-10-object-type.html",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
@@ -931,6 +1112,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-25ef1f30",
     path: "/daily-interview-question/2020-01-10-object-type.html",
     component: GlobalLayout,
@@ -945,9 +1127,21 @@ export const routes = [
 =======
     name: "v-14824bbd",
     path: "/daily-interview-question/2020-01-09-function-expression.html",
+=======
+    name: "v-b67d4606",
+    path: "/daily-interview-question/2020-01-11-weekend-share-hyper.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-14824bbd").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b67d4606").then(next)
+    },
+  },
+  {
+    name: "v-138db05f",
+    path: "/daily-interview-question/2020-01-13-scope-and-hoisting.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-138db05f").then(next)
     },
   },
   {
@@ -969,6 +1163,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-22c2b11c",
     path: "/daily-interview-question/2020-01-14-delete.html",
 =======
@@ -980,6 +1175,8 @@ export const routes = [
     },
   },
   {
+=======
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-628b3ca2",
     path: "/daily-interview-question/2020-01-16-debounce.html",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
@@ -1046,6 +1243,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-202a2d68",
     path: "/daily-interview-question/2020-02-13-prototype-chain.html",
     component: GlobalLayout,
@@ -1054,18 +1252,26 @@ export const routes = [
 =======
     name: "v-c2f38bea",
     path: "/daily-interview-question/2020-02-17-event-delegation.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c2f38bea").then(next)
-    },
-  },
-  {
+=======
     name: "v-3bb46206",
     path: "/daily-interview-question/2020-02-14-holiday-share-tabnine.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-3bb46206").then(next)
+    },
+  },
+  {
+    name: "v-c2f38bea",
+    path: "/daily-interview-question/2020-02-17-event-delegation.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+<<<<<<< HEAD
+      ensureAsyncComponentsLoaded("Layout", "v-3bb46206").then(next)
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+=======
+      ensureAsyncComponentsLoaded("Layout", "v-c2f38bea").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -1077,6 +1283,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
 <<<<<<< HEAD
     name: "v-192252e8",
     path: "/daily-interview-question/2020-02-19-host-object.html",
@@ -1094,18 +1301,26 @@ export const routes = [
 =======
     name: "v-4e5e7e46",
     path: "/daily-interview-question/2020-02-20-feature-detection.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4e5e7e46").then(next)
-    },
-  },
-  {
+=======
     name: "v-77763e46",
     path: "/daily-interview-question/2020-02-19-host-object.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-77763e46").then(next)
+    },
+  },
+  {
+    name: "v-4e5e7e46",
+    path: "/daily-interview-question/2020-02-20-feature-detection.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+<<<<<<< HEAD
+      ensureAsyncComponentsLoaded("Layout", "v-77763e46").then(next)
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+=======
+      ensureAsyncComponentsLoaded("Layout", "v-4e5e7e46").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -1117,6 +1332,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-46730bfc",
     path: "/daily-interview-question/2020-02-24-loop.html",
     component: GlobalLayout,
@@ -1130,6 +1346,21 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-31c72b52").then(next)
+=======
+    name: "v-2eabfab1",
+    path: "/daily-interview-question/2020-02-24-loop.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2eabfab1").then(next)
+    },
+  },
+  {
+    name: "v-755e2c29",
+    path: "/daily-interview-question/2020-02-22-weekend-share-fx.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-755e2c29").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -1198,6 +1429,7 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-44b67c6e",
     path: "/daily-interview-question/2020-03-12-default-argument.html",
     component: GlobalLayout,
@@ -1214,18 +1446,26 @@ export const routes = [
 =======
     name: "v-620f1de1",
     path: "/daily-interview-question/2020-03-16-Iterator.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-620f1de1").then(next)
-    },
-  },
-  {
+=======
     name: "v-62abdc23",
     path: "/daily-interview-question/2020-03-12-default-argument.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-62abdc23").then(next)
+    },
+  },
+  {
+    name: "v-620f1de1",
+    path: "/daily-interview-question/2020-03-16-Iterator.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+<<<<<<< HEAD
+      ensureAsyncComponentsLoaded("Layout", "v-62abdc23").then(next)
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+=======
+      ensureAsyncComponentsLoaded("Layout", "v-620f1de1").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -1286,6 +1526,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-37dfcf88",
     path: "/daily-interview-question/2020-03-27-const.html",
     component: GlobalLayout,
@@ -1300,6 +1541,8 @@ export const routes = [
     },
   },
   {
+=======
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-4f24641d",
     path: "/daily-interview-question/2020-03-26-finally.html",
     component: GlobalLayout,
@@ -1309,11 +1552,19 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-e2459c70",
     path: "/daily-interview-question/2020-03-30-NaN.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-e2459c70").then(next)
+=======
+    name: "v-14d03606",
+    path: "/daily-interview-question/2020-03-27-const.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-14d03606").then(next)
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     },
   },
   {
@@ -1329,8 +1580,21 @@ export const routes = [
     redirect: "/daily-interview-question/"
   },
   {
+<<<<<<< HEAD
     name: "v-7bfbaf68",
     path: "/blogs/2018-07-20-cache-in-web.html",
+=======
+    name: "v-3b076c86",
+    path: "/daily-interview-question/2020-03-30-NaN.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b076c86").then(next)
+    },
+  },
+  {
+    name: "v-274ed609",
+    path: "/daily/2018-08-30-android-9.0.html",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7bfbaf68").then(next)
@@ -1369,7 +1633,19 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-ecfca1be",
+=======
+    name: "v-75baa183",
+    path: "/daily/2020-12-06-tenancy-checklist.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-75baa183").then(next)
+    },
+  },
+  {
+    name: "v-87b72f54",
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     path: "/daily/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
@@ -1406,8 +1682,19 @@ export const routes = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "v-27a3fce0",
 =======
+=======
+    name: "v-ea4600d6",
+    path: "/notes/2020-09-weekly-3rd.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ea4600d6").then(next)
+    },
+  },
+  {
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-d7e271b2",
     path: "/notes/2020-10-weekly-1st.html",
     component: GlobalLayout,
@@ -1424,6 +1711,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-ea4600d6",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
     path: "/notes/2020-09-weekly-3rd.html",
@@ -1481,6 +1769,8 @@ export const routes = [
     name: "v-30d5c472",
     path: "/notes/2020-10-weekly-1st.html",
 =======
+=======
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-79726a7e",
     path: "/notes/2020-10-weekly-3rd.html",
     component: GlobalLayout,
@@ -1497,6 +1787,7 @@ export const routes = [
     },
   },
   {
+<<<<<<< HEAD
     name: "v-01b65b83",
     path: "/notes/leetcode.html",
 >>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
@@ -1509,6 +1800,8 @@ export const routes = [
 <<<<<<< HEAD
     name: "v-d2a0c83e",
 =======
+=======
+>>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
     name: "v-eda7a554",
     path: "/notes/",
     component: GlobalLayout,
@@ -1519,6 +1812,14 @@ export const routes = [
   {
     path: "/notes/index.html",
     redirect: "/notes/"
+  },
+  {
+    name: "v-01b65b83",
+    path: "/notes/leetcode.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-01b65b83").then(next)
+    },
   },
   {
     name: "v-6d5b55d4",
