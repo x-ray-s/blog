@@ -30,7 +30,7 @@ sudo apt-get install language-pack-zh-han*
 
 ### Windows Shells
 
-选择 `hyper` 作为主命令行工具， `cmder mini` 作为备用命令行工具。hyper 中集成 cmder 会造成使用界面关闭控制时，会造成程序崩溃，但使用 `exit;` 命令不会，但有时也会习惯性使用界面关闭，所以为了避免这个问题就分离了两个命令行使用。
+~~选择 `hyper` 作为主命令行工具， `cmder mini` 作为备用命令行工具。hyper 中集成 cmder 会造成使用界面关闭控制时，会造成程序崩溃，但使用 `exit;` 命令不会，但有时也会习惯性使用界面关闭，所以为了避免这个问题就分离了两个命令行使用。~~
 
 hyper 配置
 
@@ -91,14 +91,38 @@ unproxy () {
 setopt no_nomatch
 ```
 
+**目前已经切换为 Windows Terminal 替换 Hyper**
+
 ### 开发环境
 
 注意区分 Windows 环境和 WSL 环境
 
--   Node NVM NRM
+- Node NVM NRM
 
 ### 工具
 
--   窗口管理工具： [PowerToys](https://github.com/microsoft/PowerToys)
--   POSTMAN
--   Docker
+- 窗口管理工具： [PowerToys](https://github.com/microsoft/PowerToys)
+- POSTMAN
+- Docker
+
+### 数据库
+
+mysql 8.x 安装在 WSL 后，如果遇到无法通过 socket 连接错误，尝试以下命令
+
+```shell
+sudo mkdir -p /var/run/mysqld
+sudo chown mysql /var/run/mysqld/
+sudo service mysql restart
+```
+
+设置初始密码，首先找到可登入的系统账户和密码
+
+```shell
+sudo cat /etc/mysql/debian.cnf
+```
+
+随后修改密码
+
+```shell
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+```

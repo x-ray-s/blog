@@ -7,9 +7,7 @@
 ## 电动工具
 
 - [威克士 20v 锂电吹风机](https://detail.tmall.com/item.htm?id=608526580753&spm=a1z09.12.0.0.11ca2e8dfyJ5nz&_u=m2bduvd5141)
-- [威克士无线洗车机](https://detail.tmall.com/item.htm?id=560413589720&spm=a1z09.12.0.0.11ca2e8dfyJ5nz&_u=m2bduvd38b4)
 - [威克士多功能打磨切割机](https://detail.tmall.com/item.htm?id=45160197777&spm=a1z09.12.0.0.11ca2e8dfyJ5nz&_u=m2bduvd55bc)
-- [威克士锂电冲击钻](https://detail.tmall.com/item.htm?spm=a220o.1000855.w4004-14939626786.2.3e996e0a3tBcKY&id=540469263007&skuId=4272213804656)
 
 ## 五金工具
 
@@ -46,3 +44,7 @@
 
 - 重物移动搬家器
 - 腐质土 营养土 水苔 陶土粒
+
+## 宠物
+
+- [宠物吹风机](https://item.taobao.com/item.htm?spm=a1z09.12.0.0.11ca2e8djhX63z&id=618914773068&_u=d2bduvd5758)

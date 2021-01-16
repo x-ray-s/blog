@@ -38,4 +38,4 @@
 
 🍺 for me.
 
-![wechat](./qrcode.png =250x250)
+![wechat](./qrcode.jpg =250x250)
