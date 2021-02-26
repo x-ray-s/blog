@@ -34,7 +34,7 @@ module.exports = {
       '/daily/': getResult(daily, 'daily'),
       '/notes/': getResult(notes, 'notes'),
       '/daily-interview-question/': getResult(interview, 'daily-interview-question'),
-      '/share/': ['', 'lession', 'lease'],
+      '/share/': ['', 'lession', 'lease', 'books'],
     },
   },
   plugins: [require('./voice'), '@vuepress/last-updated'],
