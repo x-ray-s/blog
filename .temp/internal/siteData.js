@@ -23,8 +23,68 @@ export const siteData = {
       "lastUpdated": "10/7/2020, 10:59:28 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/about.html",
+      "relativePath": "about.md",
+      "key": "v-5d5393f0",
+      "path": "/about.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "F2E stack",
+          "slug": "f2e-stack"
+        },
+        {
+          "level": 3,
+          "title": "js",
+          "slug": "js"
+        },
+        {
+          "level": 3,
+          "title": "css",
+          "slug": "css"
+        },
+        {
+          "level": 3,
+          "title": "node",
+          "slug": "node"
+        },
+        {
+          "level": 2,
+          "title": "其他",
+          "slug": "其他"
+        },
+        {
+          "level": 2,
+          "title": "看似无用的经历",
+          "slug": "看似无用的经历"
+        },
+        {
+          "level": 2,
+          "title": "我对工作的一些刻薄要求",
+          "slug": "我对工作的一些刻薄要求"
+        },
+        {
+          "level": 3,
+          "title": "联系我:",
+          "slug": "联系我"
+        }
+      ],
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
+    },
+    {
+      "title": "让IE6支持min-height,最小高度",
+      "frontmatter": {
+        "title": "让IE6支持min-height,最小高度"
+      },
+      "regularPath": "/blogs/2013-05-14-ie6-min-height.html",
+      "relativePath": "blogs/2013-05-14-ie6-min-height.md",
+      "key": "v-58816568",
+      "path": "/blogs/2013-05-14-ie6-min-height.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
       "title": "CSS文本属性word-break和word-wrap",
       "frontmatter": {
         "title": "CSS文本属性word-break和word-wrap"
@@ -34,43 +94,239 @@ export const siteData = {
       "key": "v-c6260a30",
       "path": "/blogs/2013-05-26-css-word-break-word-wrap.html",
       "lastUpdated": "1/12/2020, 2:13:52 PM"
-=======
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/about.html",
-      "relativePath": "about.md",
-      "key": "v-47608f06",
-      "path": "/about.html",
+    },
+    {
+      "title": "css优先级",
+      "frontmatter": {
+        "title": "css优先级"
+      },
+      "regularPath": "/blogs/2013-08-08-css-specificity.html",
+      "relativePath": "blogs/2013-08-08-css-specificity.md",
+      "key": "v-06abc4e4",
+      "path": "/blogs/2013-08-08-css-specificity.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "line-height的值带单位与不带单位的区别",
+      "frontmatter": {
+        "title": "line-height的值带单位与不带单位的区别"
+      },
+      "regularPath": "/blogs/2013-06-12-line-height-property-value.html",
+      "relativePath": "blogs/2013-06-12-line-height-property-value.md",
+      "key": "v-3651cce8",
+      "path": "/blogs/2013-06-12-line-height-property-value.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "display:inline-block的兼容问题",
+      "frontmatter": {
+        "title": "display:inline-block的兼容问题"
+      },
+      "regularPath": "/blogs/2013-08-08-display-inline-block-compatibility.html",
+      "relativePath": "blogs/2013-08-08-display-inline-block-compatibility.md",
+      "key": "v-b944b330",
+      "path": "/blogs/2013-08-08-display-inline-block-compatibility.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "解决pre标签内自动换行",
+      "frontmatter": {
+        "title": "解决pre标签内自动换行"
+      },
+      "regularPath": "/blogs/2013-10-30-css-pre-line-feed.html",
+      "relativePath": "blogs/2013-10-30-css-pre-line-feed.md",
+      "key": "v-2459b330",
+      "path": "/blogs/2013-10-30-css-pre-line-feed.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "解决IE6 li浮动后折行问题",
+      "frontmatter": {
+        "title": "解决IE6 li浮动后折行问题"
+      },
+      "regularPath": "/blogs/2013-11-01-css-li-line-feed.html",
+      "relativePath": "blogs/2013-11-01-css-li-line-feed.md",
+      "key": "v-54043b48",
+      "path": "/blogs/2013-11-01-css-li-line-feed.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "给mysql默认root用户设置密码",
+      "frontmatter": {
+        "title": "给mysql默认root用户设置密码"
+      },
+      "regularPath": "/blogs/2013-12-03-mysql-set-default-password.html",
+      "relativePath": "blogs/2013-12-03-mysql-set-default-password.md",
+      "key": "v-9d346a30",
+      "path": "/blogs/2013-12-03-mysql-set-default-password.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "IE6是否支持!important",
+      "frontmatter": {
+        "title": "IE6是否支持!important"
+      },
+      "regularPath": "/blogs/2013-12-04-ie6-important.html",
+      "relativePath": "blogs/2013-12-04-ie6-important.md",
+      "key": "v-6ec191ce",
+      "path": "/blogs/2013-12-04-ie6-important.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "兼容ie/chrome的水平垂直居中",
+      "frontmatter": {
+        "title": "兼容ie/chrome的水平垂直居中"
+      },
+      "regularPath": "/blogs/2014-01-03-css-vertical-center.html",
+      "relativePath": "blogs/2014-01-03-css-vertical-center.md",
+      "key": "v-df2dcc30",
+      "path": "/blogs/2014-01-03-css-vertical-center.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "CSS制作三角形",
+      "frontmatter": {
+        "title": "CSS制作三角形"
+      },
+      "regularPath": "/blogs/2013-11-13-css-triangle.html",
+      "relativePath": "blogs/2013-11-13-css-triangle.md",
+      "key": "v-89028670",
+      "path": "/blogs/2013-11-13-css-triangle.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "js 数组去重",
+      "frontmatter": {
+        "title": "js 数组去重"
+      },
+      "regularPath": "/blogs/2014-01-12-js-array-distinct.html",
+      "relativePath": "blogs/2014-01-12-js-array-distinct.md",
+      "key": "v-4b592670",
+      "path": "/blogs/2014-01-12-js-array-distinct.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "数组",
+      "frontmatter": {
+        "title": "数组"
+      },
+      "regularPath": "/blogs/2014-06-27-javascript-is-array.html",
+      "relativePath": "blogs/2014-06-27-javascript-is-array.md",
+      "key": "v-42a9b5c6",
+      "path": "/blogs/2014-06-27-javascript-is-array.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "new操作符",
+      "frontmatter": {
+        "title": "new操作符"
+      },
+      "regularPath": "/blogs/2014-06-27-new-operator.html",
+      "relativePath": "blogs/2014-06-27-new-operator.md",
+      "key": "v-24b438a8",
+      "path": "/blogs/2014-06-27-new-operator.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "Mac系统显示隐藏文件",
+      "frontmatter": {
+        "title": "Mac系统显示隐藏文件"
+      },
+      "regularPath": "/blogs/2014-09-16-mac-hide-files.html",
+      "relativePath": "blogs/2014-09-16-mac-hide-files.md",
+      "key": "v-1c70f928",
+      "path": "/blogs/2014-09-16-mac-hide-files.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "PHP在windows系统下使用mail()",
+      "frontmatter": {
+        "title": "PHP在windows系统下使用mail()"
+      },
+      "regularPath": "/blogs/2015-04-18-windows-php-send-mail.html",
+      "relativePath": "blogs/2015-04-18-windows-php-send-mail.md",
+      "key": "v-2bdc976e",
+      "path": "/blogs/2015-04-18-windows-php-send-mail.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "AngularJS 跨域请求（CORS）的设置。",
+      "frontmatter": {
+        "title": "AngularJS 跨域请求（CORS）的设置。"
+      },
+      "regularPath": "/blogs/2015-06-03-angularjs-CORS.html",
+      "relativePath": "blogs/2015-06-03-angularjs-CORS.md",
+      "key": "v-14425008",
+      "path": "/blogs/2015-06-03-angularjs-CORS.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "AngularJS中通过ui-route将数据传递给视图。",
+      "frontmatter": {
+        "title": "AngularJS中通过ui-route将数据传递给视图。"
+      },
+      "regularPath": "/blogs/2015-06-06-angularjs-transfer-data-between-the-view.html",
+      "relativePath": "blogs/2015-06-06-angularjs-transfer-data-between-the-view.md",
+      "key": "v-18a29230",
+      "path": "/blogs/2015-06-06-angularjs-transfer-data-between-the-view.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "单词-python syntax",
+      "frontmatter": {
+        "title": "单词-python syntax"
+      },
+      "regularPath": "/blogs/2015-06-25-python-synstax.html",
+      "relativePath": "blogs/2015-06-25-python-synstax.md",
+      "key": "v-7aefe7f0",
+      "path": "/blogs/2015-06-25-python-synstax.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "如何使用ubuntu操作系统",
+      "frontmatter": {
+        "title": "如何使用ubuntu操作系统"
+      },
+      "regularPath": "/blogs/2015-07-19-how-to-use-ubuntu.html",
+      "relativePath": "blogs/2015-07-19-how-to-use-ubuntu.md",
+      "key": "v-ad223db0",
+      "path": "/blogs/2015-07-19-how-to-use-ubuntu.html",
       "headers": [
         {
           "level": 3,
-          "title": "联系我:",
-          "slug": "联系我"
+          "title": "更新软件",
+          "slug": "更新软件"
+        },
+        {
+          "level": 3,
+          "title": "安装界面软件-gnome",
+          "slug": "安装界面软件-gnome"
+        },
+        {
+          "level": 3,
+          "title": "安装搜狗输入法",
+          "slug": "安装搜狗输入法"
+        },
+        {
+          "level": 3,
+          "title": "使用代理服务器",
+          "slug": "使用代理服务器"
         }
-      ]
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
+      ],
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-      "title": "HTML/CSS代码风格指南",
+      "title": "解决：WAMP Service localhost显示404 Not Found",
       "frontmatter": {
-        "title": "HTML/CSS代码风格指南"
+        "title": "解决：WAMP Service localhost显示404 Not Found"
       },
-      "regularPath": "/blogs/2013-04-30-html-css-code-style.html",
-      "relativePath": "blogs/2013-04-30-html-css-code-style.md",
-<<<<<<< HEAD
-      "key": "v-542dcec6",
-=======
-      "key": "v-99b17b0a",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "path": "/blogs/2013-04-30-html-css-code-style.html",
-      "lastUpdated": "10/7/2020, 10:59:28 PM"
+      "regularPath": "/blogs/2015-07-27-wamp-localhost-not-found.html",
+      "relativePath": "blogs/2015-07-27-wamp-localhost-not-found.md",
+      "key": "v-75be58f0",
+      "path": "/blogs/2015-07-27-wamp-localhost-not-found.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-=======
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "title": "css简写",
       "frontmatter": {
         "title": "css简写"
@@ -109,436 +365,6 @@ export const siteData = {
       "lastUpdated": "10/7/2020, 10:59:28 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      "title": "HTML/CSS代码风格指南",
-      "frontmatter": {
-        "title": "HTML/CSS代码风格指南"
-      },
-      "regularPath": "/blogs/2013-04-30-html-css-code-style.html",
-      "relativePath": "blogs/2013-04-30-html-css-code-style.md",
-      "key": "v-99b17b0a",
-      "path": "/blogs/2013-04-30-html-css-code-style.html",
-      "lastUpdated": "10/7/2020, 10:59:28 PM"
-    },
-    {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "让IE6支持min-height,最小高度",
-      "frontmatter": {
-        "title": "让IE6支持min-height,最小高度"
-      },
-      "regularPath": "/blogs/2013-05-14-ie6-min-height.html",
-      "relativePath": "blogs/2013-05-14-ie6-min-height.md",
-      "key": "v-62f1075d",
-      "path": "/blogs/2013-05-14-ie6-min-height.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "CSS文本属性word-break和word-wrap",
-      "frontmatter": {
-        "title": "CSS文本属性word-break和word-wrap"
-      },
-      "regularPath": "/blogs/2013-05-26-css-word-break-word-wrap.html",
-      "relativePath": "blogs/2013-05-26-css-word-break-word-wrap.md",
-      "key": "v-5aa5105d",
-      "path": "/blogs/2013-05-26-css-word-break-word-wrap.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "HTML5 简化标签使用",
-      "frontmatter": {
-        "title": "HTML5 简化标签使用"
-      },
-      "regularPath": "/blogs/2013-06-03-html5-tags-rules.html",
-      "relativePath": "blogs/2013-06-03-html5-tags-rules.md",
-      "key": "v-3b1a59c6",
-      "path": "/blogs/2013-06-03-html5-tags-rules.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "line-height的值带单位与不带单位的区别",
-      "frontmatter": {
-        "title": "line-height的值带单位与不带单位的区别"
-      },
-      "regularPath": "/blogs/2013-06-12-line-height-property-value.html",
-      "relativePath": "blogs/2013-06-12-line-height-property-value.md",
-      "key": "v-f32fc046",
-      "path": "/blogs/2013-06-12-line-height-property-value.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "css优先级",
-      "frontmatter": {
-        "title": "css优先级"
-      },
-      "regularPath": "/blogs/2013-08-08-css-specificity.html",
-      "relativePath": "blogs/2013-08-08-css-specificity.md",
-      "key": "v-29b91643",
-      "path": "/blogs/2013-08-08-css-specificity.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "display:inline-block的兼容问题",
-      "frontmatter": {
-        "title": "display:inline-block的兼容问题"
-      },
-      "regularPath": "/blogs/2013-08-08-display-inline-block-compatibility.html",
-      "relativePath": "blogs/2013-08-08-display-inline-block-compatibility.md",
-      "key": "v-b9bd2146",
-      "path": "/blogs/2013-08-08-display-inline-block-compatibility.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "title": "解决pre标签内自动换行",
-      "frontmatter": {
-        "title": "解决pre标签内自动换行"
-      },
-      "regularPath": "/blogs/2013-10-30-css-pre-line-feed.html",
-      "relativePath": "blogs/2013-10-30-css-pre-line-feed.md",
-      "key": "v-2459b330",
-      "path": "/blogs/2013-10-30-css-pre-line-feed.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "解决IE6 li浮动后折行问题",
-      "frontmatter": {
-        "title": "解决IE6 li浮动后折行问题"
-      },
-      "regularPath": "/blogs/2013-11-01-css-li-line-feed.html",
-      "relativePath": "blogs/2013-11-01-css-li-line-feed.md",
-<<<<<<< HEAD
-      "key": "v-54043b48",
-=======
-      "key": "v-7937dabd",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "path": "/blogs/2013-11-01-css-li-line-feed.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
-      "title": "line-height的值带单位与不带单位的区别",
-=======
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "CSS制作三角形",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "frontmatter": {
-        "title": "line-height的值带单位与不带单位的区别"
-      },
-      "regularPath": "/blogs/2013-06-12-line-height-property-value.html",
-      "relativePath": "blogs/2013-06-12-line-height-property-value.md",
-      "key": "v-3651cce8",
-      "path": "/blogs/2013-06-12-line-height-property-value.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "给mysql默认root用户设置密码",
-      "frontmatter": {
-        "title": "给mysql默认root用户设置密码"
-      },
-      "regularPath": "/blogs/2013-12-03-mysql-set-default-password.html",
-      "relativePath": "blogs/2013-12-03-mysql-set-default-password.md",
-      "key": "v-9d346a30",
-      "path": "/blogs/2013-12-03-mysql-set-default-password.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "HTML5 简化标签使用",
-      "frontmatter": {
-        "title": "HTML5 简化标签使用"
-      },
-      "regularPath": "/blogs/2013-06-03-html5-tags-rules.html",
-      "relativePath": "blogs/2013-06-03-html5-tags-rules.md",
-      "key": "v-858198b0",
-      "path": "/blogs/2013-06-03-html5-tags-rules.html",
-=======
-      "title": "解决IE6 li浮动后折行问题",
-=======
-      "title": "IE6是否支持!important",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "frontmatter": {
-        "title": "IE6是否支持!important"
-      },
-<<<<<<< HEAD
-      "regularPath": "/blogs/2013-11-01-css-li-line-feed.html",
-      "relativePath": "blogs/2013-11-01-css-li-line-feed.md",
-      "key": "v-7937dabd",
-      "path": "/blogs/2013-11-01-css-li-line-feed.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
-      "regularPath": "/blogs/2013-12-04-ie6-important.html",
-      "relativePath": "blogs/2013-12-04-ie6-important.md",
-      "key": "v-6d2b2d03",
-      "path": "/blogs/2013-12-04-ie6-important.html",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "IE6是否支持!important",
-      "frontmatter": {
-        "title": "IE6是否支持!important"
-      },
-      "regularPath": "/blogs/2013-12-04-ie6-important.html",
-      "relativePath": "blogs/2013-12-04-ie6-important.md",
-      "key": "v-6ec191ce",
-      "path": "/blogs/2013-12-04-ie6-important.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "让IE6支持min-height,最小高度",
-=======
-      "title": "IE6是否支持!important",
-      "frontmatter": {
-        "title": "IE6是否支持!important"
-      },
-      "regularPath": "/blogs/2013-12-04-ie6-important.html",
-      "relativePath": "blogs/2013-12-04-ie6-important.md",
-      "key": "v-6d2b2d03",
-      "path": "/blogs/2013-12-04-ie6-important.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "js 数组去重",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "frontmatter": {
-        "title": "让IE6支持min-height,最小高度"
-      },
-      "regularPath": "/blogs/2013-05-14-ie6-min-height.html",
-      "relativePath": "blogs/2013-05-14-ie6-min-height.md",
-      "key": "v-58816568",
-      "path": "/blogs/2013-05-14-ie6-min-height.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "数组",
-      "frontmatter": {
-        "title": "数组"
-      },
-      "regularPath": "/blogs/2014-06-27-javascript-is-array.html",
-      "relativePath": "blogs/2014-06-27-javascript-is-array.md",
-      "key": "v-42a9b5c6",
-      "path": "/blogs/2014-06-27-javascript-is-array.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "new操作符",
-      "frontmatter": {
-        "title": "new操作符"
-      },
-      "regularPath": "/blogs/2014-06-27-new-operator.html",
-      "relativePath": "blogs/2014-06-27-new-operator.md",
-      "key": "v-b875c5c6",
-      "path": "/blogs/2014-06-27-new-operator.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "Mac系统显示隐藏文件",
-      "frontmatter": {
-        "title": "Mac系统显示隐藏文件"
-      },
-      "regularPath": "/blogs/2014-09-16-mac-hide-files.html",
-      "relativePath": "blogs/2014-09-16-mac-hide-files.md",
-<<<<<<< HEAD
-      "key": "v-1c70f928",
-      "path": "/blogs/2014-09-16-mac-hide-files.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "js 数组去重",
-      "frontmatter": {
-        "title": "js 数组去重"
-      },
-      "regularPath": "/blogs/2014-01-12-js-array-distinct.html",
-      "relativePath": "blogs/2014-01-12-js-array-distinct.md",
-      "key": "v-4b592670",
-      "path": "/blogs/2014-01-12-js-array-distinct.html",
-=======
-      "key": "v-26e09b1d",
-      "path": "/blogs/2014-09-16-mac-hide-files.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "PHP在windows系统下使用mail()",
-      "frontmatter": {
-        "title": "PHP在windows系统下使用mail()"
-      },
-      "regularPath": "/blogs/2015-04-18-windows-php-send-mail.html",
-      "relativePath": "blogs/2015-04-18-windows-php-send-mail.md",
-      "key": "v-2bdc976e",
-      "path": "/blogs/2015-04-18-windows-php-send-mail.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "兼容ie/chrome的水平垂直居中",
-      "frontmatter": {
-        "title": "兼容ie/chrome的水平垂直居中"
-      },
-      "regularPath": "/blogs/2014-01-03-css-vertical-center.html",
-      "relativePath": "blogs/2014-01-03-css-vertical-center.md",
-      "key": "v-df2dcc30",
-      "path": "/blogs/2014-01-03-css-vertical-center.html",
-=======
-      "title": "new操作符",
-      "frontmatter": {
-        "title": "new操作符"
-      },
-      "regularPath": "/blogs/2014-06-27-new-operator.html",
-      "relativePath": "blogs/2014-06-27-new-operator.md",
-      "key": "v-b875c5c6",
-      "path": "/blogs/2014-06-27-new-operator.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "new操作符",
-      "frontmatter": {
-        "title": "new操作符"
-      },
-      "regularPath": "/blogs/2014-06-27-new-operator.html",
-      "relativePath": "blogs/2014-06-27-new-operator.md",
-      "key": "v-24b438a8",
-      "path": "/blogs/2014-06-27-new-operator.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "Introduction to CodeIgniter",
-      "frontmatter": {
-        "title": "Introduction to CodeIgniter"
-      },
-      "regularPath": "/blogs/2015-05-08-introduction-to-codeigniter.html",
-      "relativePath": "blogs/2015-05-08-introduction-to-codeigniter.md",
-      "key": "v-afa05ba0",
-      "path": "/blogs/2015-05-08-introduction-to-codeigniter.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
-      "title": "AngularJS中通过ui-route将数据传递给视图。",
-      "frontmatter": {
-        "title": "AngularJS中通过ui-route将数据传递给视图。"
-      },
-      "regularPath": "/blogs/2015-06-06-angularjs-transfer-data-between-the-view.html",
-      "relativePath": "blogs/2015-06-06-angularjs-transfer-data-between-the-view.md",
-      "key": "v-18a29230",
-      "path": "/blogs/2015-06-06-angularjs-transfer-data-between-the-view.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "AngularJS 跨域请求（CORS）的设置。",
-      "frontmatter": {
-        "title": "AngularJS 跨域请求（CORS）的设置。"
-      },
-      "regularPath": "/blogs/2015-06-03-angularjs-CORS.html",
-      "relativePath": "blogs/2015-06-03-angularjs-CORS.md",
-      "key": "v-14425008",
-      "path": "/blogs/2015-06-03-angularjs-CORS.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
-=======
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "title": "单词-python syntax",
-      "frontmatter": {
-        "title": "单词-python syntax"
-      },
-      "regularPath": "/blogs/2015-06-25-python-synstax.html",
-      "relativePath": "blogs/2015-06-25-python-synstax.md",
-      "key": "v-7aefe7f0",
-      "path": "/blogs/2015-06-25-python-synstax.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
-      "title": "css优先级",
-=======
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "AngularJS中通过ui-route将数据传递给视图。",
-      "frontmatter": {
-        "title": "AngularJS中通过ui-route将数据传递给视图。"
-      },
-      "regularPath": "/blogs/2015-06-06-angularjs-transfer-data-between-the-view.html",
-      "relativePath": "blogs/2015-06-06-angularjs-transfer-data-between-the-view.md",
-      "key": "v-076bb85d",
-      "path": "/blogs/2015-06-06-angularjs-transfer-data-between-the-view.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "单词-python syntax",
-      "frontmatter": {
-        "title": "单词-python syntax"
-      },
-      "regularPath": "/blogs/2015-06-25-python-synstax.html",
-      "relativePath": "blogs/2015-06-25-python-synstax.md",
-      "key": "v-6610a406",
-      "path": "/blogs/2015-06-25-python-synstax.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "理解原型",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "frontmatter": {
-        "title": "css优先级"
-      },
-      "regularPath": "/blogs/2013-08-08-css-specificity.html",
-      "relativePath": "blogs/2013-08-08-css-specificity.md",
-      "key": "v-06abc4e4",
-      "path": "/blogs/2013-08-08-css-specificity.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "使用github pages搭建博客",
-      "frontmatter": {
-        "title": "使用github pages搭建博客"
-      },
-      "regularPath": "/blogs/2015-08-01-github-pages-blog.html",
-      "relativePath": "blogs/2015-08-01-github-pages-blog.md",
-      "key": "v-147695d2",
-      "path": "/blogs/2015-08-01-github-pages-blog.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Getting Started",
-          "slug": "getting-started"
-        },
-        {
-          "level": 3,
-          "title": "创建项目",
-          "slug": "创建项目"
-        },
-        {
-          "level": 3,
-          "title": "安装 Jekyll",
-          "slug": "安装-jekyll"
-        },
-        {
-          "level": 3,
-          "title": "使用",
-          "slug": "使用"
-        }
-      ],
-      "lastUpdated": "10/7/2020, 10:59:28 PM"
-    },
-    {
       "title": "JavaScript继承",
       "frontmatter": {
         "title": "JavaScript继承"
@@ -550,65 +376,14 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-      "title": "解决：WAMP Service localhost显示404 Not Found",
+      "title": "Introduction to CodeIgniter",
       "frontmatter": {
-        "title": "解决：WAMP Service localhost显示404 Not Found"
+        "title": "Introduction to CodeIgniter"
       },
-      "regularPath": "/blogs/2015-07-27-wamp-localhost-not-found.html",
-      "relativePath": "blogs/2015-07-27-wamp-localhost-not-found.md",
-      "key": "v-75be58f0",
-      "path": "/blogs/2015-07-27-wamp-localhost-not-found.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
-      "title": "如何使用ubuntu操作系统",
-=======
-=======
-      "title": "解决：WAMP Service localhost显示404 Not Found",
-      "frontmatter": {
-        "title": "解决：WAMP Service localhost显示404 Not Found"
-      },
-      "regularPath": "/blogs/2015-07-27-wamp-localhost-not-found.html",
-      "relativePath": "blogs/2015-07-27-wamp-localhost-not-found.md",
-      "key": "v-fa4e2e06",
-      "path": "/blogs/2015-07-27-wamp-localhost-not-found.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "使用github pages搭建博客",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "frontmatter": {
-        "title": "如何使用ubuntu操作系统"
-      },
-      "regularPath": "/blogs/2015-07-19-how-to-use-ubuntu.html",
-      "relativePath": "blogs/2015-07-19-how-to-use-ubuntu.md",
-      "key": "v-ad223db0",
-      "path": "/blogs/2015-07-19-how-to-use-ubuntu.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "更新软件",
-          "slug": "更新软件"
-        },
-        {
-          "level": 3,
-          "title": "安装界面软件-gnome",
-          "slug": "安装界面软件-gnome"
-        },
-        {
-          "level": 3,
-          "title": "安装搜狗输入法",
-          "slug": "安装搜狗输入法"
-        },
-        {
-          "level": 3,
-          "title": "使用代理服务器",
-          "slug": "使用代理服务器"
-        }
-      ],
+      "regularPath": "/blogs/2015-05-08-introduction-to-codeigniter.html",
+      "relativePath": "blogs/2015-05-08-introduction-to-codeigniter.md",
+      "key": "v-afa05ba0",
+      "path": "/blogs/2015-05-08-introduction-to-codeigniter.html",
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
@@ -623,25 +398,7 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
       "title": "前端代码规范",
-=======
-      "title": "解决：WAMP Service localhost显示404 Not Found",
-      "frontmatter": {
-        "title": "解决：WAMP Service localhost显示404 Not Found"
-      },
-      "regularPath": "/blogs/2015-07-27-wamp-localhost-not-found.html",
-      "relativePath": "blogs/2015-07-27-wamp-localhost-not-found.md",
-      "key": "v-fa4e2e06",
-      "path": "/blogs/2015-07-27-wamp-localhost-not-found.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "JavaScript继承",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
       "frontmatter": {
         "title": "前端代码规范"
       },
@@ -652,23 +409,7 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
       "title": "Gulp guide for beginners",
-=======
-      "title": "Gulp guide for beginners",
-      "frontmatter": {
-        "title": "Gulp guide for beginners"
-      },
-      "regularPath": "/blogs/2015-10-06-gulp-tricks.html",
-      "relativePath": "blogs/2015-10-06-gulp-tricks.md",
-      "key": "v-0ce8119f",
-      "path": "/blogs/2015-10-06-gulp-tricks.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "前端代码规范",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "frontmatter": {
         "title": "Gulp guide for beginners"
       },
@@ -679,8 +420,6 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-=======
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
       "title": "使用亚马逊云服务",
       "frontmatter": {
         "title": "使用亚马逊云服务"
@@ -735,31 +474,6 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-      "title": "Mac中使用shadowsocks代理",
-      "frontmatter": {
-        "title": "Mac中使用shadowsocks代理"
-      },
-      "regularPath": "/blogs/2015-12-02-mac-proxy.html",
-      "relativePath": "blogs/2015-12-02-mac-proxy.md",
-<<<<<<< HEAD
-      "key": "v-2c90be68",
-=======
-      "key": "v-2e964101",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "path": "/blogs/2015-12-02-mac-proxy.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "准备",
-          "slug": "准备"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "title": "Mac中开发环境的配置",
       "frontmatter": {
         "title": "Mac中开发环境的配置"
@@ -783,13 +497,24 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
+      "title": "理解原型",
+      "frontmatter": {
+        "title": "理解原型"
+      },
+      "regularPath": "/blogs/2015-06-27-to-understand-the-prototype.html",
+      "relativePath": "blogs/2015-06-27-to-understand-the-prototype.md",
+      "key": "v-113dac5e",
+      "path": "/blogs/2015-06-27-to-understand-the-prototype.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
       "title": "Mac中使用shadowsocks代理",
       "frontmatter": {
         "title": "Mac中使用shadowsocks代理"
       },
       "regularPath": "/blogs/2015-12-02-mac-proxy.html",
       "relativePath": "blogs/2015-12-02-mac-proxy.md",
-      "key": "v-2e964101",
+      "key": "v-2c90be68",
       "path": "/blogs/2015-12-02-mac-proxy.html",
       "headers": [
         {
@@ -814,6 +539,24 @@ export const siteData = {
           "level": 3,
           "title": "第一部分 作用域和闭包",
           "slug": "第一部分-作用域和闭包"
+        }
+      ],
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "读书笔记-你不知道的javascript(上) 第二部分",
+      "frontmatter": {
+        "title": "读书笔记-你不知道的javascript(上) 第二部分"
+      },
+      "regularPath": "/blogs/2016-12-20-reading-notes-You-Dont-Know-JS-2.html",
+      "relativePath": "blogs/2016-12-20-reading-notes-You-Dont-Know-JS-2.md",
+      "key": "v-1f943be8",
+      "path": "/blogs/2016-12-20-reading-notes-You-Dont-Know-JS-2.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "第二部分 this和对象原型",
+          "slug": "第二部分-this和对象原型"
         }
       ],
       "lastUpdated": "1/12/2020, 2:13:52 PM"
@@ -870,24 +613,6 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-      "title": "读书笔记-你不知道的javascript(上) 第二部分",
-      "frontmatter": {
-        "title": "读书笔记-你不知道的javascript(上) 第二部分"
-      },
-      "regularPath": "/blogs/2016-12-20-reading-notes-You-Dont-Know-JS-2.html",
-      "relativePath": "blogs/2016-12-20-reading-notes-You-Dont-Know-JS-2.md",
-      "key": "v-1f943be8",
-      "path": "/blogs/2016-12-20-reading-notes-You-Dont-Know-JS-2.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "第二部分 this和对象原型",
-          "slug": "第二部分-this和对象原型"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
       "title": "前端面试题笔记--jsonp",
       "frontmatter": {
         "title": "前端面试题笔记--jsonp"
@@ -938,7 +663,7 @@ export const siteData = {
       },
       "regularPath": "/blogs/2017-03-27-debounce.html",
       "relativePath": "blogs/2017-03-27-debounce.md",
-      "key": "v-9760e246",
+      "key": "v-3b4c6568",
       "path": "/blogs/2017-03-27-debounce.html",
       "headers": [
         {
@@ -1053,20 +778,44 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-      "title": "前端面试题笔记--debounce",
+      "title": "js代码规范化",
       "frontmatter": {
-        "title": "前端面试题笔记--debounce"
+        "title": "js代码规范化"
       },
-      "regularPath": "/blogs/2017-03-27-debounce.html",
-      "relativePath": "blogs/2017-03-27-debounce.md",
-      "key": "v-3b4c6568",
-      "path": "/blogs/2017-03-27-debounce.html",
+      "regularPath": "/blogs/2018-04-24-js-standard.html",
+      "relativePath": "blogs/2018-04-24-js-standard.md",
+      "key": "v-524111ea",
+      "path": "/blogs/2018-04-24-js-standard.html",
       "headers": [
         {
           "level": 2,
-          "title": "Debounce",
-          "slug": "debounce"
+          "title": "Eslint",
+          "slug": "eslint"
+        },
+        {
+          "level": 3,
+          "title": "代码质量检查 linter -- 检查器",
+          "slug": "代码质量检查-linter-检查器"
+        },
+        {
+          "level": 3,
+          "title": "代码风格检查 formatter -- 美化器 格式化",
+          "slug": "代码风格检查-formatter-美化器-格式化"
+        },
+        {
+          "level": 3,
+          "title": "团队中的作用",
+          "slug": "团队中的作用"
+        },
+        {
+          "level": 2,
+          "title": "Prettier",
+          "slug": "prettier"
+        },
+        {
+          "level": 2,
+          "title": "Sourcemap",
+          "slug": "sourcemap"
         }
       ],
       "lastUpdated": "1/12/2020, 2:13:52 PM"
@@ -1115,85 +864,6 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-=======
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "title": "js代码规范化",
-      "frontmatter": {
-        "title": "js代码规范化"
-      },
-      "regularPath": "/blogs/2018-04-24-js-standard.html",
-      "relativePath": "blogs/2018-04-24-js-standard.md",
-      "key": "v-524111ea",
-      "path": "/blogs/2018-04-24-js-standard.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Eslint",
-          "slug": "eslint"
-        },
-        {
-          "level": 3,
-          "title": "代码质量检查 linter -- 检查器",
-          "slug": "代码质量检查-linter-检查器"
-        },
-        {
-          "level": 3,
-          "title": "代码风格检查 formatter -- 美化器 格式化",
-          "slug": "代码风格检查-formatter-美化器-格式化"
-        },
-        {
-          "level": 3,
-          "title": "团队中的作用",
-          "slug": "团队中的作用"
-        },
-        {
-          "level": 2,
-          "title": "Prettier",
-          "slug": "prettier"
-        },
-        {
-          "level": 2,
-          "title": "Sourcemap",
-          "slug": "sourcemap"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "使用vscode常用配置",
-      "frontmatter": {
-        "title": "使用vscode常用配置"
-      },
-      "regularPath": "/blogs/2018-06-12-vscode-config.html",
-      "relativePath": "blogs/2018-06-12-vscode-config.md",
-      "key": "v-0786a7e8",
-      "path": "/blogs/2018-06-12-vscode-config.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "vscode 所需插件",
-          "slug": "vscode-所需插件"
-        },
-        {
-          "level": 2,
-          "title": "vscode config",
-          "slug": "vscode-config"
-        },
-        {
-          "level": 2,
-          "title": "npm 所需",
-          "slug": "npm-所需"
-        },
-        {
-          "level": 2,
-          "title": "项目所需配置",
-          "slug": "项目所需配置"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-<<<<<<< HEAD
       "title": "js隐式转换",
       "frontmatter": {
         "title": "js隐式转换"
@@ -1201,69 +871,6 @@ export const siteData = {
       "regularPath": "/blogs/2018-06-12-object-toPrimitive.html",
       "relativePath": "blogs/2018-06-12-object-toPrimitive.md",
       "key": "v-7ced7a48",
-      "path": "/blogs/2018-06-12-object-toPrimitive.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "比较运算符的类型转换",
-          "slug": "比较运算符的类型转换"
-        },
-        {
-          "level": 2,
-          "title": "相等运算符的类型转换",
-          "slug": "相等运算符的类型转换"
-        },
-        {
-          "level": 2,
-          "title": "对象的 OrdinaryToPrimitive",
-          "slug": "对象的-ordinarytoprimitive"
-        },
-        {
-          "level": 3,
-          "title": "参考：",
-          "slug": "参考"
-=======
-      "title": "使用vscode常用配置",
-      "frontmatter": {
-        "title": "使用vscode常用配置"
-      },
-      "regularPath": "/blogs/2018-06-12-vscode-config.html",
-      "relativePath": "blogs/2018-06-12-vscode-config.md",
-      "key": "v-05f0431d",
-      "path": "/blogs/2018-06-12-vscode-config.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "vscode 所需插件",
-          "slug": "vscode-所需插件"
-        },
-        {
-          "level": 2,
-          "title": "vscode config",
-          "slug": "vscode-config"
-        },
-        {
-          "level": 2,
-          "title": "npm 所需",
-          "slug": "npm-所需"
-        },
-        {
-          "level": 2,
-          "title": "项目所需配置",
-          "slug": "项目所需配置"
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "js隐式转换",
-      "frontmatter": {
-        "title": "js隐式转换"
-      },
-      "regularPath": "/blogs/2018-06-12-object-toPrimitive.html",
-      "relativePath": "blogs/2018-06-12-object-toPrimitive.md",
-      "key": "v-d0ab5186",
       "path": "/blogs/2018-06-12-object-toPrimitive.html",
       "headers": [
         {
@@ -1378,60 +985,34 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      "title": "js隐式转换",
-=======
-      "title": "js中的事件循环",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
+      "title": "使用vscode常用配置",
       "frontmatter": {
-        "title": "js中的事件循环"
+        "title": "使用vscode常用配置"
       },
-      "regularPath": "/blogs/2018-06-21-js-event-loop.html",
-      "relativePath": "blogs/2018-06-21-js-event-loop.md",
-      "key": "v-58e78875",
-      "path": "/blogs/2018-06-21-js-event-loop.html",
+      "regularPath": "/blogs/2018-06-12-vscode-config.html",
+      "relativePath": "blogs/2018-06-12-vscode-config.md",
+      "key": "v-0786a7e8",
+      "path": "/blogs/2018-06-12-vscode-config.html",
       "headers": [
         {
           "level": 2,
-          "title": "时间并发模型",
-          "slug": "时间并发模型"
-        },
-        {
-          "level": 3,
-          "title": "栈",
-          "slug": "栈"
-        },
-        {
-          "level": 3,
-          "title": "堆",
-          "slug": "堆"
-        },
-        {
-          "level": 3,
-          "title": "队列",
-          "slug": "队列"
-        },
-        {
-          "level": 3,
-          "title": "webapi 中的事件循环",
-          "slug": "webapi-中的事件循环"
-        },
-        {
-          "level": 3,
-          "title": "node 事件处理机制",
-          "slug": "node-事件处理机制"
+          "title": "vscode 所需插件",
+          "slug": "vscode-所需插件"
         },
         {
           "level": 2,
-          "title": "事件循环划分",
-          "slug": "事件循环划分"
+          "title": "vscode config",
+          "slug": "vscode-config"
         },
         {
           "level": 2,
-          "title": "参考",
-          "slug": "参考"
+          "title": "npm 所需",
+          "slug": "npm-所需"
+        },
+        {
+          "level": 2,
+          "title": "项目所需配置",
+          "slug": "项目所需配置"
         }
       ],
       "lastUpdated": "1/12/2020, 2:13:52 PM"
@@ -1443,7 +1024,7 @@ export const siteData = {
       },
       "regularPath": "/blogs/2018-06-20-css-name-reference.html",
       "relativePath": "blogs/2018-06-20-css-name-reference.md",
-      "key": "v-2f653386",
+      "key": "v-64deed70",
       "path": "/blogs/2018-06-20-css-name-reference.html",
       "headers": [
         {
@@ -1485,8 +1066,6 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
       "title": "js中的事件循环",
       "frontmatter": {
         "title": "js中的事件循环"
@@ -1540,8 +1119,6 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "title": "git常用工作流",
       "frontmatter": {
         "title": "git常用工作流"
@@ -1585,44 +1162,44 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-      "title": "css命名参考",
+      "title": "前端的持续化集成、部署和发布",
       "frontmatter": {
-        "title": "css命名参考"
+        "title": "前端的持续化集成、部署和发布"
       },
-      "regularPath": "/blogs/2018-06-20-css-name-reference.html",
-      "relativePath": "blogs/2018-06-20-css-name-reference.md",
-      "key": "v-64deed70",
-      "path": "/blogs/2018-06-20-css-name-reference.html",
+      "regularPath": "/blogs/2018-06-27-f2e-continuous-deployment.html",
+      "relativePath": "blogs/2018-06-27-f2e-continuous-deployment.md",
+      "key": "v-3e4fba8c",
+      "path": "/blogs/2018-06-27-f2e-continuous-deployment.html",
       "headers": [
         {
           "level": 2,
-          "title": "模块划分",
-          "slug": "模块划分"
+          "title": "关于持续化",
+          "slug": "关于持续化"
         },
         {
           "level": 2,
-          "title": "标签划分",
-          "slug": "标签划分"
+          "title": "前端的持续集成",
+          "slug": "前端的持续集成"
         },
         {
           "level": 2,
-          "title": "布局划分",
-          "slug": "布局划分"
+          "title": "前端的特殊性",
+          "slug": "前端的特殊性"
         },
         {
-          "level": 2,
-          "title": "状态划分",
-          "slug": "状态划分"
+          "level": 3,
+          "title": "静态资源上传",
+          "slug": "静态资源上传"
         },
         {
-          "level": 2,
-          "title": "实践",
-          "slug": "实践"
+          "level": 3,
+          "title": "npm包管理",
+          "slug": "npm包管理"
         },
         {
-          "level": 2,
-          "title": "学习",
-          "slug": "学习"
+          "level": 3,
+          "title": "MD5",
+          "slug": "md5"
         },
         {
           "level": 2,
@@ -1703,55 +1280,7 @@ export const siteData = {
           "slug": "参考"
         }
       ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "前端的持续化集成、部署和发布",
-      "frontmatter": {
-        "title": "前端的持续化集成、部署和发布"
-      },
-      "regularPath": "/blogs/2018-06-27-f2e-continuous-deployment.html",
-      "relativePath": "blogs/2018-06-27-f2e-continuous-deployment.md",
-      "key": "v-3e4fba8c",
-      "path": "/blogs/2018-06-27-f2e-continuous-deployment.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于持续化",
-          "slug": "关于持续化"
-        },
-        {
-          "level": 2,
-          "title": "前端的持续集成",
-          "slug": "前端的持续集成"
-        },
-        {
-          "level": 2,
-          "title": "前端的特殊性",
-          "slug": "前端的特殊性"
-        },
-        {
-          "level": 3,
-          "title": "静态资源上传",
-          "slug": "静态资源上传"
-        },
-        {
-          "level": 3,
-          "title": "npm包管理",
-          "slug": "npm包管理"
-        },
-        {
-          "level": 3,
-          "title": "MD5",
-          "slug": "md5"
-        },
-        {
-          "level": 2,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "写给前端工程师的 Node 教程",
@@ -1807,98 +1336,54 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "HTTP相关知识",
-=======
-      "title": "HTTP相关知识",
+      "title": "Web 缓存策略",
       "frontmatter": {
-        "title": "HTTP相关知识"
+        "title": "Web 缓存策略"
       },
-      "regularPath": "/blogs/2018-07-16-http.html",
-      "relativePath": "blogs/2018-07-16-http.md",
-      "key": "v-74ef109d",
-      "path": "/blogs/2018-07-16-http.html",
+      "regularPath": "/blogs/2018-07-20-cache-in-web.html",
+      "relativePath": "blogs/2018-07-20-cache-in-web.md",
+      "key": "v-7bfbaf68",
+      "path": "/blogs/2018-07-20-cache-in-web.html",
       "headers": [
         {
-          "level": 2,
-          "title": "How Internet Works",
-          "slug": "how-internet-works"
-        },
-        {
-          "level": 2,
-          "title": "HTTP 概述",
-          "slug": "http-概述"
-        },
-        {
-          "level": 2,
-          "title": "典型的HTTP会话",
-          "slug": "典型的http会话"
-        },
-        {
-          "level": 2,
-          "title": "Resources and URIs",
-          "slug": "resources-and-uris"
-        },
-        {
-          "level": 2,
-          "title": "HTTP消息",
-          "slug": "http消息"
-        },
-        {
-          "level": 2,
-          "title": "HTTP报文",
-          "slug": "http报文"
+          "level": 3,
+          "title": "缓存类型",
+          "slug": "缓存类型"
         },
         {
           "level": 3,
-          "title": "Request",
-          "slug": "request"
+          "title": "缓存规则",
+          "slug": "缓存规则"
         },
         {
           "level": 3,
-          "title": "Response",
-          "slug": "response"
+          "title": "ETags",
+          "slug": "etags"
         },
         {
           "level": 2,
-          "title": "CORS",
-          "slug": "cors"
+          "title": "比较",
+          "slug": "比较"
         },
         {
           "level": 3,
-          "title": "概述",
-          "slug": "概述"
+          "title": "Cache-Control 与 Expires",
+          "slug": "cache-control-与-expires"
         },
         {
           "level": 3,
-          "title": "简单请求",
-          "slug": "简单请求"
+          "title": "Last-Modified/ETag 与 Cache-Control/Expires",
+          "slug": "last-modified-etag-与-cache-control-expires"
         },
         {
           "level": 3,
-          "title": "预检请求",
-          "slug": "预检请求"
+          "title": "Last-Modified 与 ETag",
+          "slug": "last-modified-与-etag"
         },
         {
           "level": 2,
-          "title": "Cookies",
-          "slug": "cookies"
-        },
-        {
-          "level": 3,
-          "title": "持久性Cookie",
-          "slug": "持久性cookie"
-        },
-        {
-          "level": 3,
-          "title": "Cookies的 Secure 和 HttpOnly 标记",
-          "slug": "cookies的-secure-和-httponly-标记"
-        },
-        {
-          "level": 3,
-          "title": "Cookie的作用域",
-          "slug": "cookie的作用域"
+          "title": "用户操作行为与缓存",
+          "slug": "用户操作行为与缓存"
         },
         {
           "level": 2,
@@ -1906,11 +1391,10 @@ export const siteData = {
           "slug": "参考"
         }
       ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
-      "title": "Web 缓存策略",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
+      "title": "HTTP相关知识",
       "frontmatter": {
         "title": "HTTP相关知识"
       },
@@ -1998,56 +1482,6 @@ export const siteData = {
           "level": 3,
           "title": "Cookie的作用域",
           "slug": "cookie的作用域"
-=======
-      "title": "Web 缓存策略",
-      "frontmatter": {
-        "title": "Web 缓存策略"
-      },
-      "regularPath": "/blogs/2018-07-20-cache-in-web.html",
-      "relativePath": "blogs/2018-07-20-cache-in-web.md",
-      "key": "v-09e6d846",
-      "path": "/blogs/2018-07-20-cache-in-web.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "缓存类型",
-          "slug": "缓存类型"
-        },
-        {
-          "level": 3,
-          "title": "缓存规则",
-          "slug": "缓存规则"
-        },
-        {
-          "level": 3,
-          "title": "ETags",
-          "slug": "etags"
-        },
-        {
-          "level": 2,
-          "title": "比较",
-          "slug": "比较"
-        },
-        {
-          "level": 3,
-          "title": "Cache-Control 与 Expires",
-          "slug": "cache-control-与-expires"
-        },
-        {
-          "level": 3,
-          "title": "Last-Modified/ETag 与 Cache-Control/Expires",
-          "slug": "last-modified-etag-与-cache-control-expires"
-        },
-        {
-          "level": 3,
-          "title": "Last-Modified 与 ETag",
-          "slug": "last-modified-与-etag"
-        },
-        {
-          "level": 2,
-          "title": "用户操作行为与缓存",
-          "slug": "用户操作行为与缓存"
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
         },
         {
           "level": 2,
@@ -2058,122 +1492,69 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "display:inline-block的兼容问题",
-=======
       "title": "如何学习前端",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
       "frontmatter": {
-        "title": "display:inline-block的兼容问题"
+        "title": "如何学习前端"
       },
-      "regularPath": "/blogs/2013-08-08-display-inline-block-compatibility.html",
-      "relativePath": "blogs/2013-08-08-display-inline-block-compatibility.md",
-      "key": "v-b944b330",
-      "path": "/blogs/2013-08-08-display-inline-block-compatibility.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "HTTP相关知识",
-      "frontmatter": {
-        "title": "HTTP相关知识"
-      },
-      "regularPath": "/blogs/2018-07-16-http.html",
-      "relativePath": "blogs/2018-07-16-http.md",
-      "key": "v-74ef109d",
-      "path": "/blogs/2018-07-16-http.html",
+      "regularPath": "/blogs/2018-08-03-learn-fe.html",
+      "relativePath": "blogs/2018-08-03-learn-fe.md",
+      "key": "v-5c2a0170",
+      "path": "/blogs/2018-08-03-learn-fe.html",
       "headers": [
         {
           "level": 2,
-          "title": "How Internet Works",
-          "slug": "how-internet-works"
+          "title": "前端能做什么，为什么要学习前端？",
+          "slug": "前端能做什么-为什么要学习前端"
         },
         {
           "level": 2,
-          "title": "HTTP 概述",
-          "slug": "http-概述"
+          "title": "准备",
+          "slug": "准备"
         },
         {
           "level": 2,
-          "title": "典型的HTTP会话",
-          "slug": "典型的http会话"
+          "title": "\bHTML 和 CSS",
+          "slug": "html-和-css"
+        },
+        {
+          "level": 3,
+          "title": "推荐书籍：",
+          "slug": "推荐书籍"
+        },
+        {
+          "level": 3,
+          "title": "参考文献与标准",
+          "slug": "参考文献与标准"
         },
         {
           "level": 2,
-          "title": "Resources and URIs",
-          "slug": "resources-and-uris"
+          "title": "Javascript",
+          "slug": "javascript"
+        },
+        {
+          "level": 3,
+          "title": "书单",
+          "slug": "书单"
+        },
+        {
+          "level": 3,
+          "title": "参考文献",
+          "slug": "参考文献"
         },
         {
           "level": 2,
-          "title": "HTTP消息",
-          "slug": "http消息"
+          "title": "HTTP",
+          "slug": "http"
         },
         {
           "level": 2,
-          "title": "HTTP报文",
-          "slug": "http报文"
-        },
-        {
-          "level": 3,
-          "title": "Request",
-          "slug": "request"
-        },
-        {
-          "level": 3,
-          "title": "Response",
-          "slug": "response"
-        },
-        {
-          "level": 2,
-          "title": "CORS",
-          "slug": "cors"
-        },
-        {
-          "level": 3,
-          "title": "概述",
-          "slug": "概述"
-        },
-        {
-          "level": 3,
-          "title": "简单请求",
-          "slug": "简单请求"
-        },
-        {
-          "level": 3,
-          "title": "预检请求",
-          "slug": "预检请求"
-        },
-        {
-          "level": 2,
-          "title": "Cookies",
-          "slug": "cookies"
-        },
-        {
-          "level": 3,
-          "title": "持久性Cookie",
-          "slug": "持久性cookie"
-        },
-        {
-          "level": 3,
-          "title": "Cookies的 Secure 和 HttpOnly 标记",
-          "slug": "cookies的-secure-和-httponly-标记"
-        },
-        {
-          "level": 3,
-          "title": "Cookie的作用域",
-          "slug": "cookie的作用域"
-        },
-        {
-          "level": 2,
-          "title": "参考",
-          "slug": "参考"
+          "title": "学习路线",
+          "slug": "学习路线"
         }
       ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "title": "如何搭建高效（误）舒适的工作环境",
       "frontmatter": {
         "title": "如何搭建高效（误）舒适的工作环境"
@@ -2224,6 +1605,77 @@ export const siteData = {
           "slug": "code"
         }
       ],
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
+    },
+    {
+      "title": "Linux 学习笔记",
+      "frontmatter": {
+        "title": "Linux 学习笔记"
+      },
+      "regularPath": "/blogs/2018-11-08-linux.html",
+      "relativePath": "blogs/2018-11-08-linux.md",
+      "key": "v-0288ecf0",
+      "path": "/blogs/2018-11-08-linux.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "文件权限",
+          "slug": "文件权限"
+        },
+        {
+          "level": 2,
+          "title": "目录",
+          "slug": "目录"
+        },
+        {
+          "level": 2,
+          "title": "文件内容审阅",
+          "slug": "文件内容审阅"
+        },
+        {
+          "level": 2,
+          "title": "查询",
+          "slug": "查询"
+        }
+      ],
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
+    },
+    {
+      "title": "Node 开发环境安装",
+      "frontmatter": {
+        "title": "Node 开发环境安装"
+      },
+      "regularPath": "/blogs/2018-11-12-node-install.html",
+      "relativePath": "blogs/2018-11-12-node-install.md",
+      "key": "v-0c984d88",
+      "path": "/blogs/2018-11-12-node-install.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "条件",
+          "slug": "条件"
+        },
+        {
+          "level": 2,
+          "title": "命令行工具",
+          "slug": "命令行工具"
+        },
+        {
+          "level": 2,
+          "title": "安装 Node",
+          "slug": "安装-node"
+        },
+        {
+          "level": 2,
+          "title": "安装 NRM (NPM registry manager)",
+          "slug": "安装-nrm-npm-registry-manager"
+        },
+        {
+          "level": 2,
+          "title": "安装 NVM (Node version manager)",
+          "slug": "安装-nvm-node-version-manager"
+        }
+      ],
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
@@ -2265,191 +1717,6 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "Docker 常用命令",
-      "frontmatter": {
-        "title": "Docker 常用命令"
-      },
-      "regularPath": "/blogs/2018-11-22-docker-cmd.html",
-      "relativePath": "blogs/2018-11-22-docker-cmd.md",
-      "key": "v-47882488",
-      "path": "/blogs/2018-11-22-docker-cmd.html",
-=======
-      "title": "Node 入门",
-      "frontmatter": {
-        "title": "Node 入门"
-      },
-      "regularPath": "/blogs/2018-11-20-node-lession-1.html",
-      "relativePath": "blogs/2018-11-20-node-lession-1.md",
-      "key": "v-1a4aebc6",
-      "path": "/blogs/2018-11-20-node-lession-1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "文档",
-          "slug": "文档"
-        },
-        {
-          "level": 2,
-          "title": "常用内建模块",
-          "slug": "常用内建模块"
-        },
-        {
-          "level": 2,
-          "title": "通过代码片段学习",
-          "slug": "通过代码片段学习"
-        },
-        {
-          "level": 2,
-          "title": "练习",
-          "slug": "练习"
-        }
-      ],
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "Linux 学习笔记",
-      "frontmatter": {
-        "title": "Linux 学习笔记"
-      },
-      "regularPath": "/blogs/2018-11-08-linux.html",
-      "relativePath": "blogs/2018-11-08-linux.md",
-      "key": "v-0288ecf0",
-      "path": "/blogs/2018-11-08-linux.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "文件权限",
-          "slug": "文件权限"
-        },
-        {
-          "level": 2,
-          "title": "目录",
-          "slug": "目录"
-        },
-        {
-          "level": 2,
-          "title": "文件内容审阅",
-          "slug": "文件内容审阅"
-        },
-        {
-          "level": 2,
-          "title": "查询",
-          "slug": "查询"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "Node 开发环境安装",
-      "frontmatter": {
-        "title": "Node 开发环境安装"
-      },
-      "regularPath": "/blogs/2018-11-12-node-install.html",
-      "relativePath": "blogs/2018-11-12-node-install.md",
-      "key": "v-0c984d88",
-      "path": "/blogs/2018-11-12-node-install.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "条件",
-          "slug": "条件"
-        },
-        {
-          "level": 2,
-          "title": "命令行工具",
-          "slug": "命令行工具"
-        },
-        {
-          "level": 2,
-          "title": "安装 Node",
-          "slug": "安装-node"
-        },
-        {
-          "level": 2,
-          "title": "安装 NRM (NPM registry manager)",
-          "slug": "安装-nrm-npm-registry-manager"
-        },
-        {
-          "level": 2,
-          "title": "安装 NVM (Node version manager)",
-          "slug": "安装-nvm-node-version-manager"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "Node 入门",
-      "frontmatter": {
-        "title": "Node 入门"
-      },
-      "regularPath": "/blogs/2018-11-20-node-lession-1.html",
-      "relativePath": "blogs/2018-11-20-node-lession-1.md",
-      "key": "v-1a4aebc6",
-      "path": "/blogs/2018-11-20-node-lession-1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "文档",
-          "slug": "文档"
-        },
-        {
-          "level": 2,
-          "title": "常用内建模块",
-          "slug": "常用内建模块"
-        },
-        {
-          "level": 2,
-          "title": "通过代码片段学习",
-          "slug": "通过代码片段学习"
-        },
-        {
-          "level": 2,
-          "title": "练习",
-          "slug": "练习"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "Docker 常用命令",
-      "frontmatter": {
-        "title": "Docker 常用命令"
-      },
-      "regularPath": "/blogs/2018-11-22-docker-cmd.html",
-      "relativePath": "blogs/2018-11-22-docker-cmd.md",
-      "key": "v-6180e906",
-      "path": "/blogs/2018-11-22-docker-cmd.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "分享 Chrome 书签",
-      "frontmatter": {
-        "title": "分享 Chrome 书签"
-      },
-      "regularPath": "/blogs/2018-12-03-chrome-bookmark.html",
-      "relativePath": "blogs/2018-12-03-chrome-bookmark.md",
-<<<<<<< HEAD
-      "key": "v-57e0e792",
-=======
-      "key": "v-f6203f72",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "path": "/blogs/2018-12-03-chrome-bookmark.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "如何使用",
-          "slug": "如何使用"
-        }
-      ],
-      "lastUpdated": "2/17/2020, 5:20:56 PM"
-    },
-    {
-<<<<<<< HEAD
       "title": "Node 入门",
       "frontmatter": {
         "title": "Node 入门"
@@ -2483,8 +1750,28 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-=======
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+      "title": "Docker 常用命令",
+      "frontmatter": {
+        "title": "Docker 常用命令"
+      },
+      "regularPath": "/blogs/2018-11-22-docker-cmd.html",
+      "relativePath": "blogs/2018-11-22-docker-cmd.md",
+      "key": "v-47882488",
+      "path": "/blogs/2018-11-22-docker-cmd.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "HTML5 简化标签使用",
+      "frontmatter": {
+        "title": "HTML5 简化标签使用"
+      },
+      "regularPath": "/blogs/2013-06-03-html5-tags-rules.html",
+      "relativePath": "blogs/2013-06-03-html5-tags-rules.md",
+      "key": "v-858198b0",
+      "path": "/blogs/2013-06-03-html5-tags-rules.html",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
       "title": "前端填坑整理",
       "frontmatter": {
         "title": "前端填坑整理"
@@ -2515,7 +1802,7 @@ export const siteData = {
           "slug": "chrome"
         }
       ],
-      "lastUpdated": "1/18/2020, 12:14:27 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "后端问题收集",
@@ -2651,7 +1938,7 @@ export const siteData = {
           "slug": "结尾"
         }
       ],
-      "lastUpdated": "1/18/2020, 12:14:27 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "编程风格指南",
@@ -2697,6 +1984,29 @@ export const siteData = {
           "level": 2,
           "title": "确定所属关系",
           "slug": "确定所属关系"
+        }
+      ],
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
+    },
+    {
+      "title": "Vue 问题收集",
+      "frontmatter": {
+        "title": "Vue 问题收集"
+      },
+      "regularPath": "/blogs/2019-02-20-vue-problem.html",
+      "relativePath": "blogs/2019-02-20-vue-problem.md",
+      "key": "v-1c38083e",
+      "path": "/blogs/2019-02-20-vue-problem.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vue test utils 问题",
+          "slug": "vue-test-utils-问题"
+        },
+        {
+          "level": 2,
+          "title": "样式问题",
+          "slug": "样式问题"
         }
       ],
       "lastUpdated": "1/12/2020, 2:13:52 PM"
@@ -2772,30 +2082,50 @@ export const siteData = {
           "slug": "参考"
         }
       ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
-      "title": "Vue 问题收集",
+      "title": "使用 ESLint 管理 Typescript",
       "frontmatter": {
-        "title": "Vue 问题收集"
+        "title": "使用 ESLint 管理 Typescript"
       },
-      "regularPath": "/blogs/2019-02-20-vue-problem.html",
-      "relativePath": "blogs/2019-02-20-vue-problem.md",
-      "key": "v-1c38083e",
-      "path": "/blogs/2019-02-20-vue-problem.html",
+      "regularPath": "/blogs/2019-06-17-eslint-typescript.html",
+      "relativePath": "blogs/2019-06-17-eslint-typescript.md",
+      "key": "v-6df130a4",
+      "path": "/blogs/2019-06-17-eslint-typescript.html",
       "headers": [
         {
           "level": 2,
-          "title": "Vue test utils 问题",
-          "slug": "vue-test-utils-问题"
+          "title": "安装",
+          "slug": "安装"
         },
         {
           "level": 2,
-          "title": "样式问题",
-          "slug": "样式问题"
+          "title": "配置",
+          "slug": "配置"
+        },
+        {
+          "level": 2,
+          "title": "配合 Prettier",
+          "slug": "配合-prettier"
+        },
+        {
+          "level": 2,
+          "title": "VS Code 配置自动修复代码",
+          "slug": "vs-code-配置自动修复代码"
+        },
+        {
+          "level": 2,
+          "title": "Vue 支持",
+          "slug": "vue-支持"
+        },
+        {
+          "level": 2,
+          "title": "参考",
+          "slug": "参考"
         }
       ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "使用 Hapi 理解 跨域请求（CORS)",
@@ -2846,17 +2176,13 @@ export const siteData = {
       "lastUpdated": "1/18/2020, 12:14:27 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "使用 ESLint 管理 Typescript",
-=======
       "title": "记录一个 HTTP 响应头的规则问题",
       "frontmatter": {
         "title": "记录一个 HTTP 响应头的规则问题"
       },
       "regularPath": "/blogs/2019-06-26-http-cache.html",
       "relativePath": "blogs/2019-06-26-http-cache.md",
-      "key": "v-5819559d",
+      "key": "v-5f3c22b0",
       "path": "/blogs/2019-06-26-http-cache.html",
       "headers": [
         {
@@ -2878,52 +2204,6 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-      "title": "前端性能评测指数",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "frontmatter": {
-        "title": "使用 ESLint 管理 Typescript"
-      },
-      "regularPath": "/blogs/2019-06-17-eslint-typescript.html",
-      "relativePath": "blogs/2019-06-17-eslint-typescript.md",
-      "key": "v-6df130a4",
-      "path": "/blogs/2019-06-17-eslint-typescript.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 2,
-          "title": "配置",
-          "slug": "配置"
-        },
-        {
-          "level": 2,
-          "title": "配合 Prettier",
-          "slug": "配合-prettier"
-        },
-        {
-          "level": 2,
-          "title": "VS Code 配置自动修复代码",
-          "slug": "vs-code-配置自动修复代码"
-        },
-        {
-          "level": 2,
-          "title": "Vue 支持",
-          "slug": "vue-支持"
-        },
-        {
-          "level": 2,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "1/18/2020, 12:14:27 PM"
-    },
-    {
-=======
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
       "title": "前端性能评测指数",
       "frontmatter": {
         "title": "前端性能评测指数"
@@ -3005,26 +2285,14 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-      "title": "记录一个 HTTP 响应头的规则问题",
-<<<<<<< HEAD
-=======
       "title": "一句话搞懂 HTTP 缓存",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "frontmatter": {
         "title": "一句话搞懂 HTTP 缓存"
       },
-<<<<<<< HEAD
-      "regularPath": "/blogs/2019-06-26-http-cache.html",
-      "relativePath": "blogs/2019-06-26-http-cache.md",
-      "key": "v-5f3c22b0",
-      "path": "/blogs/2019-06-26-http-cache.html",
-=======
       "regularPath": "/blogs/2019-12-20-http-cache.html",
       "relativePath": "blogs/2019-12-20-http-cache.md",
-      "key": "v-b1c7d486",
+      "key": "v-1f64aec8",
       "path": "/blogs/2019-12-20-http-cache.html",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "headers": [
         {
           "level": 2,
@@ -3047,44 +2315,35 @@ export const siteData = {
           "slug": "自己动手-丰衣足食"
         }
       ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
-      "title": "一句话搞懂 HTTP 缓存",
-=======
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+      "title": "2019 年终总结",
       "frontmatter": {
-        "title": "记录一个 HTTP 响应头的规则问题"
+        "title": "2019 年终总结"
       },
-<<<<<<< HEAD
-      "regularPath": "/blogs/2019-12-20-http-cache.html",
-      "relativePath": "blogs/2019-12-20-http-cache.md",
-      "key": "v-1f64aec8",
-      "path": "/blogs/2019-12-20-http-cache.html",
-=======
-      "regularPath": "/blogs/2019-06-26-http-cache.html",
-      "relativePath": "blogs/2019-06-26-http-cache.md",
-      "key": "v-5819559d",
-      "path": "/blogs/2019-06-26-http-cache.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+      "regularPath": "/blogs/2019-12-23-annual-summary.html",
+      "relativePath": "blogs/2019-12-23-annual-summary.md",
+      "key": "v-25b59748",
+      "path": "/blogs/2019-12-23-annual-summary.html",
       "headers": [
         {
           "level": 2,
-          "title": "发现问题",
-          "slug": "发现问题"
+          "title": "工作",
+          "slug": "工作"
         },
         {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
+          "level": 2,
+          "title": "学习",
+          "slug": "学习"
         },
         {
-          "level": 3,
-          "title": "扩展",
-          "slug": "扩展"
+          "level": 2,
+          "title": "技术",
+          "slug": "技术"
         }
       ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "使用 Electron 和 TRTC 开发直播项目",
@@ -3120,8 +2379,49 @@ export const siteData = {
       "lastUpdated": "9/3/2020, 11:49:18 AM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
+      "title": "使用 Windows 作为工作开发环境",
+      "frontmatter": {
+        "title": "使用 Windows 作为工作开发环境"
+      },
+      "regularPath": "/blogs/2020-08-12-windows-develop-platform.html",
+      "relativePath": "blogs/2020-08-12-windows-develop-platform.md",
+      "key": "v-78234b48",
+      "path": "/blogs/2020-08-12-windows-develop-platform.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "准备",
+          "slug": "准备"
+        },
+        {
+          "level": 3,
+          "title": "安装 WSL",
+          "slug": "安装-wsl"
+        },
+        {
+          "level": 3,
+          "title": "Windows Shells",
+          "slug": "windows-shells"
+        },
+        {
+          "level": 3,
+          "title": "开发环境",
+          "slug": "开发环境"
+        },
+        {
+          "level": 3,
+          "title": "工具",
+          "slug": "工具"
+        },
+        {
+          "level": 3,
+          "title": "数据库",
+          "slug": "数据库"
+        }
+      ],
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
+    },
+    {
       "title": "Windows 自定义协议",
       "frontmatter": {
         "title": "Windows 自定义协议"
@@ -3145,90 +2445,111 @@ export const siteData = {
       "lastUpdated": "9/3/2020, 11:49:18 AM"
     },
     {
-      "title": "2019 年终总结",
+      "title": "Electron 在 Windows 平台下的自动更新",
       "frontmatter": {
-        "title": "2019 年终总结"
+        "title": "Electron 在 Windows 平台下的自动更新"
       },
-      "regularPath": "/blogs/2019-12-23-annual-summary.html",
-      "relativePath": "blogs/2019-12-23-annual-summary.md",
-      "key": "v-25b59748",
-      "path": "/blogs/2019-12-23-annual-summary.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "工作",
-          "slug": "工作"
-        },
-        {
-          "level": 2,
-          "title": "学习",
-          "slug": "学习"
-        },
-        {
-          "level": 2,
-          "title": "技术",
-          "slug": "技术"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "regularPath": "/blogs/2020-10-03-electron-updater.html",
+      "relativePath": "blogs/2020-10-03-electron-updater.md",
+      "key": "v-44f992f0",
+      "path": "/blogs/2020-10-03-electron-updater.html",
+      "lastUpdated": "10/3/2020, 4:00:17 PM"
     },
     {
-      "title": "使用 Windows 作为工作开发环境",
-=======
-      "title": "一句话搞懂 HTTP 缓存",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
-      "title": "使用 Windows 作为工作开发环境",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
+      "title": "使用 Windows 平台调试 iPhone 设备中的网页",
       "frontmatter": {
-        "title": "使用 Windows 作为工作开发环境"
+        "title": "使用 Windows 平台调试 iPhone 设备中的网页"
       },
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "regularPath": "/blogs/2020-08-12-windows-develop-platform.html",
-      "relativePath": "blogs/2020-08-12-windows-develop-platform.md",
-      "key": "v-78234b48",
-      "path": "/blogs/2020-08-12-windows-develop-platform.html",
-=======
-      "regularPath": "/blogs/2019-12-20-http-cache.html",
-      "relativePath": "blogs/2019-12-20-http-cache.md",
-      "key": "v-b1c7d486",
-      "path": "/blogs/2019-12-20-http-cache.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
-      "regularPath": "/blogs/2020-08-12-windows-develop-platform.html",
-      "relativePath": "blogs/2020-08-12-windows-develop-platform.md",
-      "key": "v-35db60bd",
-      "path": "/blogs/2020-08-12-windows-develop-platform.html",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
+      "regularPath": "/blogs/2020-10-30-windows-ios-debug.html",
+      "relativePath": "blogs/2020-10-30-windows-ios-debug.md",
+      "key": "v-b2292da8",
+      "path": "/blogs/2020-10-30-windows-ios-debug.html",
+      "lastUpdated": "10/30/2020, 1:33:09 AM"
+    },
+    {
+      "title": "为 PowerShell 安装模块",
+      "frontmatter": {
+        "title": "为 PowerShell 安装模块"
+      },
+      "regularPath": "/blogs/2020-12-28-powershell-modules.html",
+      "relativePath": "blogs/2020-12-28-powershell-modules.md",
+      "key": "v-35bab5f0",
+      "path": "/blogs/2020-12-28-powershell-modules.html",
+      "lastUpdated": "1/16/2021, 8:02:31 PM"
+    },
+    {
+      "title": "使用 GitLab CI",
+      "frontmatter": {
+        "title": "使用 GitLab CI"
+      },
+      "regularPath": "/blogs/2021-02-01-gitlab-ci.html",
+      "relativePath": "blogs/2021-02-01-gitlab-ci.md",
+      "key": "v-0b4be28a",
+      "path": "/blogs/2021-02-01-gitlab-ci.html",
       "headers": [
         {
-          "level": 3,
-          "title": "准备",
-          "slug": "准备"
+          "level": 2,
+          "title": "使用 .gitlab-ci.yml",
+          "slug": "使用-gitlab-ci-yml"
+        },
+        {
+          "level": 2,
+          "title": "基本概念",
+          "slug": "基本概念"
         },
         {
           "level": 3,
-          "title": "安装 WSL",
-          "slug": "安装-wsl"
+          "title": "Pipelines",
+          "slug": "pipelines"
         },
         {
           "level": 3,
-          "title": "Windows Shells",
-          "slug": "windows-shells"
+          "title": "jobs",
+          "slug": "jobs"
         },
         {
           "level": 3,
-          "title": "开发环境",
-          "slug": "开发环境"
+          "title": "Variables",
+          "slug": "variables"
         },
         {
           "level": 3,
-          "title": "工具",
-          "slug": "工具"
+          "title": "Environments and deployments",
+          "slug": "environments-and-deployments"
+        },
+        {
+          "level": 3,
+          "title": "Configuring runners in GitLab",
+          "slug": "configuring-runners-in-gitlab"
+        },
+        {
+          "level": 3,
+          "title": "Cache dependencies in GitLab CI/CD",
+          "slug": "cache-dependencies-in-gitlab-ci-cd"
+        },
+        {
+          "level": 3,
+          "title": ".gitlab-ci.yml reference",
+          "slug": "gitlab-ci-yml-reference"
+        },
+        {
+          "level": 3,
+          "title": "script",
+          "slug": "script"
         }
       ],
-      "lastUpdated": "9/3/2020, 11:49:18 AM"
+      "lastUpdated": "2/9/2021, 7:07:19 PM"
+    },
+    {
+      "title": "Git tips",
+      "frontmatter": {
+        "title": "Git tips"
+      },
+      "regularPath": "/blogs/2021-02-18-git-tips.html",
+      "relativePath": "blogs/2021-02-18-git-tips.md",
+      "key": "v-63b876a8",
+      "path": "/blogs/2021-02-18-git-tips.html",
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "开发环境配置",
@@ -3241,19 +2562,14 @@ export const siteData = {
       "path": "/blogs/2020-11-02-dev-platform.html",
       "headers": [
         {
-          "level": 2,
-          "title": "Windows",
-          "slug": "windows"
+          "level": 3,
+          "title": "字体",
+          "slug": "字体"
         },
         {
-          "level": 2,
-          "title": "Mac",
-          "slug": "mac"
-        },
-        {
-          "level": 2,
-          "title": "通用",
-          "slug": "通用"
+          "level": 3,
+          "title": "代理",
+          "slug": "代理"
         },
         {
           "level": 3,
@@ -3262,8 +2578,28 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "编辑器",
+          "slug": "编辑器"
+        },
+        {
+          "level": 3,
+          "title": "命令行",
+          "slug": "命令行"
+        },
+        {
+          "level": 3,
           "title": "开发相关",
           "slug": "开发相关"
+        },
+        {
+          "level": 3,
+          "title": "数据库",
+          "slug": "数据库"
+        },
+        {
+          "level": 3,
+          "title": "数据库工具",
+          "slug": "数据库工具"
         },
         {
           "level": 3,
@@ -3272,127 +2608,107 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "代理",
+          "slug": "代理-2"
+        },
+        {
+          "level": 3,
+          "title": "抓包",
+          "slug": "抓包"
+        },
+        {
+          "level": 3,
+          "title": "虚拟机 容器",
+          "slug": "虚拟机-容器"
+        },
+        {
+          "level": 3,
           "title": "设计",
           "slug": "设计"
-        }
-      ]
-    },
-    {
-      "title": "Blogs",
-      "frontmatter": {},
-      "regularPath": "/blogs/",
-      "relativePath": "blogs/index.md",
-      "key": "v-78a19e21",
-      "path": "/blogs/",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "Electron 在 Windows 平台下的自动更新",
-      "frontmatter": {
-        "title": "Electron 在 Windows 平台下的自动更新"
-      },
-      "regularPath": "/blogs/2020-10-03-electron-updater.html",
-      "relativePath": "blogs/2020-10-03-electron-updater.md",
-      "key": "v-44f992f0",
-      "path": "/blogs/2020-10-03-electron-updater.html",
-      "lastUpdated": "10/3/2020, 4:00:17 PM"
-    },
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "使用 Windows 平台调试 iPhone 设备中的网页",
-      "frontmatter": {
-        "title": "使用 Windows 平台调试 iPhone 设备中的网页"
-      },
-      "regularPath": "/blogs/2020-10-30-windows-ios-debug.html",
-      "relativePath": "blogs/2020-10-30-windows-ios-debug.md",
-      "key": "v-b2292da8",
-      "path": "/blogs/2020-10-30-windows-ios-debug.html",
-      "lastUpdated": "10/30/2020, 1:33:09 AM"
-    },
-    {
-      "title": "function expression 2020-1-9",
-=======
-      "title": "使用 Windows 作为工作开发环境",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "frontmatter": {
-        "title": "使用 Windows 作为工作开发环境"
-      },
-<<<<<<< HEAD
-      "regularPath": "/daily-interview-question/2020-01-09-function-expression.html",
-      "relativePath": "daily-interview-question/2020-01-09-function-expression.md",
-      "key": "v-2b8847c8",
-      "path": "/daily-interview-question/2020-01-09-function-expression.html",
-=======
-      "regularPath": "/blogs/2020-08-12-windows-develop-platform.html",
-      "relativePath": "blogs/2020-08-12-windows-develop-platform.md",
-      "key": "v-35db60bd",
-      "path": "/blogs/2020-08-12-windows-develop-platform.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "headers": [
-        {
-          "level": 3,
-          "title": "准备",
-          "slug": "准备"
-        },
-        {
-          "level": 3,
-          "title": "安装 WSL",
-          "slug": "安装-wsl"
-        },
-        {
-          "level": 3,
-          "title": "Windows Shells",
-          "slug": "windows-shells"
-        },
-        {
-          "level": 3,
-          "title": "开发环境",
-          "slug": "开发环境"
         },
         {
           "level": 3,
           "title": "工具",
           "slug": "工具"
+        },
+        {
+          "level": 3,
+          "title": "命令行工具",
+          "slug": "命令行工具"
+        },
+        {
+          "level": 2,
+          "title": "EMOJI",
+          "slug": "emoji"
         }
       ],
-      "lastUpdated": "9/3/2020, 11:49:18 AM"
+      "lastUpdated": "2/2/2021, 4:48:44 PM"
     },
     {
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "使用 Windows 平台调试 iPhone 设备中的网页",
+      "title": "Windows 配置 C++ 环境",
       "frontmatter": {
-        "title": "使用 Windows 平台调试 iPhone 设备中的网页"
+        "title": "Windows 配置 C++ 环境"
       },
-      "regularPath": "/blogs/2020-10-30-windows-ios-debug.html",
-      "relativePath": "blogs/2020-10-30-windows-ios-debug.md",
-      "key": "v-4db4ff61",
-      "path": "/blogs/2020-10-30-windows-ios-debug.html",
-      "lastUpdated": "10/30/2020, 1:33:09 AM"
+      "regularPath": "/blogs/2021-02-01-windows-cpp.html",
+      "relativePath": "blogs/2021-02-01-windows-cpp.md",
+      "key": "v-5aa6ba70",
+      "path": "/blogs/2021-02-01-windows-cpp.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "lastUpdated": "2/26/2021, 4:51:32 PM"
     },
     {
-      "title": "Blogs",
-      "frontmatter": {},
-      "regularPath": "/blogs/",
-      "relativePath": "blogs/index.md",
-      "key": "v-a9775154",
-      "path": "/blogs/",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "title": "学习编程的一些想法",
+      "frontmatter": {
+        "title": "学习编程的一些想法"
+      },
+      "regularPath": "/blogs/2021-03-03-learn-2-code.html",
+      "relativePath": "blogs/2021-03-03-learn-2-code.md",
+      "key": "v-4f1ff848",
+      "path": "/blogs/2021-03-03-learn-2-code.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "WHY",
+          "slug": "why"
+        },
+        {
+          "level": 2,
+          "title": "WHAT",
+          "slug": "what"
+        },
+        {
+          "level": 2,
+          "title": "HOW",
+          "slug": "how"
+        }
+      ],
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
-<<<<<<< HEAD
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
+      "title": "Windows 设置窗口置顶",
+      "frontmatter": {
+        "title": "Windows 设置窗口置顶"
+      },
+      "regularPath": "/blogs/2021-03-25-ahk.html",
+      "relativePath": "blogs/2021-03-25-ahk.md",
+      "key": "v-2b21bc20",
+      "path": "/blogs/2021-03-25-ahk.html",
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
+    },
+    {
       "title": "function expression 2020-1-9",
       "frontmatter": {
         "title": "function expression 2020-1-9"
       },
       "regularPath": "/daily-interview-question/2020-01-09-function-expression.html",
       "relativePath": "daily-interview-question/2020-01-09-function-expression.md",
-      "key": "v-14824bbd",
+      "key": "v-2b8847c8",
       "path": "/daily-interview-question/2020-01-09-function-expression.html",
       "headers": [
         {
@@ -3419,7 +2735,15 @@ export const siteData = {
       "lastUpdated": "2/18/2020, 5:46:56 PM"
     },
     {
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
+      "title": "Blogs",
+      "frontmatter": {},
+      "regularPath": "/blogs/",
+      "relativePath": "blogs/index.md",
+      "key": "v-78a19e21",
+      "path": "/blogs/",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
       "title": "Object type 2020-1-10",
       "frontmatter": {
         "title": "Object type 2020-1-10"
@@ -3459,11 +2783,7 @@ export const siteData = {
       },
       "regularPath": "/daily-interview-question/2020-01-11-weekend-share-hyper.html",
       "relativePath": "daily-interview-question/2020-01-11-weekend-share-hyper.md",
-<<<<<<< HEAD
       "key": "v-88714df0",
-=======
-      "key": "v-b67d4606",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "path": "/daily-interview-question/2020-01-11-weekend-share-hyper.html",
       "lastUpdated": "1/17/2020, 7:37:20 PM"
     },
@@ -3516,18 +2836,7 @@ export const siteData = {
           "slug": "参考"
         }
       ],
-      "lastUpdated": "2/18/2020, 5:46:56 PM"
-    },
-    {
-      "title": "Weekend Share - HTTPie",
-      "frontmatter": {
-        "title": "Weekend Share - HTTPie"
-      },
-      "regularPath": "/daily-interview-question/2020-01-18-weekend-share-http.html",
-      "relativePath": "daily-interview-question/2020-01-18-weekend-share-http.md",
-      "key": "v-2ec6d818",
-      "path": "/daily-interview-question/2020-01-18-weekend-share-http.html",
-      "lastUpdated": "1/18/2020, 12:14:27 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "Curry 2020-1-15",
@@ -3564,45 +2873,48 @@ export const siteData = {
       "lastUpdated": "2/18/2020, 5:46:56 PM"
     },
     {
-      "title": "NaN 2020-1-21",
+      "title": "使用github pages搭建博客",
       "frontmatter": {
-        "title": "NaN 2020-1-21"
+        "title": "使用github pages搭建博客"
       },
-      "regularPath": "/daily-interview-question/2020-01-21-NaN.html",
-      "relativePath": "daily-interview-question/2020-01-21-NaN.md",
-      "key": "v-fc231f70",
-      "path": "/daily-interview-question/2020-01-21-NaN.html",
+      "regularPath": "/blogs/2015-08-01-github-pages-blog.html",
+      "relativePath": "blogs/2015-08-01-github-pages-blog.md",
+      "key": "v-147695d2",
+      "path": "/blogs/2015-08-01-github-pages-blog.html",
       "headers": [
         {
           "level": 2,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "3/5/2020, 12:37:52 PM"
-    },
-    {
-      "title": "Call Stack 2020-1-17",
-      "frontmatter": {
-        "title": "Call Stack 2020-1-17"
-      },
-      "regularPath": "/daily-interview-question/2020-01-17-call-stack.html",
-      "relativePath": "daily-interview-question/2020-01-17-call-stack.md",
-      "key": "v-1544d2dc",
-      "path": "/daily-interview-question/2020-01-17-call-stack.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "VS code debug 的简单使用",
-          "slug": "vs-code-debug-的简单使用"
+          "title": "Getting Started",
+          "slug": "getting-started"
         },
         {
-          "level": 2,
-          "title": "参考",
-          "slug": "参考"
+          "level": 3,
+          "title": "创建项目",
+          "slug": "创建项目"
+        },
+        {
+          "level": 3,
+          "title": "安装 Jekyll",
+          "slug": "安装-jekyll"
+        },
+        {
+          "level": 3,
+          "title": "使用",
+          "slug": "使用"
         }
       ],
-      "lastUpdated": "2/18/2020, 5:46:56 PM"
+      "lastUpdated": "10/7/2020, 10:59:28 PM"
+    },
+    {
+      "title": "Weekend Share - HTTPie",
+      "frontmatter": {
+        "title": "Weekend Share - HTTPie"
+      },
+      "regularPath": "/daily-interview-question/2020-01-18-weekend-share-http.html",
+      "relativePath": "daily-interview-question/2020-01-18-weekend-share-http.md",
+      "key": "v-2ec6d818",
+      "path": "/daily-interview-question/2020-01-18-weekend-share-http.html",
+      "lastUpdated": "1/18/2020, 12:14:27 PM"
     },
     {
       "title": "Event Loop 2020-1-20",
@@ -3661,6 +2973,35 @@ export const siteData = {
       "lastUpdated": "2/18/2020, 5:46:56 PM"
     },
     {
+      "title": "NaN 2020-1-21",
+      "frontmatter": {
+        "title": "NaN 2020-1-21"
+      },
+      "regularPath": "/daily-interview-question/2020-01-21-NaN.html",
+      "relativePath": "daily-interview-question/2020-01-21-NaN.md",
+      "key": "v-fc231f70",
+      "path": "/daily-interview-question/2020-01-21-NaN.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "lastUpdated": "3/5/2020, 12:37:52 PM"
+    },
+    {
+      "title": "Holiday Share - Tabnine",
+      "frontmatter": {
+        "title": "Holiday Share - Tabnine"
+      },
+      "regularPath": "/daily-interview-question/2020-02-14-holiday-share-tabnine.html",
+      "relativePath": "daily-interview-question/2020-02-14-holiday-share-tabnine.md",
+      "key": "v-632e64f0",
+      "path": "/daily-interview-question/2020-02-14-holiday-share-tabnine.html",
+      "lastUpdated": "2/16/2020, 12:16:19 AM"
+    },
+    {
       "title": "Prototype Chain 2020-2-13",
       "frontmatter": {
         "title": "Prototype Chain 2020-2-13"
@@ -3682,17 +3023,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2/18/2020, 5:46:56 PM"
-    },
-    {
-      "title": "Holiday Share - Tabnine",
-      "frontmatter": {
-        "title": "Holiday Share - Tabnine"
-      },
-      "regularPath": "/daily-interview-question/2020-02-14-holiday-share-tabnine.html",
-      "relativePath": "daily-interview-question/2020-02-14-holiday-share-tabnine.md",
-      "key": "v-3bb46206",
-      "path": "/daily-interview-question/2020-02-14-holiday-share-tabnine.html",
-      "lastUpdated": "2/16/2020, 12:16:19 AM"
     },
     {
       "title": "Event Delegation 2020-2-17",
@@ -3718,163 +3048,6 @@ export const siteData = {
       "lastUpdated": "3/5/2020, 12:37:52 PM"
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "Host objects 2020-2-19",
-=======
-      "title": "Holiday Share - Tabnine",
-      "frontmatter": {
-        "title": "Holiday Share - Tabnine"
-      },
-      "regularPath": "/daily-interview-question/2020-02-14-holiday-share-tabnine.html",
-      "relativePath": "daily-interview-question/2020-02-14-holiday-share-tabnine.md",
-      "key": "v-3bb46206",
-      "path": "/daily-interview-question/2020-02-14-holiday-share-tabnine.html",
-      "lastUpdated": "2/16/2020, 12:16:19 AM"
-    },
-    {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "This 2020-2-18",
-      "frontmatter": {
-        "title": "This 2020-2-18"
-      },
-      "regularPath": "/daily-interview-question/2020-02-18-this.html",
-      "relativePath": "daily-interview-question/2020-02-18-this.md",
-      "key": "v-1a001a07",
-      "path": "/daily-interview-question/2020-02-18-this.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "问题： 请解释 JavaScript 中 this 是如何工作的。",
-          "slug": "问题-请解释-javascript-中-this-是如何工作的。"
-        },
-        {
-          "level": 2,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "2/18/2020, 5:46:56 PM"
-    },
-    {
-<<<<<<< HEAD
-      "title": "Feature detecion 2020-2-20",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
-      "title": "Host objects 2020-2-19",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "frontmatter": {
-        "title": "Host objects 2020-2-19"
-      },
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "regularPath": "/daily-interview-question/2020-02-19-host-object.html",
-      "relativePath": "daily-interview-question/2020-02-19-host-object.md",
-      "key": "v-192252e8",
-      "path": "/daily-interview-question/2020-02-19-host-object.html",
-=======
-      "regularPath": "/daily-interview-question/2020-02-20-feature-detection.html",
-      "relativePath": "daily-interview-question/2020-02-20-feature-detection.md",
-      "key": "v-4e5e7e46",
-      "path": "/daily-interview-question/2020-02-20-feature-detection.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
-      "regularPath": "/daily-interview-question/2020-02-19-host-object.html",
-      "relativePath": "daily-interview-question/2020-02-19-host-object.md",
-      "key": "v-77763e46",
-      "path": "/daily-interview-question/2020-02-19-host-object.html",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "headers": [
-        {
-          "level": 3,
-          "title": "问题：请指出 JavaScript 宿主对象 (host objects) 和原生对象 (native objects) 的区别？",
-          "slug": "问题-请指出-javascript-宿主对象-host-objects-和原生对象-native-objects-的区别"
-        },
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "2/20/2020, 6:01:06 PM"
-    },
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "Holiday Share - Tabnine",
-=======
-      "title": "Host objects 2020-2-19",
-=======
-      "title": "Feature detecion 2020-2-20",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "frontmatter": {
-        "title": "Feature detecion 2020-2-20"
-      },
-      "regularPath": "/daily-interview-question/2020-02-20-feature-detection.html",
-      "relativePath": "daily-interview-question/2020-02-20-feature-detection.md",
-      "key": "v-4e5e7e46",
-      "path": "/daily-interview-question/2020-02-20-feature-detection.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "请指出浏览器特性检测，特性推断和浏览器 UA 字符串嗅探的区别？",
-          "slug": "请指出浏览器特性检测-特性推断和浏览器-ua-字符串嗅探的区别"
-        },
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "3/2/2020, 10:02:04 PM"
-    },
-    {
-      "title": "Reference 2020-2-21",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "frontmatter": {
-        "title": "Holiday Share - Tabnine"
-      },
-      "regularPath": "/daily-interview-question/2020-02-14-holiday-share-tabnine.html",
-      "relativePath": "daily-interview-question/2020-02-14-holiday-share-tabnine.md",
-      "key": "v-632e64f0",
-      "path": "/daily-interview-question/2020-02-14-holiday-share-tabnine.html",
-      "lastUpdated": "2/16/2020, 12:16:19 AM"
-    },
-    {
-<<<<<<< HEAD
-      "title": "Weekend Share - fx",
-      "frontmatter": {
-        "title": "Weekend Share - fx"
-      },
-      "regularPath": "/daily-interview-question/2020-02-22-weekend-share-fx.html",
-      "relativePath": "daily-interview-question/2020-02-22-weekend-share-fx.md",
-      "key": "v-5768cc74",
-      "path": "/daily-interview-question/2020-02-22-weekend-share-fx.html",
-      "lastUpdated": "3/2/2020, 10:02:04 PM"
-    },
-    {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "Feature detecion 2020-2-24",
-      "frontmatter": {
-        "title": "Feature detecion 2020-2-24"
-      },
-      "regularPath": "/daily-interview-question/2020-02-24-loop.html",
-      "relativePath": "daily-interview-question/2020-02-24-loop.md",
-      "key": "v-46730bfc",
-      "path": "/daily-interview-question/2020-02-24-loop.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "问题",
-          "slug": "问题"
-        }
-      ],
-      "lastUpdated": "3/3/2020, 10:40:14 AM"
-    },
-    {
-<<<<<<< HEAD
       "title": "This 2020-2-18",
       "frontmatter": {
         "title": "This 2020-2-18"
@@ -3896,17 +3069,99 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2/18/2020, 5:46:56 PM"
-=======
+    },
+    {
+      "title": "Host objects 2020-2-19",
+      "frontmatter": {
+        "title": "Host objects 2020-2-19"
+      },
+      "regularPath": "/daily-interview-question/2020-02-19-host-object.html",
+      "relativePath": "daily-interview-question/2020-02-19-host-object.md",
+      "key": "v-192252e8",
+      "path": "/daily-interview-question/2020-02-19-host-object.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "问题：请指出 JavaScript 宿主对象 (host objects) 和原生对象 (native objects) 的区别？",
+          "slug": "问题-请指出-javascript-宿主对象-host-objects-和原生对象-native-objects-的区别"
+        },
+        {
+          "level": 3,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "lastUpdated": "2/20/2020, 6:01:06 PM"
+    },
+    {
+      "title": "Feature detecion 2020-2-20",
+      "frontmatter": {
+        "title": "Feature detecion 2020-2-20"
+      },
+      "regularPath": "/daily-interview-question/2020-02-20-feature-detection.html",
+      "relativePath": "daily-interview-question/2020-02-20-feature-detection.md",
+      "key": "v-62b47a68",
+      "path": "/daily-interview-question/2020-02-20-feature-detection.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "请指出浏览器特性检测，特性推断和浏览器 UA 字符串嗅探的区别？",
+          "slug": "请指出浏览器特性检测-特性推断和浏览器-ua-字符串嗅探的区别"
+        },
+        {
+          "level": 3,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "lastUpdated": "3/2/2020, 10:02:04 PM"
+    },
+    {
+      "title": "Reference 2020-2-21",
+      "frontmatter": {
+        "title": "Reference 2020-2-21"
+      },
+      "regularPath": "/daily-interview-question/2020-02-21-reference.html",
+      "relativePath": "daily-interview-question/2020-02-21-reference.md",
+      "key": "v-336b60a8",
+      "path": "/daily-interview-question/2020-02-21-reference.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "lastUpdated": "3/2/2020, 10:02:04 PM"
+    },
+    {
       "title": "Weekend Share - fx",
       "frontmatter": {
         "title": "Weekend Share - fx"
       },
       "regularPath": "/daily-interview-question/2020-02-22-weekend-share-fx.html",
       "relativePath": "daily-interview-question/2020-02-22-weekend-share-fx.md",
-      "key": "v-755e2c29",
+      "key": "v-5768cc74",
       "path": "/daily-interview-question/2020-02-22-weekend-share-fx.html",
       "lastUpdated": "3/2/2020, 10:02:04 PM"
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
+    },
+    {
+      "title": "Feature detecion 2020-2-24",
+      "frontmatter": {
+        "title": "Feature detecion 2020-2-24"
+      },
+      "regularPath": "/daily-interview-question/2020-02-24-loop.html",
+      "relativePath": "daily-interview-question/2020-02-24-loop.md",
+      "key": "v-46730bfc",
+      "path": "/daily-interview-question/2020-02-24-loop.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "问题",
+          "slug": "问题"
+        }
+      ],
+      "lastUpdated": "3/3/2020, 10:40:14 AM"
     },
     {
       "title": "Array duplicator 2020-2-25",
@@ -3947,7 +3202,7 @@ export const siteData = {
           "slug": "参考"
         }
       ],
-      "lastUpdated": "3/3/2020, 10:40:14 AM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "Iterator 2020-2-28",
@@ -3973,47 +3228,6 @@ export const siteData = {
       "lastUpdated": "3/3/2020, 10:40:14 AM"
     },
     {
-      "title": "Feature detecion 2020-2-20",
-      "frontmatter": {
-        "title": "Feature detecion 2020-2-20"
-      },
-      "regularPath": "/daily-interview-question/2020-02-20-feature-detection.html",
-      "relativePath": "daily-interview-question/2020-02-20-feature-detection.md",
-      "key": "v-62b47a68",
-      "path": "/daily-interview-question/2020-02-20-feature-detection.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "请指出浏览器特性检测，特性推断和浏览器 UA 字符串嗅探的区别？",
-          "slug": "请指出浏览器特性检测-特性推断和浏览器-ua-字符串嗅探的区别"
-        },
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "3/2/2020, 10:02:04 PM"
-    },
-    {
-      "title": "引用类型和默认参数 2020-3-4",
-      "frontmatter": {
-        "title": "引用类型和默认参数 2020-3-4"
-      },
-      "regularPath": "/daily-interview-question/2020-03-04-reference-param.html",
-      "relativePath": "daily-interview-question/2020-03-04-reference-param.md",
-      "key": "v-47d66228",
-      "path": "/daily-interview-question/2020-03-04-reference-param.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "输出是什么",
-          "slug": "输出是什么"
-        }
-      ],
-      "lastUpdated": "3/5/2020, 12:37:52 PM"
-    },
-    {
       "title": "Const 2020-3-3",
       "frontmatter": {
         "title": "Const 2020-3-3"
@@ -4035,6 +3249,47 @@ export const siteData = {
         }
       ],
       "lastUpdated": "3/3/2020, 3:31:28 PM"
+    },
+    {
+      "title": "引用类型和默认参数 2020-3-4",
+      "frontmatter": {
+        "title": "引用类型和默认参数 2020-3-4"
+      },
+      "regularPath": "/daily-interview-question/2020-03-04-reference-param.html",
+      "relativePath": "daily-interview-question/2020-03-04-reference-param.md",
+      "key": "v-47d66228",
+      "path": "/daily-interview-question/2020-03-04-reference-param.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "输出是什么",
+          "slug": "输出是什么"
+        }
+      ],
+      "lastUpdated": "3/5/2020, 12:37:52 PM"
+    },
+    {
+      "title": "Import namespace 2020-3-6",
+      "frontmatter": {
+        "title": "Import namespace 2020-3-6"
+      },
+      "regularPath": "/daily-interview-question/2020-03-06-import.html",
+      "relativePath": "daily-interview-question/2020-03-06-import.md",
+      "key": "v-df1a7400",
+      "path": "/daily-interview-question/2020-03-06-import.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "问题",
+          "slug": "问题"
+        },
+        {
+          "level": 3,
+          "title": "解释",
+          "slug": "解释"
+        }
+      ],
+      "lastUpdated": "3/9/2020, 11:36:08 AM"
     },
     {
       "title": "Super namespace 2020-3-7",
@@ -4060,46 +3315,14 @@ export const siteData = {
       "lastUpdated": "3/9/2020, 11:36:08 AM"
     },
     {
-      "title": "Reference 2020-2-21",
-      "frontmatter": {
-        "title": "Reference 2020-2-21"
-      },
-      "regularPath": "/daily-interview-question/2020-02-21-reference.html",
-      "relativePath": "daily-interview-question/2020-02-21-reference.md",
-      "key": "v-336b60a8",
-      "path": "/daily-interview-question/2020-02-21-reference.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "3/2/2020, 10:02:04 PM"
-    },
-    {
       "title": "后续参数 2020-3-12",
       "frontmatter": {
         "title": "后续参数 2020-3-12"
       },
-<<<<<<< HEAD
-<<<<<<< HEAD
       "regularPath": "/daily-interview-question/2020-03-12-default-argument.html",
       "relativePath": "daily-interview-question/2020-03-12-default-argument.md",
       "key": "v-44b67c6e",
       "path": "/daily-interview-question/2020-03-12-default-argument.html",
-=======
-      "regularPath": "/daily-interview-question/2020-03-16-Iterator.html",
-      "relativePath": "daily-interview-question/2020-03-16-Iterator.md",
-      "key": "v-620f1de1",
-      "path": "/daily-interview-question/2020-03-16-Iterator.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
-      "regularPath": "/daily-interview-question/2020-03-12-default-argument.html",
-      "relativePath": "daily-interview-question/2020-03-12-default-argument.md",
-      "key": "v-62abdc23",
-      "path": "/daily-interview-question/2020-03-12-default-argument.html",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "headers": [
         {
           "level": 3,
@@ -4113,51 +3336,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "3/16/2020, 10:59:41 AM"
-    },
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "Import namespace 2020-3-6",
-      "frontmatter": {
-        "title": "Import namespace 2020-3-6"
-      },
-      "regularPath": "/daily-interview-question/2020-03-06-import.html",
-      "relativePath": "daily-interview-question/2020-03-06-import.md",
-      "key": "v-df1a7400",
-      "path": "/daily-interview-question/2020-03-06-import.html",
-=======
-      "title": "后续参数 2020-3-12",
-=======
-      "title": "yield* 2020-3-16",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "frontmatter": {
-        "title": "yield* 2020-3-16"
-      },
-<<<<<<< HEAD
-      "regularPath": "/daily-interview-question/2020-03-12-default-argument.html",
-      "relativePath": "daily-interview-question/2020-03-12-default-argument.md",
-      "key": "v-62abdc23",
-      "path": "/daily-interview-question/2020-03-12-default-argument.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
-      "regularPath": "/daily-interview-question/2020-03-16-Iterator.html",
-      "relativePath": "daily-interview-question/2020-03-16-Iterator.md",
-      "key": "v-620f1de1",
-      "path": "/daily-interview-question/2020-03-16-Iterator.html",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "headers": [
-        {
-          "level": 3,
-          "title": "问题",
-          "slug": "问题"
-        },
-        {
-          "level": 3,
-          "title": "解释",
-          "slug": "解释"
-        }
-      ],
-      "lastUpdated": "3/9/2020, 11:36:08 AM"
     },
     {
       "title": "Class Private 2020-3-9",
@@ -4181,6 +3359,52 @@ export const siteData = {
         }
       ],
       "lastUpdated": "3/12/2020, 4:29:54 PM"
+    },
+    {
+      "title": "yield* 2020-3-16",
+      "frontmatter": {
+        "title": "yield* 2020-3-16"
+      },
+      "regularPath": "/daily-interview-question/2020-03-16-Iterator.html",
+      "relativePath": "daily-interview-question/2020-03-16-Iterator.md",
+      "key": "v-837c97a8",
+      "path": "/daily-interview-question/2020-03-16-Iterator.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "问题",
+          "slug": "问题"
+        },
+        {
+          "level": 3,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "lastUpdated": "3/16/2020, 10:59:41 AM"
+    },
+    {
+      "title": "Freeze 2020-3-17",
+      "frontmatter": {
+        "title": "Freeze 2020-3-17"
+      },
+      "regularPath": "/daily-interview-question/2020-03-17-freeze.html",
+      "relativePath": "daily-interview-question/2020-03-17-freeze.md",
+      "key": "v-21f0565c",
+      "path": "/daily-interview-question/2020-03-17-freeze.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "如何修改 person 对象",
+          "slug": "如何修改-person-对象"
+        },
+        {
+          "level": 3,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:47:46 PM"
     },
     {
       "title": "Seal 2020-3-19",
@@ -4229,6 +3453,29 @@ export const siteData = {
       "lastUpdated": "3/20/2020, 12:42:22 PM"
     },
     {
+      "title": "Event Loop 2020-3-23",
+      "frontmatter": {
+        "title": "Event Loop 2020-3-23"
+      },
+      "regularPath": "/daily-interview-question/2020-03-23-event-loop.html",
+      "relativePath": "daily-interview-question/2020-03-23-event-loop.md",
+      "key": "v-5c0e2a12",
+      "path": "/daily-interview-question/2020-03-23-event-loop.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "输出什么？",
+          "slug": "输出什么"
+        },
+        {
+          "level": 3,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "lastUpdated": "3/24/2020, 3:19:42 PM"
+    },
+    {
       "title": "Reference 2020-3-24",
       "frontmatter": {
         "title": "Reference 2020-3-24"
@@ -4270,55 +3517,14 @@ export const siteData = {
       "lastUpdated": "3/25/2020, 11:02:12 PM"
     },
     {
-<<<<<<< HEAD
-      "title": "yield* 2020-3-16",
-      "frontmatter": {
-        "title": "yield* 2020-3-16"
-      },
-      "regularPath": "/daily-interview-question/2020-03-16-Iterator.html",
-      "relativePath": "daily-interview-question/2020-03-16-Iterator.md",
-      "key": "v-837c97a8",
-      "path": "/daily-interview-question/2020-03-16-Iterator.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "问题",
-          "slug": "问题"
-        },
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "3/16/2020, 10:59:41 AM"
-    },
-    {
-      "title": "Const 2020-3-27",
-=======
       "title": "Finally 2020-3-26",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "frontmatter": {
         "title": "Finally 2020-3-26"
       },
-<<<<<<< HEAD
-<<<<<<< HEAD
       "regularPath": "/daily-interview-question/2020-03-26-finally.html",
       "relativePath": "daily-interview-question/2020-03-26-finally.md",
       "key": "v-01e3ddb0",
       "path": "/daily-interview-question/2020-03-26-finally.html",
-=======
-      "regularPath": "/daily-interview-question/2020-03-27-const.html",
-      "relativePath": "daily-interview-question/2020-03-27-const.md",
-      "key": "v-14d03606",
-      "path": "/daily-interview-question/2020-03-27-const.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
-      "regularPath": "/daily-interview-question/2020-03-26-finally.html",
-      "relativePath": "daily-interview-question/2020-03-26-finally.md",
-      "key": "v-4f24641d",
-      "path": "/daily-interview-question/2020-03-26-finally.html",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "headers": [
         {
           "level": 3,
@@ -4338,24 +3544,10 @@ export const siteData = {
       "frontmatter": {
         "title": "Const 2020-3-27"
       },
-<<<<<<< HEAD
-<<<<<<< HEAD
       "regularPath": "/daily-interview-question/2020-03-27-const.html",
       "relativePath": "daily-interview-question/2020-03-27-const.md",
       "key": "v-37dfcf88",
       "path": "/daily-interview-question/2020-03-27-const.html",
-=======
-      "regularPath": "/daily-interview-question/2020-03-26-finally.html",
-      "relativePath": "daily-interview-question/2020-03-26-finally.md",
-      "key": "v-4f24641d",
-      "path": "/daily-interview-question/2020-03-26-finally.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
-      "regularPath": "/daily-interview-question/2020-03-27-const.html",
-      "relativePath": "daily-interview-question/2020-03-27-const.md",
-      "key": "v-14d03606",
-      "path": "/daily-interview-question/2020-03-27-const.html",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "headers": [
         {
           "level": 3,
@@ -4369,15 +3561,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "3/30/2020, 1:11:54 PM"
-    },
-    {
-      "title": "每日面试题",
-      "frontmatter": {},
-      "regularPath": "/daily-interview-question/",
-      "relativePath": "daily-interview-question/index.md",
-      "key": "v-19d7d130",
-      "path": "/daily-interview-question/",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
       "title": "isNaN 2020-3-30",
@@ -4403,7 +3586,6 @@ export const siteData = {
       "lastUpdated": "3/30/2020, 1:11:54 PM"
     },
     {
-<<<<<<< HEAD
       "title": "每日面试题",
       "frontmatter": {},
       "regularPath": "/daily-interview-question/",
@@ -4413,88 +3595,42 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-      "title": "Web 缓存策略",
-=======
       "title": "升级 Android 9.0 (Android P)",
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
       "frontmatter": {
-        "title": "Web 缓存策略"
+        "title": "升级 Android 9.0 (Android P)"
       },
-      "regularPath": "/blogs/2018-07-20-cache-in-web.html",
-      "relativePath": "blogs/2018-07-20-cache-in-web.md",
-      "key": "v-7bfbaf68",
-      "path": "/blogs/2018-07-20-cache-in-web.html",
+      "regularPath": "/daily/2018-08-30-android-9.0.html",
+      "relativePath": "daily/2018-08-30-android-9.0.md",
+      "key": "v-a0554f58",
+      "path": "/daily/2018-08-30-android-9.0.html",
       "headers": [
         {
-          "level": 3,
-          "title": "缓存类型",
-          "slug": "缓存类型"
-        },
-        {
-          "level": 3,
-          "title": "缓存规则",
-          "slug": "缓存规则"
-        },
-        {
-          "level": 3,
-          "title": "ETags",
-          "slug": "etags"
+          "level": 2,
+          "title": "准备",
+          "slug": "准备"
         },
         {
           "level": 2,
-          "title": "比较",
-          "slug": "比较"
-        },
-        {
-          "level": 3,
-          "title": "Cache-Control 与 Expires",
-          "slug": "cache-control-与-expires"
-        },
-        {
-          "level": 3,
-          "title": "Last-Modified/ETag 与 Cache-Control/Expires",
-          "slug": "last-modified-etag-与-cache-control-expires"
-        },
-        {
-          "level": 3,
-          "title": "Last-Modified 与 ETag",
-          "slug": "last-modified-与-etag"
+          "title": "安装 ADB",
+          "slug": "安装-adb"
         },
         {
           "level": 2,
-          "title": "用户操作行为与缓存",
-          "slug": "用户操作行为与缓存"
+          "title": "开启 OEM",
+          "slug": "开启-oem"
         },
         {
           "level": 2,
-          "title": "参考",
-          "slug": "参考"
+          "title": "下载 9.0 镜像",
+          "slug": "下载-9-0-镜像"
+        },
+        {
+          "level": 2,
+          "title": "刷入镜像",
+          "slug": "刷入镜像"
         }
       ],
       "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "Freeze 2020-3-17",
-      "frontmatter": {
-        "title": "Freeze 2020-3-17"
-      },
-      "regularPath": "/daily-interview-question/2020-03-17-freeze.html",
-      "relativePath": "daily-interview-question/2020-03-17-freeze.md",
-      "key": "v-21f0565c",
-      "path": "/daily-interview-question/2020-03-17-freeze.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "如何修改 person 对象",
-          "slug": "如何修改-person-对象"
-        },
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:47:46 PM"
     },
     {
       "title": "如何选取车载手机支架",
@@ -4532,18 +3668,7 @@ export const siteData = {
           "slug": "吸盘式"
         }
       ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "美漫 Harley Quinn",
-      "frontmatter": {
-        "title": "美漫 Harley Quinn"
-      },
-      "regularPath": "/daily/2020-03-07.html",
-      "relativePath": "daily/2020-03-07.md",
-      "key": "v-ef4298b0",
-      "path": "/daily/2020-03-07.html",
-      "lastUpdated": "3/9/2020, 9:44:18 PM"
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "使用 Gmail 管理 QQ企业邮箱",
@@ -4574,304 +3699,6 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
-<<<<<<< HEAD
-=======
-      "title": "美漫 Harley Quinn",
-      "frontmatter": {
-        "title": "美漫 Harley Quinn"
-      },
-      "regularPath": "/daily/2020-03-07.html",
-      "relativePath": "daily/2020-03-07.md",
-      "key": "v-3b15c05d",
-      "path": "/daily/2020-03-07.html",
-      "lastUpdated": "3/9/2020, 9:44:18 PM"
-    },
-    {
-      "title": "租房 Checklist",
-      "frontmatter": {
-        "title": "租房 Checklist"
-      },
-      "regularPath": "/daily/2020-12-06-tenancy-checklist.html",
-      "relativePath": "daily/2020-12-06-tenancy-checklist.md",
-      "key": "v-75baa183",
-      "path": "/daily/2020-12-06-tenancy-checklist.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "💰 价格",
-          "slug": "💰-价格"
-        },
-        {
-          "level": 3,
-          "title": "📍 位置",
-          "slug": "📍-位置"
-        },
-        {
-          "level": 3,
-          "title": "居住舒适度",
-          "slug": "居住舒适度"
-        },
-        {
-          "level": 3,
-          "title": "周边设施",
-          "slug": "周边设施"
-        },
-        {
-          "level": 3,
-          "title": "家具",
-          "slug": "家具"
-        }
-      ],
-      "lastUpdated": "12/6/2020, 10:10:17 PM"
-    },
-    {
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "日常",
-      "frontmatter": {},
-      "regularPath": "/daily/",
-      "relativePath": "daily/index.md",
-      "key": "v-ecfca1be",
-      "path": "/daily/",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "如何学习前端",
-      "frontmatter": {
-        "title": "如何学习前端"
-      },
-      "regularPath": "/blogs/2018-08-03-learn-fe.html",
-      "relativePath": "blogs/2018-08-03-learn-fe.md",
-      "key": "v-5c2a0170",
-      "path": "/blogs/2018-08-03-learn-fe.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前端能做什么，为什么要学习前端？",
-          "slug": "前端能做什么-为什么要学习前端"
-        },
-        {
-          "level": 2,
-          "title": "准备",
-          "slug": "准备"
-        },
-        {
-          "level": 2,
-          "title": "\bHTML 和 CSS",
-          "slug": "html-和-css"
-        },
-        {
-          "level": 3,
-          "title": "推荐书籍：",
-          "slug": "推荐书籍"
-        },
-        {
-          "level": 3,
-          "title": "参考文献与标准",
-          "slug": "参考文献与标准"
-        },
-        {
-          "level": 2,
-          "title": "Javascript",
-          "slug": "javascript"
-        },
-        {
-          "level": 3,
-          "title": "书单",
-          "slug": "书单"
-        },
-        {
-          "level": 3,
-          "title": "参考文献",
-          "slug": "参考文献"
-        },
-        {
-          "level": 2,
-          "title": "HTTP",
-          "slug": "http"
-        },
-        {
-          "level": 2,
-          "title": "学习路线",
-          "slug": "学习路线"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "9月 第一周",
-      "frontmatter": {
-        "title": "9月 第一周"
-      },
-      "regularPath": "/notes/2020-09-weekly-1st.html",
-      "relativePath": "notes/2020-09-weekly-1st.md",
-      "key": "v-0f280d74",
-      "path": "/notes/2020-09-weekly-1st.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "资料",
-          "slug": "资料"
-        },
-        {
-          "level": 3,
-          "title": "书籍",
-          "slug": "书籍"
-        },
-        {
-          "level": 3,
-          "title": "调研",
-          "slug": "调研"
-        }
-      ],
-      "lastUpdated": "9/21/2020, 7:40:38 PM"
-    },
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "发音组件",
-      "frontmatter": {
-        "title": "发音组件"
-      },
-      "regularPath": "/notes/2019-12-15-english-pronounce.html",
-      "relativePath": "notes/2019-12-15-english-pronounce.md",
-      "key": "v-527d0a28",
-      "path": "/notes/2019-12-15-english-pronounce.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "复合元音字母的读音规则",
-          "slug": "复合元音字母的读音规则"
-        }
-      ],
-      "lastUpdated": "3/9/2020, 9:44:18 PM"
-=======
-=======
-      "title": "9月 第三周",
-      "frontmatter": {
-        "title": "9月 第三周"
-      },
-      "regularPath": "/notes/2020-09-weekly-3rd.html",
-      "relativePath": "notes/2020-09-weekly-3rd.md",
-      "key": "v-ea4600d6",
-      "path": "/notes/2020-09-weekly-3rd.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "谷歌扩展",
-          "slug": "谷歌扩展"
-        },
-        {
-          "level": 3,
-          "title": "VS Code 扩展",
-          "slug": "vs-code-扩展"
-        },
-        {
-          "level": 3,
-          "title": "代码",
-          "slug": "代码"
-        }
-      ],
-      "lastUpdated": "9/29/2020, 6:04:27 PM"
-    },
-    {
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "10月 第一周",
-      "frontmatter": {
-        "title": "10月 第一周"
-      },
-      "regularPath": "/notes/2020-10-weekly-1st.html",
-      "relativePath": "notes/2020-10-weekly-1st.md",
-      "key": "v-d7e271b2",
-      "path": "/notes/2020-10-weekly-1st.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "服务",
-          "slug": "服务"
-        },
-        {
-          "level": 3,
-          "title": "开发工具",
-          "slug": "开发工具"
-        },
-        {
-          "level": 3,
-          "title": "硬件",
-          "slug": "硬件"
-        },
-        {
-          "level": 3,
-          "title": "Nuxt",
-          "slug": "nuxt"
-        }
-      ],
-      "lastUpdated": "10/7/2020, 10:59:28 PM"
-    },
-    {
-      "title": "10月 第二周",
-      "frontmatter": {
-        "title": "10月 第二周"
-      },
-      "regularPath": "/notes/2020-10-weekly-2nd.html",
-      "relativePath": "notes/2020-10-weekly-2nd.md",
-      "key": "v-782a797b",
-      "path": "/notes/2020-10-weekly-2nd.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "Electron",
-          "slug": "electron"
-        },
-        {
-          "level": 3,
-          "title": "Node",
-          "slug": "node"
-        },
-        {
-          "level": 3,
-          "title": "github webhooks",
-          "slug": "github-webhooks"
-        },
-        {
-          "level": 3,
-          "title": "软件",
-          "slug": "软件"
-        }
-      ],
-      "lastUpdated": "10/22/2020, 4:08:30 PM"
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-    },
-    {
-<<<<<<< HEAD
-      "title": "9月 第三周",
-      "frontmatter": {
-        "title": "9月 第三周"
-      },
-      "regularPath": "/notes/2020-09-weekly-3rd.html",
-      "relativePath": "notes/2020-09-weekly-3rd.md",
-      "key": "v-27a3fce0",
-      "path": "/notes/2020-09-weekly-3rd.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "谷歌扩展",
-          "slug": "谷歌扩展"
-        },
-        {
-          "level": 3,
-          "title": "VS Code 扩展",
-          "slug": "vs-code-扩展"
-        },
-        {
-          "level": 3,
-          "title": "代码",
-          "slug": "代码"
-        }
-      ],
-      "lastUpdated": "9/29/2020, 6:04:27 PM"
-    },
-    {
-<<<<<<< HEAD
       "title": "Google pixel 3 手机刷入 recovery (TWRP) 和 root (Magisk)",
       "frontmatter": {
         "title": "Google pixel 3 手机刷入 recovery (TWRP) 和 root (Magisk)"
@@ -4915,6 +3742,181 @@ export const siteData = {
       "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
+      "title": "租房 Checklist",
+      "frontmatter": {
+        "title": "租房 Checklist"
+      },
+      "regularPath": "/daily/2020-12-06-tenancy-checklist.html",
+      "relativePath": "daily/2020-12-06-tenancy-checklist.md",
+      "key": "v-621de964",
+      "path": "/daily/2020-12-06-tenancy-checklist.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "💰 价格",
+          "slug": "💰-价格"
+        },
+        {
+          "level": 3,
+          "title": "📍 位置",
+          "slug": "📍-位置"
+        },
+        {
+          "level": 3,
+          "title": "居住舒适度",
+          "slug": "居住舒适度"
+        },
+        {
+          "level": 3,
+          "title": "周边设施",
+          "slug": "周边设施"
+        },
+        {
+          "level": 3,
+          "title": "家具",
+          "slug": "家具"
+        }
+      ],
+      "lastUpdated": "12/6/2020, 10:10:17 PM"
+    },
+    {
+      "title": "美漫 Harley Quinn",
+      "frontmatter": {
+        "title": "美漫 Harley Quinn"
+      },
+      "regularPath": "/daily/2020-03-07.html",
+      "relativePath": "daily/2020-03-07.md",
+      "key": "v-ef4298b0",
+      "path": "/daily/2020-03-07.html",
+      "lastUpdated": "3/9/2020, 9:44:18 PM"
+    },
+    {
+      "title": "我的工作台",
+      "frontmatter": {
+        "title": "我的工作台"
+      },
+      "regularPath": "/daily/2021-04-08-desktop.html",
+      "relativePath": "daily/2021-04-08-desktop.md",
+      "key": "v-607ac5c8",
+      "path": "/daily/2021-04-08-desktop.html"
+    },
+    {
+      "title": "日常",
+      "frontmatter": {},
+      "regularPath": "/daily/",
+      "relativePath": "daily/index.md",
+      "key": "v-ecfca1be",
+      "path": "/daily/",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
+    },
+    {
+      "title": "9月 第一周",
+      "frontmatter": {
+        "title": "9月 第一周"
+      },
+      "regularPath": "/notes/2020-09-weekly-1st.html",
+      "relativePath": "notes/2020-09-weekly-1st.md",
+      "key": "v-0f280d74",
+      "path": "/notes/2020-09-weekly-1st.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "资料",
+          "slug": "资料"
+        },
+        {
+          "level": 3,
+          "title": "书籍",
+          "slug": "书籍"
+        },
+        {
+          "level": 3,
+          "title": "调研",
+          "slug": "调研"
+        }
+      ],
+      "lastUpdated": "9/21/2020, 7:40:38 PM"
+    },
+    {
+      "title": "发音组件",
+      "frontmatter": {
+        "title": "发音组件"
+      },
+      "regularPath": "/notes/2019-12-15-english-pronounce.html",
+      "relativePath": "notes/2019-12-15-english-pronounce.md",
+      "key": "v-527d0a28",
+      "path": "/notes/2019-12-15-english-pronounce.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "复合元音字母的读音规则",
+          "slug": "复合元音字母的读音规则"
+        }
+      ],
+      "lastUpdated": "3/9/2020, 9:44:18 PM"
+    },
+    {
+      "title": "9月 第三周",
+      "frontmatter": {
+        "title": "9月 第三周"
+      },
+      "regularPath": "/notes/2020-09-weekly-3rd.html",
+      "relativePath": "notes/2020-09-weekly-3rd.md",
+      "key": "v-27a3fce0",
+      "path": "/notes/2020-09-weekly-3rd.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "谷歌扩展",
+          "slug": "谷歌扩展"
+        },
+        {
+          "level": 3,
+          "title": "VS Code 扩展",
+          "slug": "vs-code-扩展"
+        },
+        {
+          "level": 3,
+          "title": "代码",
+          "slug": "代码"
+        }
+      ],
+      "lastUpdated": "9/29/2020, 6:04:27 PM"
+    },
+    {
+      "title": "10月 第一周",
+      "frontmatter": {
+        "title": "10月 第一周"
+      },
+      "regularPath": "/notes/2020-10-weekly-1st.html",
+      "relativePath": "notes/2020-10-weekly-1st.md",
+      "key": "v-30d5c472",
+      "path": "/notes/2020-10-weekly-1st.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "服务",
+          "slug": "服务"
+        },
+        {
+          "level": 3,
+          "title": "开发工具",
+          "slug": "开发工具"
+        },
+        {
+          "level": 3,
+          "title": "硬件",
+          "slug": "硬件"
+        },
+        {
+          "level": 3,
+          "title": "Nuxt",
+          "slug": "nuxt"
+        }
+      ],
+      "lastUpdated": "10/7/2020, 10:59:28 PM"
+    },
+    {
       "title": "10月 第二周",
       "frontmatter": {
         "title": "10月 第二周"
@@ -4948,197 +3950,6 @@ export const siteData = {
       "lastUpdated": "10/22/2020, 4:08:30 PM"
     },
     {
-      "title": "理解原型",
-      "frontmatter": {
-        "title": "理解原型"
-      },
-      "regularPath": "/blogs/2015-06-27-to-understand-the-prototype.html",
-      "relativePath": "blogs/2015-06-27-to-understand-the-prototype.md",
-      "key": "v-113dac5e",
-      "path": "/blogs/2015-06-27-to-understand-the-prototype.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "11月 第一周",
-      "frontmatter": {
-        "title": "11月 第一周"
-      },
-      "regularPath": "/notes/2020-11-weekly-1st.html",
-      "relativePath": "notes/2020-11-weekly-1st.md",
-      "key": "v-1c2064f4",
-      "path": "/notes/2020-11-weekly-1st.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "Web",
-          "slug": "web"
-        },
-        {
-          "level": 3,
-          "title": "Nuxt",
-          "slug": "nuxt"
-        },
-        {
-          "level": 3,
-          "title": "React",
-          "slug": "react"
-        }
-      ]
-    },
-    {
-      "title": "笔记",
-      "frontmatter": {},
-      "regularPath": "/notes/",
-      "relativePath": "notes/index.md",
-      "key": "v-56897421",
-      "path": "/notes/",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "10月 第一周",
-=======
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "10月 第三周",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "frontmatter": {
-        "title": "10月 第三周"
-      },
-<<<<<<< HEAD
-      "regularPath": "/notes/2020-10-weekly-1st.html",
-      "relativePath": "notes/2020-10-weekly-1st.md",
-      "key": "v-30d5c472",
-      "path": "/notes/2020-10-weekly-1st.html",
-=======
-      "regularPath": "/notes/2020-10-weekly-3rd.html",
-      "relativePath": "notes/2020-10-weekly-3rd.md",
-      "key": "v-79726a7e",
-      "path": "/notes/2020-10-weekly-3rd.html",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-      "headers": [
-        {
-          "level": 3,
-          "title": "System",
-          "slug": "system"
-        },
-        {
-          "level": 3,
-          "title": "软件",
-          "slug": "软件"
-        }
-      ],
-      "lastUpdated": "10/30/2020, 12:05:43 PM"
-    },
-    {
-      "title": "10月 第四周",
-      "frontmatter": {
-        "title": "10月 第四周"
-      },
-      "regularPath": "/notes/2020-10-weekly-4th.html",
-      "relativePath": "notes/2020-10-weekly-4th.md",
-      "key": "v-5b90ce0a",
-      "path": "/notes/2020-10-weekly-4th.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "前端",
-          "slug": "前端"
-        },
-        {
-          "level": 3,
-          "title": "Pixel",
-          "slug": "pixel"
-        },
-        {
-          "level": 3,
-          "title": "React",
-          "slug": "react"
-        }
-      ],
-<<<<<<< HEAD
-      "lastUpdated": "10/7/2020, 10:59:28 PM"
-    },
-    {
-      "title": "资源分享",
-      "frontmatter": {},
-      "regularPath": "/share/",
-      "relativePath": "share/index.md",
-      "key": "v-d2a0c83e",
-      "path": "/share/",
-      "lastUpdated": "10/30/2020, 12:05:43 PM"
-=======
-      "lastUpdated": "10/31/2020, 7:20:49 PM"
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-    },
-    {
-      "title": "笔记",
-      "frontmatter": {},
-      "regularPath": "/notes/",
-      "relativePath": "notes/index.md",
-      "key": "v-eda7a554",
-      "path": "/notes/",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-    },
-    {
-      "title": "leetcode 记录",
-      "frontmatter": {
-        "title": "leetcode 记录"
-      },
-      "regularPath": "/notes/leetcode.html",
-      "relativePath": "notes/leetcode.md",
-      "key": "v-430aa764",
-      "path": "/notes/leetcode.html",
-      "lastUpdated": "3/27/2020, 2:55:21 PM"
-    },
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "title": "Event Loop 2020-3-23",
-      "frontmatter": {
-        "title": "Event Loop 2020-3-23"
-      },
-      "regularPath": "/daily-interview-question/2020-03-23-event-loop.html",
-      "relativePath": "daily-interview-question/2020-03-23-event-loop.md",
-      "key": "v-5c0e2a12",
-      "path": "/daily-interview-question/2020-03-23-event-loop.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "输出什么？",
-          "slug": "输出什么"
-        },
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ],
-      "lastUpdated": "3/24/2020, 3:19:42 PM"
-    },
-    {
-      "title": "10月 第三周",
-      "frontmatter": {
-        "title": "10月 第三周"
-      },
-      "regularPath": "/notes/2020-10-weekly-3rd.html",
-      "relativePath": "notes/2020-10-weekly-3rd.md",
-      "key": "v-600dc80c",
-      "path": "/notes/2020-10-weekly-3rd.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "System",
-          "slug": "system"
-        },
-        {
-          "level": 3,
-          "title": "软件",
-          "slug": "软件"
-        }
-      ],
-      "lastUpdated": "10/30/2020, 12:05:43 PM"
-    },
-    {
       "title": "10月 第四周",
       "frontmatter": {
         "title": "10月 第四周"
@@ -5169,111 +3980,288 @@ export const siteData = {
           "slug": "google"
         }
       ],
-      "lastUpdated": "10/31/2020, 7:20:49 PM"
+      "lastUpdated": "11/12/2020, 2:30:26 PM"
     },
     {
-      "title": "CSS制作三角形",
+      "title": "10月 第三周",
       "frontmatter": {
-        "title": "CSS制作三角形"
+        "title": "10月 第三周"
       },
-      "regularPath": "/blogs/2013-11-13-css-triangle.html",
-      "relativePath": "blogs/2013-11-13-css-triangle.md",
-      "key": "v-89028670",
-      "path": "/blogs/2013-11-13-css-triangle.html",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "regularPath": "/notes/2020-10-weekly-3rd.html",
+      "relativePath": "notes/2020-10-weekly-3rd.md",
+      "key": "v-600dc80c",
+      "path": "/notes/2020-10-weekly-3rd.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "System",
+          "slug": "system"
+        },
+        {
+          "level": 3,
+          "title": "软件",
+          "slug": "软件"
+        }
+      ],
+      "lastUpdated": "10/30/2020, 12:05:43 PM"
     },
     {
-      "title": "闲置物品租借",
-      "frontmatter": {},
-      "regularPath": "/share/lease.html",
-      "relativePath": "share/lease.md",
-      "key": "v-37dbe2e8",
-=======
-      "title": "笔记",
-      "frontmatter": {},
-      "regularPath": "/notes/",
-      "relativePath": "notes/index.md",
-      "key": "v-eda7a554",
-      "path": "/notes/",
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
+      "title": "11月 第一周",
+      "frontmatter": {
+        "title": "11月 第一周"
+      },
+      "regularPath": "/notes/2020-11-weekly-1st.html",
+      "relativePath": "notes/2020-11-weekly-1st.md",
+      "key": "v-1c2064f4",
+      "path": "/notes/2020-11-weekly-1st.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "Web",
+          "slug": "web"
+        },
+        {
+          "level": 3,
+          "title": "Nuxt",
+          "slug": "nuxt"
+        },
+        {
+          "level": 3,
+          "title": "React",
+          "slug": "react"
+        }
+      ],
+      "lastUpdated": "11/12/2020, 2:30:26 PM"
     },
     {
-=======
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
-      "title": "分享",
+      "title": "11月 第三周",
+      "frontmatter": {
+        "title": "11月 第三周"
+      },
+      "regularPath": "/notes/2020-11-weekly-3rd.html",
+      "relativePath": "notes/2020-11-weekly-3rd.md",
+      "key": "v-4b58688e",
+      "path": "/notes/2020-11-weekly-3rd.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "Go",
+          "slug": "go"
+        },
+        {
+          "level": 3,
+          "title": "Javascript",
+          "slug": "javascript"
+        }
+      ],
+      "lastUpdated": "11/23/2020, 11:29:19 AM"
+    },
+    {
+      "title": "11月 第四周",
+      "frontmatter": {
+        "title": "11月 第四周"
+      },
+      "regularPath": "/notes/2020-11-weekly-4th.html",
+      "relativePath": "notes/2020-11-weekly-4th.md",
+      "key": "v-5a4936c8",
+      "path": "/notes/2020-11-weekly-4th.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "Go",
+          "slug": "go"
+        },
+        {
+          "level": 3,
+          "title": "Javascript",
+          "slug": "javascript"
+        }
+      ],
+      "lastUpdated": "1/16/2021, 8:02:31 PM"
+    },
+    {
+      "title": "12月 第二周",
+      "frontmatter": {
+        "title": "12月 第二周"
+      },
+      "regularPath": "/notes/2020-12-weekly-2nd.html",
+      "relativePath": "notes/2020-12-weekly-2nd.md",
+      "key": "v-28f2906c",
+      "path": "/notes/2020-12-weekly-2nd.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "jsbox",
+          "slug": "jsbox"
+        },
+        {
+          "level": 3,
+          "title": "Electron",
+          "slug": "electron"
+        }
+      ],
+      "lastUpdated": "1/16/2021, 8:02:31 PM"
+    },
+    {
+      "title": "2月 第四周",
+      "frontmatter": {
+        "title": "2月 第四周"
+      },
+      "regularPath": "/notes/2021-02-weekly-4th.html",
+      "relativePath": "notes/2021-02-weekly-4th.md",
+      "key": "v-2e12406c",
+      "path": "/notes/2021-02-weekly-4th.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "HTML",
+          "slug": "html"
+        },
+        {
+          "level": 3,
+          "title": "CSS",
+          "slug": "css"
+        }
+      ],
+      "lastUpdated": "2/26/2021, 4:51:32 PM"
+    },
+    {
+      "title": "2月 第三周",
+      "frontmatter": {
+        "title": "2月 第三周"
+      },
+      "regularPath": "/notes/2021-02-weekly-3rd.html",
+      "relativePath": "notes/2021-02-weekly-3rd.md",
+      "key": "v-4bf3dce0",
+      "path": "/notes/2021-02-weekly-3rd.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "学习",
+          "slug": "学习"
+        },
+        {
+          "level": 3,
+          "title": "JS",
+          "slug": "js"
+        },
+        {
+          "level": 3,
+          "title": "TS",
+          "slug": "ts"
+        },
+        {
+          "level": 3,
+          "title": "Chrome",
+          "slug": "chrome"
+        },
+        {
+          "level": 3,
+          "title": "HTTP",
+          "slug": "http"
+        }
+      ],
+      "lastUpdated": "2/26/2021, 4:51:32 PM"
+    },
+    {
+      "title": "12月 第四周",
+      "frontmatter": {
+        "title": "12月 第四周"
+      },
+      "regularPath": "/notes/2020-12-weekly-4th.html",
+      "relativePath": "notes/2020-12-weekly-4th.md",
+      "key": "v-4593d74a",
+      "path": "/notes/2020-12-weekly-4th.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "Vue",
+          "slug": "vue"
+        }
+      ],
+      "lastUpdated": "1/16/2021, 8:02:31 PM"
+    },
+    {
+      "title": "3月 第三周",
+      "frontmatter": {
+        "title": "3月 第三周"
+      },
+      "regularPath": "/notes/2021-03-weekly-3rd.html",
+      "relativePath": "notes/2021-03-weekly-3rd.md",
+      "key": "v-755e9bdc",
+      "path": "/notes/2021-03-weekly-3rd.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "CSS",
+          "slug": "css"
+        },
+        {
+          "level": 3,
+          "title": "Node",
+          "slug": "node"
+        },
+        {
+          "level": 3,
+          "title": "Nginx",
+          "slug": "nginx"
+        }
+      ],
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
+    },
+    {
+      "title": "4月 第一周",
+      "frontmatter": {
+        "title": "4月 第一周"
+      },
+      "regularPath": "/notes/2021-04-weekly-1st.html",
+      "relativePath": "notes/2021-04-weekly-1st.md",
+      "key": "v-fd39620c",
+      "path": "/notes/2021-04-weekly-1st.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "微信",
+          "slug": "微信"
+        },
+        {
+          "level": 3,
+          "title": "Linux",
+          "slug": "linux"
+        }
+      ],
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
+    },
+    {
+      "title": "leetcode 记录",
+      "frontmatter": {
+        "title": "leetcode 记录"
+      },
+      "regularPath": "/notes/leetcode.html",
+      "relativePath": "notes/leetcode.md",
+      "key": "v-430aa764",
+      "path": "/notes/leetcode.html",
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
+    },
+    {
+      "title": "书籍",
       "frontmatter": {},
-      "regularPath": "/share/",
-      "relativePath": "share/index.md",
-      "key": "v-6d5b55d4",
-      "path": "/share/",
-      "lastUpdated": "11/23/2020, 12:28:30 AM"
+      "regularPath": "/share/books.html",
+      "relativePath": "share/books.md",
+      "key": "v-60826630",
+      "path": "/share/books.html",
+      "lastUpdated": "4/1/2021, 12:00:19 PM"
     },
     {
       "title": "租借（共享）",
       "frontmatter": {},
       "regularPath": "/share/lease.html",
       "relativePath": "share/lease.md",
-      "key": "v-20845ddd",
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
+      "key": "v-37dbe2e8",
       "path": "/share/lease.html",
       "headers": [
         {
           "level": 2,
-<<<<<<< HEAD
-          "title": "工具",
-          "slug": "工具"
-        },
-        {
-          "level": 2,
-          "title": "书籍",
-          "slug": "书籍"
-        },
-        {
-          "level": 2,
-          "title": "账号",
-          "slug": "账号"
-        }
-      ],
-      "lastUpdated": "10/31/2020, 7:20:49 PM"
-    },
-    {
-      "title": "升级 Android 9.0 (Android P)",
-      "frontmatter": {
-        "title": "升级 Android 9.0 (Android P)"
-      },
-      "regularPath": "/daily/2018-08-30-android-9.0.html",
-      "relativePath": "daily/2018-08-30-android-9.0.md",
-      "key": "v-a0554f58",
-      "path": "/daily/2018-08-30-android-9.0.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "准备",
-          "slug": "准备"
-        },
-        {
-          "level": 2,
-          "title": "安装 ADB",
-          "slug": "安装-adb"
-        },
-        {
-          "level": 2,
-          "title": "开启 OEM",
-          "slug": "开启-oem"
-        },
-        {
-          "level": 2,
-          "title": "下载 9.0 镜像",
-          "slug": "下载-9-0-镜像"
-        },
-        {
-          "level": 2,
-          "title": "刷入镜像",
-          "slug": "刷入镜像"
-        }
-      ],
-      "lastUpdated": "1/12/2020, 2:13:52 PM"
-=======
           "title": "电动工具",
           "slug": "电动工具"
         },
@@ -5291,23 +4279,93 @@ export const siteData = {
           "level": 2,
           "title": "其他",
           "slug": "其他"
+        },
+        {
+          "level": 2,
+          "title": "宠物",
+          "slug": "宠物"
         }
       ],
+      "lastUpdated": "2/2/2021, 4:48:44 PM"
+    },
+    {
+      "title": "分享",
+      "frontmatter": {},
+      "regularPath": "/share/",
+      "relativePath": "share/index.md",
+      "key": "v-d2a0c83e",
+      "path": "/share/",
       "lastUpdated": "11/23/2020, 12:28:30 AM"
+    },
+    {
+      "title": "笔记",
+      "frontmatter": {},
+      "regularPath": "/notes/",
+      "relativePath": "notes/index.md",
+      "key": "v-56897421",
+      "path": "/notes/",
+      "lastUpdated": "1/12/2020, 2:13:52 PM"
     },
     {
       "title": "资源分享",
       "frontmatter": {},
       "regularPath": "/share/lession.html",
       "relativePath": "share/lession.md",
-      "key": "v-25337f3d",
-<<<<<<< HEAD
-      "path": "/share/lession.html"
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
-=======
+      "key": "v-0bdb86c8",
       "path": "/share/lession.html",
-      "lastUpdated": "11/23/2020, 12:28:30 AM"
->>>>>>> 80e182004a029c70ec5795f0a10725a632c28a71
+      "lastUpdated": "1/16/2021, 8:02:31 PM"
+    },
+    {
+      "title": "分享 Chrome 书签",
+      "frontmatter": {
+        "title": "分享 Chrome 书签"
+      },
+      "regularPath": "/blogs/2018-12-03-chrome-bookmark.html",
+      "relativePath": "blogs/2018-12-03-chrome-bookmark.md",
+      "key": "v-57e0e792",
+      "path": "/blogs/2018-12-03-chrome-bookmark.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "如何使用",
+          "slug": "如何使用"
+        }
+      ],
+      "lastUpdated": "2/17/2020, 5:20:56 PM"
+    },
+    {
+      "title": "HTML/CSS代码风格指南",
+      "frontmatter": {
+        "title": "HTML/CSS代码风格指南"
+      },
+      "regularPath": "/blogs/2013-04-30-html-css-code-style.html",
+      "relativePath": "blogs/2013-04-30-html-css-code-style.md",
+      "key": "v-542dcec6",
+      "path": "/blogs/2013-04-30-html-css-code-style.html",
+      "lastUpdated": "10/7/2020, 10:59:28 PM"
+    },
+    {
+      "title": "Call Stack 2020-1-17",
+      "frontmatter": {
+        "title": "Call Stack 2020-1-17"
+      },
+      "regularPath": "/daily-interview-question/2020-01-17-call-stack.html",
+      "relativePath": "daily-interview-question/2020-01-17-call-stack.md",
+      "key": "v-1544d2dc",
+      "path": "/daily-interview-question/2020-01-17-call-stack.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "VS code debug 的简单使用",
+          "slug": "vs-code-debug-的简单使用"
+        },
+        {
+          "level": 2,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ],
+      "lastUpdated": "2/18/2020, 5:46:56 PM"
     }
   ],
   "themeConfig": {
@@ -5340,6 +4398,12 @@ export const siteData = {
     "sidebar": {
       "/blogs/": [
         "",
+        "/blogs/2021-03-25-ahk.html",
+        "/blogs/2021-03-03-learn-2-code.html",
+        "/blogs/2021-02-18-git-tips.html",
+        "/blogs/2021-02-01-windows-cpp.html",
+        "/blogs/2021-02-01-gitlab-ci.html",
+        "/blogs/2020-12-28-powershell-modules.html",
         "/blogs/2020-11-02-dev-platform.html",
         "/blogs/2020-10-30-windows-ios-debug.html",
         "/blogs/2020-10-03-electron-updater.html",
@@ -5426,6 +4490,7 @@ export const siteData = {
       ],
       "/daily/": [
         "",
+        "/daily/2021-04-08-desktop.html",
         "/daily/2020-12-06-tenancy-checklist.html",
         "/daily/2020-03-07.html",
         "/daily/2019-08-14-gmail.html",
@@ -5436,10 +4501,15 @@ export const siteData = {
       "/notes/": [
         "",
         "/notes/leetcode.html",
-<<<<<<< HEAD
+        "/notes/2021-04-weekly-1st.html",
+        "/notes/2021-03-weekly-3rd.html",
+        "/notes/2021-02-weekly-4th.html",
+        "/notes/2021-02-weekly-3rd.html",
+        "/notes/2020-12-weekly-4th.html",
+        "/notes/2020-12-weekly-2nd.html",
+        "/notes/2020-11-weekly-4th.html",
+        "/notes/2020-11-weekly-3rd.html",
         "/notes/2020-11-weekly-1st.html",
-=======
->>>>>>> 0044c0dbb24bf9d45d35c4124057ef5fa7a48f28
         "/notes/2020-10-weekly-4th.html",
         "/notes/2020-10-weekly-3rd.html",
         "/notes/2020-10-weekly-2nd.html",
@@ -5494,7 +4564,8 @@ export const siteData = {
       "/share/": [
         "",
         "lession",
-        "lease"
+        "lease",
+        "books"
       ]
     }
   }
