@@ -48,3 +48,5 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward # 设置�
 ```shell
 setx LESSCHARSET "utf-8"
 ```
+
+[参考](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1)

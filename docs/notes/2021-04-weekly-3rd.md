@@ -12,4 +12,6 @@ title: 4月 第三周
 
 ... 然而上面的猜测错了。
 
-其实是 npm@6.14.9 升级到了 npm@7.9 可能音器 `node-gyp` 上面的问题，跟 Windows 和 WSL 无关，我在 EC2 的 ubuntu 系统中也遇到了同样问题，降低了版本解决的。
+其实是 npm@6.14.9 升级到了 npm@7.9 可能引起 `node-gyp` 上面的问题，跟 Windows 和 WSL 无关，我在 EC2 的 ubuntu 系统中也遇到了同样问题，降低了版本解决的。
+
+在有 `package-lock.json` 或者 `yarn.lock` 的项目下变更包版本也需要注意依赖之间的兼容影响。
