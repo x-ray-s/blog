@@ -2,6 +2,7 @@ const path = require('path')
 const blogs = path.resolve('.', './docs/api/blogs.json')
 const daily = path.resolve('.', './docs/api/daily.json')
 const notes = path.resolve('.', './docs/api/notes.json')
+const techs = path.resolve('.', './docs/api/tech.json')
 const interview = path.resolve('.', './docs/api/daily-interview-question.json')
 
 delete require.cache[blogs]
@@ -27,6 +28,7 @@ module.exports = {
       { text: 'Notes', link: '/notes/' },
       { text: 'Interview Question', link: '/daily-interview-question/' },
       { text: 'Share', link: '/share/' },
+      { text: 'Tech', link: '/tech/' },
       { text: 'Github', link: 'https://github.com/x-ray-s' },
     ],
     sidebar: {
@@ -35,6 +37,7 @@ module.exports = {
       '/notes/': getResult(notes, 'notes'),
       '/daily-interview-question/': getResult(interview, 'daily-interview-question'),
       '/share/': ['', 'lession', 'lease', 'books'],
+      '/tech/': getResult(techs, 'tech'),
     },
   },
   plugins: [require('./voice'), '@vuepress/last-updated'],

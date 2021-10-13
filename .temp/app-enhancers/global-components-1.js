@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-Vue.component("Badge", () => import("/mnt/c/Users/Litianyu/code/personal/github-page-press/node_modules/@vuepress/theme-default/global-components/Badge"))
+Vue.component("Badge", () => import("/Users/mac/Documents/personal/github-page/node_modules/@vuepress/theme-default/global-components/Badge"))
 
 
 export default {}
