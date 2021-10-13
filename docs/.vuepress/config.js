@@ -37,10 +37,9 @@ module.exports = {
       '/notes/': getResult(notes, 'notes'),
       '/daily-interview-question/': getResult(interview, 'daily-interview-question'),
       '/share/': ['', 'lession', 'lease', 'books'],
-      '/tech/': getResult(techs, 'tech'),
     },
   },
-  plugins: [require('./voice'), '@vuepress/last-updated'],
+  plugins: [require('./voice')],
   markdown: {
     extendMarkdown: md => {
       md.use(require('markdown-it-imsize')).use(require('markdown-it-task-lists'))
