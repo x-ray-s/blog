@@ -28,7 +28,6 @@ module.exports = {
       { text: 'Notes', link: '/notes/' },
       { text: 'Interview Question', link: '/daily-interview-question/' },
       { text: 'Share', link: '/share/' },
-      { text: 'Tech', link: '/tech/' },
       { text: 'Github', link: 'https://github.com/x-ray-s' },
     ],
     sidebar: {

@@ -36,6 +36,6 @@ mainAxisSize 可以调整主轴的空白大小 `flex-grow`
 
 ## 参考
 
-[Flutter 实战](https://book.flutterchina.club/)
-[MDC - Flutter 布局](https://developers.google.com/codelabs/mdc-102-flutter?hl=zh-cn#0)
-[Flutter API](https://api.flutter.dev/flutter/painting/BorderRadius-class.html)
+- [Flutter 实战](https://book.flutterchina.club/)
+- [MDC - Flutter 布局](https://developers.google.com/codelabs/mdc-102-flutter?hl=zh-cn#0)
+- [Flutter API](https://api.flutter.dev/flutter/painting/BorderRadius-class.html)
