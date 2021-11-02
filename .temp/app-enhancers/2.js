@@ -1,1 +1,1 @@
-export { default } from "/Users/mac/Documents/personal/github-page/docs/.vuepress/voice/enhanceAppFile.js"
+export { default } from "/Users/mac/Documents/github-page-press/docs/.vuepress/voice/enhanceAppFile.js"

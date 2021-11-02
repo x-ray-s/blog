@@ -13,8 +13,8 @@ delete require.cache[interview]
 function getResult(json, key) {
   const { list } = require(json)
   const result = list
-    .filter(item => !/index\.md$/.test(item))
-    .map(item => `/${key}/` + item.replace(/\.md$/, '.html'))
+    .filter((item) => !/index\.md$/.test(item))
+    .map((item) => `/${key}/` + item.replace(/\.md$/, '.html'))
     .reverse()
   result.unshift('')
   return result
@@ -29,6 +29,7 @@ module.exports = {
       { text: 'Interview Question', link: '/daily-interview-question/' },
       { text: 'Share', link: '/share/' },
       { text: 'Github', link: 'https://github.com/x-ray-s' },
+      { text: 'About', link: '/about' },
     ],
     sidebar: {
       '/blogs/': getResult(blogs, 'blogs'),
@@ -40,7 +41,7 @@ module.exports = {
   },
   plugins: [require('./voice')],
   markdown: {
-    extendMarkdown: md => {
+    extendMarkdown: (md) => {
       md.use(require('markdown-it-imsize')).use(require('markdown-it-task-lists'))
     },
   },
