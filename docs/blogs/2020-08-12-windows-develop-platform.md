@@ -22,7 +22,7 @@ title: 使用 Windows 作为工作开发环境
 
 [使用 WSL 2 设置 Node.js 开发环境](https://docs.microsoft.com/zh-cn/windows/nodejs/setup-on-wsl2)
 
-[wsl 使用 windows 命令](https://app-qa.xiaobangguihua.com/live/intro/course/37536510397427968)
+[wsl 使用 windows 命令](https://docs.microsoft.com/zh-cn/windows/wsl/filesystems)
 
 WSL 环境下需要安装语言包来支持 VScode 中文
 
