@@ -29,7 +29,7 @@ module.exports = {
       { text: 'Interview Question', link: '/daily-interview-question/' },
       { text: 'Share', link: '/share/' },
       { text: 'Github', link: 'https://github.com/x-ray-s' },
-      { text: 'About', link: '/about' },
+      // { text: 'About', link: '/about' },
     ],
     sidebar: {
       '/blogs/': getResult(blogs, 'blogs'),
