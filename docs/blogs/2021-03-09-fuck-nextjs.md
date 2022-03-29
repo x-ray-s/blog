@@ -63,3 +63,8 @@ config.module.rules.map(rule => {
   }
 })
 ```
+
+
+### windows 下 next 9.x 报错 Invalid hook call
+
+可能出现在 Windows 的 symlinks 的引发的错误，在next 9.x | 10.x 中，使用 yarn 或 pnpm 会创建虚拟连接，主要表现为在 `_document.js` 中出现 `Invalid hook call` 错误。
