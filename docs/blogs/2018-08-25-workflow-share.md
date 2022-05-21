@@ -6,7 +6,7 @@ title: 如何搭建高效（误）舒适的工作环境
 
 ## Network & Proxy
 
-使用 Tunnelblick 访问内网权限网络，shadowsocks 访问 GFW 权限外网络。
+使用 Tunnelblick 访问内网权限网络，shadowsocks 访问 GFW  权限外网络。
 
 #### VPN 与 SS 区别
 
@@ -28,12 +28,12 @@ iTerm + ZSH
 
 #### 常用的包管理工具：
 
-+ pip
-+ gem 配置镜像
-+ brew
-+ npm 配置镜像(nrm)
-+ git / github
-+ curl
+- pip
+- gem 配置镜像
+- brew
+- npm 配置镜像(nrm)
+- git / github
+- curl
 
 #### ❓ 获取资源过慢、无法访问
 
@@ -49,7 +49,7 @@ alias unproxy='unset all_proxy'
 可以使用 `curl` 来测试当前 IP
 
 ```bash
-curl ip.cn
+curl ipinfo.io
 ```
 
 使用别名，可以简化常用命令行：
@@ -66,15 +66,15 @@ alias chrome_cors='open -n /Applications/Google\ Chrome.app/ --args --disable-we
 python -m SimpleHTTPServer 8080
 ```
 
-+ [git alias](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh)
+- [git alias](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh)
 
 ## Chrome
 
 #### Chrome 的三个版本
 
-+ Chrome
-+ Chrome Canary
-+ Chromium
+- Chrome
+- Chrome Canary
+- Chromium
 
 每个浏览器都是独立的，可以当做单独的浏览器使用。可以开启登录多个账号，因为 cookie 等存储是独立的。
 
@@ -86,52 +86,52 @@ python -m SimpleHTTPServer 8080
 
 #### [快捷键](https://support.google.com/chrome/answer/157179?hl=zh-Hans)
 
-+ 刷新 cmd + r
-+ 定位地址栏 cmd + l
-+ 标签页 cmd + t
-+ 打开上一次关闭的标签 cmd + shift + t
-+ 新窗口打开标签页 cmd + n
-+ 新窗口打开隐身模式 cmd + shift + n
-+ 后退、前进 alt + ⬅️ ➡️
-+ 切换书签 cmd + shift + b
+- 刷新 cmd + r
+- 定位地址栏 cmd + l
+- 标签页 cmd + t
+- 打开上一次关闭的标签 cmd + shift + t
+- 新窗口打开标签页 cmd + n
+- 新窗口打开隐身模式 cmd + shift + n
+- 后退、前进 alt + ⬅️ ➡️
+- 切换书签 cmd + shift + b
 
 #### 实用工具
 
-+ 计算器
-+ 开发者工具
-+ 原生的截图工具
-+ 自定义脚本
+- 计算器
+- 开发者工具
+- 原生的截图工具
+- 自定义脚本
 
 #### 扩展
 
 ⭐⭐⭐⭐⭐
 
-+ 书签栏 - jdbnofccmhefkmjbkkdkfiicjkgofkdh
-    + 界面优化
-    + 自定义位置
-    + 记住展开位置
-    + 不占显示空间
-    + 排序 排序
-+ 划词翻译 - cajhcjfcodjoalmhjekljnfkgjlkeajl
-    + 界面优化
-    + 生词薄
-    + 显示来源
-    + 定时提醒，方便碎片时间的学习
-    + 同步单词本
-+ Gmail - oeopbcgkkoapgobdbedcemjljbihmemj
-    + 不占用标签页
-    + 未读数与快速查看与发送
-    + 基于 Notification API 的桌面提醒
-+ 历史记录增强 - https://worldbrain.io/
-+ tampermonkey - dhdgffkkebhmkfjojejmpbldmpobfkfo
+- 书签栏 - jdbnofccmhefkmjbkkdkfiicjkgofkdh
+  - 界面优化
+  - 自定义位置
+  - 记住展开位置
+  - 不占显示空间
+  - 排序 排序
+- 划词翻译 - cajhcjfcodjoalmhjekljnfkgjlkeajl
+  - 界面优化
+  - 生词薄
+  - 显示来源
+  -  定时提醒，方便碎片时间的学习
+  - 同步单词本
+- Gmail - oeopbcgkkoapgobdbedcemjljbihmemj
+  - 不占用标签页
+  - 未读数与快速查看与发送
+  - 基于 Notification API 的桌面提醒
+- 历史记录增强 - https://worldbrain.io/
+- tampermonkey - dhdgffkkebhmkfjojejmpbldmpobfkfo
 
 ⭐⭐⭐⭐
 
-+ cookie - fngmhnnpilhplaeedifhccceomclgfbg
-+ stylish - bldankcfaddopfeelafmbkjboflldjki
-+ github - pmhfgjjhhomfplgmbalncpcohgeijonh
-+ json - hdmbdioamgdkppmocchpkjhbpfmpjiei
-+ oneNote - gojbdfnpnhogfdgjbigejoaolejmgdhk
+- cookie - fngmhnnpilhplaeedifhccceomclgfbg
+- stylish - bldankcfaddopfeelafmbkjboflldjki
+- github - pmhfgjjhhomfplgmbalncpcohgeijonh
+- json - hdmbdioamgdkppmocchpkjhbpfmpjiei
+- oneNote - gojbdfnpnhogfdgjbigejoaolejmgdhk
 
 ## POSTMAN
 

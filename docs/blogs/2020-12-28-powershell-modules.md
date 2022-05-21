@@ -6,13 +6,13 @@ title: 为 PowerShell 安装模块
 
 更新最新的 `PowerShellGet`
 
-```PS
+```shell
 Install-Module -Name PowerShellGet -Force
 ```
 
 接下来安装模块
 
-```PS
+```shell
 # 高亮
 Install-Module -Name PSReadLine -AllowPrerelease
 # fzf
@@ -29,7 +29,7 @@ Install-Module git-aliases -Scope CurrentUser -AllowClobber
 
 > Microsoft.PowerShell_profile.ps1
 
-```PS
+```shell
 Import-Module git-aliases -DisableNameChecking
 Import-Module posh-git
 Import-Module oh-my-posh
@@ -45,7 +45,7 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 
 设置 git log 中文编码
 
-```PS
+```shell
 setx LESSCHARSET "utf-8"
 ```
 
