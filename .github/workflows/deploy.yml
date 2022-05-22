@@ -32,6 +32,7 @@ jobs:
     - run: |
         git config --global user.name "x-ray"
         git config --global user.email "princesswar721@gmail.com"
+        echo $token
         git init
         git add -A
         git commit -m 'deploy'
