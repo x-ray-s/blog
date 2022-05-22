@@ -17,7 +17,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: npm run docs:build
+      - run: |
+          npm i
+          npm run docs:build
       - name: Push directory to another repository
         uses: cpina/github-action-push-to-another-repository@v1.4.2
         env:
