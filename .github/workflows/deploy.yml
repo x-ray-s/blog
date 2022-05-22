@@ -28,9 +28,9 @@ jobs:
         cd test
         echo "test" >> test.js
         git init
-        git config --global user.name "x-ray"
+        git config --global user.name "x-ray-s"
         git config --global user.email "princesswar721@gmail.com"
         ls
         git add -A
         git commit -m 'deploy'
-        git push -f  https://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@github.com/x-ray-s/x-ray-s.github.io.git master
+        git push -f  https://x-ray-s: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@github.com/x-ray-s/x-ray-s.github.io.git master
