@@ -18,10 +18,12 @@ jobs:
     - run: mkdir test
     - run: cd test
     - run: echo "test" >> test.js
+    - run: ls
     - run: |
         git config --global user.name "x-ray"
         git config --global user.email "princesswar721@gmail.com"
         echo $token
+    - run: |
         git init
         git add -A
         git commit -m 'deploy'
