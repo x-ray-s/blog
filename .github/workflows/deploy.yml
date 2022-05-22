@@ -13,23 +13,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
-
-
     steps:
     - uses: actions/checkout@v3
-    - name: Use Node.js 16
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16.14
-        cache: 'npm'
-        token: ${{secrets.PRIVATE_TOKEN}}
-      env:
-        token: ${{secrets.PRIVATE_TOKEN}}
-    - run: npm i
-    - run: npm run docs:build
-    - run: cd docs/.vuepress/dist
-    - run: echo 'blog.x-ray.work' > CNAME
+    - run: mkdir test
+    - run: cd test
+    - run: echo "test" >> test.js
     - run: |
         git config --global user.name "x-ray"
         git config --global user.email "princesswar721@gmail.com"
