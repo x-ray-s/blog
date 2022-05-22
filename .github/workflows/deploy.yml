@@ -30,6 +30,8 @@ jobs:
     - run: cd docs/.vuepress/dist
     - run: echo 'blog.x-ray.work' > CNAME
     - run: |
+        git config --global user.name "x-ray"
+        git config --global email "princesswar721@gmail.com"
         git init
         git add -A
         git commit -m 'deploy'
