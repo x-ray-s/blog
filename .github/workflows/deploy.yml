@@ -15,15 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: mkdir test
-    - run: cd test
-    - run: echo "test" >> test.js
-    - run: ls
     - run: |
+        mkdir test
+        cd test
+        echo "test" >> test.js
         git config --global user.name "x-ray"
         git config --global user.email "princesswar721@gmail.com"
         echo $token
-    - run: |
+        ls
         git init
         git add -A
         git commit -m 'deploy'
