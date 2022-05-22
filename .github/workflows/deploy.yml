@@ -19,11 +19,11 @@ jobs:
         mkdir test
         cd test
         echo "test" >> test.js
+        git init
         git config --global user.name "x-ray"
         git config --global user.email "princesswar721@gmail.com"
         echo $token
         ls
-        git init
         git add -A
         git commit -m 'deploy'
         git push -f git@github.com:$token/x-ray-s.github.io.git master
