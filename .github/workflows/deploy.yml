@@ -23,6 +23,7 @@ jobs:
       with:
         node-version: 16.14
         cache: 'npm'
+        token: ${{secrets.PRIVATE_TOKEN}}
       env:
         token: ${{secrets.PRIVATE_TOKEN}}
     - run: npm i
