@@ -33,4 +33,4 @@ jobs:
         ls
         git add -A
         git commit -m 'deploy'
-        git push -f https://x-ray-s:$test@github.com/x-ray-s/x-ray-s.github.io.git master
+        git push -f https://x-ray-s:$token@github.com/x-ray-s/x-ray-s.github.io.git master
