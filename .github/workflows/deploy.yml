@@ -20,6 +20,7 @@ jobs:
       - run: |
           npm i
           npm run docs:build
+          echo 'blog.x-ray.work' > docs/.vuepress/dist/CNAME
       - name: Push directory to another repository
         uses: cpina/github-action-push-to-another-repository@v1.4.2
         env:
