@@ -15,8 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+      env:
+        test: ${{ secrets.PRIVATE_TOKEN }}
       with:
         token: ${{ secrets.PRIVATE_TOKEN }}
+    - run: |
+        echo $test
+        echo $token
+        echo https://x-ray-s:$test@github.com/x-ray-s/x-ray-s.github.io.git master
     - run: |
         mkdir test
         cd test
@@ -24,8 +30,7 @@ jobs:
         git init
         git config --global user.name "x-ray"
         git config --global user.email "princesswar721@gmail.com"
-        echo $token
         ls
         git add -A
         git commit -m 'deploy'
-        git push -f git@github.com:x-ray-s/x-ray-s.github.io.git master
+        git push -f https://x-ray-s:$test@github.com/x-ray-s/x-ray-s.github.io.git master
