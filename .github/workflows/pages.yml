@@ -37,10 +37,12 @@ jobs:
         run: |
           npm i
           npm run docs:build
+          cd docs/.vuepress/dist
+          echo 'blog.x-ray.work' > CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./docs/.vuepress/dist
+          path: docs/.vuepress/dist
 
   # Deployment job
   deploy:
