@@ -36,7 +36,7 @@ module.exports = {
       '/daily/': getResult(daily, 'daily'),
       '/notes/': getResult(notes, 'notes'),
       '/daily-interview-question/': getResult(interview, 'daily-interview-question'),
-      '/share/': ['', 'lession', 'lease', 'books'],
+      '/share/': ['', 'books'],
     },
   },
   plugins: [require('./voice')],
