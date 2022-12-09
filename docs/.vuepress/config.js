@@ -2,7 +2,6 @@ const path = require('path')
 const blogs = path.resolve('.', './docs/api/blogs.json')
 const daily = path.resolve('.', './docs/api/daily.json')
 const notes = path.resolve('.', './docs/api/notes.json')
-const techs = path.resolve('.', './docs/api/tech.json')
 const interview = path.resolve('.', './docs/api/daily-interview-question.json')
 
 delete require.cache[blogs]
