@@ -8,7 +8,7 @@ title: 如何购买ChatGPT plus
 
 1. 首先下载 Depay APP, 一个虚拟信用卡的应用，详细可以见另一篇文章[使用 Depay 虚拟信用卡](https://blog.x-ray.work/blogs/2023-02-15-depay.html)
 2. 翻墙梯子 purefast， 在另一篇文章里有使用测评[翻墙 梯子推荐](https://blog.x-ray.work/blogs/2023-03-18-ladder.html)
-3. 需要使用到 USDT，最简单的方法是找有 Depay 钱包余额的人转账，或者使用交易所通过 TRC20 和 BEP20 地址转账。这步可以微信联系我 princess_war 代劳。
+3. 需要使用到 USDT，最简单的方法是找有 Depay 钱包余额的人转账，或者使用交易所通过 TRC20 和 BEP20 地址转账。如果需要请加入[Telegram 讨论组互助](https://t.me/gpt_plus_helper)
 
 接下来是操作步骤。
 
