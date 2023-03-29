@@ -20,6 +20,7 @@ function getResult(json, key) {
 }
 module.exports = {
   title: 'Halo world',
+  theme: '@vuepress/blog',
   themeConfig: {
     nav: [
       { text: 'Blogs', link: '/blogs/' },
@@ -38,7 +39,21 @@ module.exports = {
       '/share/': ['', 'books'],
     },
   },
-  plugins: [require('./voice')],
+  plugins: [
+    require('./voice'),
+    [
+      '@vuepress/blog',
+      {
+        directories: [
+          {
+            id: 'daily',
+            dirname: 'daily',
+            path: '/daily/',
+          },
+        ],
+      },
+    ],
+  ],
   markdown: {
     extendMarkdown: (md) => {
       md.use(require('markdown-it-imsize')).use(require('markdown-it-task-lists'))
