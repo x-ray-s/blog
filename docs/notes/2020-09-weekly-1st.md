@@ -2,8 +2,6 @@
 title: 9月 第一周
 ---
 
-# {{$page.title}}
-
 ### 资料
 
 - [git 魔法指南 中文](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/index.html)

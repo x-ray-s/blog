@@ -2,8 +2,6 @@
 title: 11月 第一周
 ---
 
-# {{$page.title}}
-
 ### Web
 
 WhatsApp, Facebook 分享链接的卡片是通过 [ogp.me](http://ogp.me/) 来定义展示效果的。需要在 `<meta>` 标签中定义 `property="og:xxx">` 来设置属性和内容，在 [stackoverflow](https://stackoverflow.com/questions/19778620/provide-an-image-for-whatsapp-link-sharing) 上获取到详细的参考

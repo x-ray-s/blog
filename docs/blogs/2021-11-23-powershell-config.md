@@ -2,8 +2,6 @@
 title: Powershell 7 配置
 ---
 
-# {{$page.title}}
-
 ## 有用的命令
 
 ```shell

@@ -2,8 +2,6 @@
 title: 兼容性问题
 ---
 
-# {{$page.title}}
-
 本周不知道经历了什么，使用 `prefetch` 的时候，iOS 中 `img.onload` 方法会不起作用。
 
 我们 Andorid APP webView 会将取不到的 localstorage 设置为一个 字符串的 undefined。

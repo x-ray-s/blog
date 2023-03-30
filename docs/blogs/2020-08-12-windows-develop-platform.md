@@ -2,8 +2,6 @@
 title: 使用 Windows 作为工作开发环境
 ---
 
-# {{$page.title}}
-
 因为腾讯云的 SDK 不支持跨平台打包，所以需要使用 Windows 系统来打包 Windows 应用，在虚拟机中配置开发环境并不适合长期开发，所以购买了一块 SSD 作为 Windows 系统盘。
 
 ### 准备

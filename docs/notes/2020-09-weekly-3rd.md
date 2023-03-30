@@ -2,8 +2,6 @@
 title: 9月 第三周
 ---
 
-# {{$page.title}}
-
 ### 谷歌扩展
 
 [grepper](https://www.codegrepper.com/index.php) 快速搜索代码片段

@@ -2,8 +2,6 @@
 title: 使用 Windows 平台调试 iPhone 设备中的网页
 ---
 
-# {{$page.title}}
-
 首先需要安装 iTunes，为了获取到 iPhone 的 USB 驱动程序。
 
 然后安装 `ios-webkit-debug-proxy`，具体过程见[详情](https://github.com/google/ios-webkit-debug-proxy)

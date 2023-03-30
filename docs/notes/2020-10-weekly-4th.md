@@ -2,8 +2,6 @@
 title: 10月 第四周
 ---
 
-# {{$page.title}}
-
 ### 前端
 
 - parcel@next 在 WSL 下会引起系统假死，谨慎使用。

@@ -2,8 +2,6 @@
 title: 开发环境配置
 ---
 
-# {{$page.title}}
-
 ### 字体
 
 Fira Code

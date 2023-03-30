@@ -2,8 +2,6 @@
 title: 更新 Powershell 配置
 ---
 
-# {{$page.title}}
-
 更新 [PSReadLine](https://www.powershellgallery.com/packages/PSReadLine/2.2.1-rc1) 到 2.2.1-rc
 
 ```shell

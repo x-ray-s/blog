@@ -2,8 +2,6 @@
 title: 前端需要了解的设计知识
 ---
 
-# {{$page.title}}
-
 # 意义
 
 在日常工作中，与设计师进行沟通和合作的机会是比较多的，设计师作为我们的需求方，一是要满足他的需求，二是提高双方的合作效率。很多设计师对前端不满意，归结于设计稿的还原度，或者某些效果做不出来。很多前端对设计师不满意，因为设计稿没有标准和规范。其实这方面都是需要双方沟通交流推进，而不是互相迁就和抱怨。如果站在对方角度思考问题，并且了解对方的一部分知识，更有助于沟通合作的顺畅。
@@ -42,8 +40,8 @@ Webp 图片是在 WEB 开发中优先使用的格式，但是由于兼容问题�
 ```js
 // 判断是否支持 Webp
 function isWebpSupport() {
-  const dataUrl = document.createElement("canvas").toDataURL("image/webp");
-  return dataUrl.indexOf("data:image/webp") === 0;
+  const dataUrl = document.createElement('canvas').toDataURL('image/webp')
+  return dataUrl.indexOf('data:image/webp') === 0
 }
 ```
 

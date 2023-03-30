@@ -2,8 +2,6 @@
 title: Flutter 布局 API
 ---
 
-# {{$page.title}}
-
 ## Widget
 
 ### Container

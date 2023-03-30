@@ -2,8 +2,6 @@
 title: Node 开发环境安装
 ---
 
-# {{$page.title}}
-
 ## 条件
 
 本文的安装环境系统为 MacOs，如果你在使用 Windows 系统作为 Node 开发环境，那么你要花费更多的时间在配置环境上。
@@ -16,7 +14,7 @@ title: Node 开发环境安装
 
 ## 安装 Node
 
-[官网](https://nodejs.org/en/)下载最新的 Node，下载后 `下一步` * N 即可。
+[官网](https://nodejs.org/en/)下载最新的 Node，下载后 `下一步` \* N 即可。
 
 测试安装
 

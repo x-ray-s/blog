@@ -2,8 +2,6 @@
 title: Windows 自定义协议
 ---
 
-# {{$page.title}}
-
 在 Windows 中想通过自定的 URI Scheme 打开桌面应用程序，如 `x-ray://` 打开指定的程序，可以通过添加注册表的方式来完成。
 
 过程参考 [Registering an Application to a URI Scheme](<https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85)?redirectedfrom=MSDN>)
@@ -15,8 +13,8 @@ title: Windows 自定义协议
 1. `win + R` 运行 `regedit` 打开注册表
 2. 在 `HKEY_CLASSES_ROOT` 下 新建 -> 项 这里我使用 `x-ray` 作为协议名称
 3. 键值关系
-    - (默认) : URL
-    - URL Protocol : 空
+   - (默认) : URL
+   - URL Protocol : 空
 4. 以此创建子项 shell -> open -> command
 5. 修改 command 默认项值 为指定应用启动项。
 

@@ -2,8 +2,6 @@
 title: 使用 ESLint 管理 Typescript
 ---
 
-# {{$page.title}}
-
 起因是因为 Typescript 团队因 TSLint 存在性能为题，决定切换到 ESLint。[【详情】](https://eslint.org/blog/2019/01/future-typescript-eslint#linting)
 
 这样我们就不必查阅两个工具的文档，使用一个配置，以及在编辑器内使用一个插件就可以满足 `.js` 和 `.ts` 文件的代码检查了 🎉
@@ -26,14 +24,14 @@ touch .eslintrc.js
 
 ```js
 module.exports = {
-  parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
-  extends: ["plugin:@typescript-eslint/recommended"],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  extends: ['plugin:@typescript-eslint/recommended'],
   parserOptions: {
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
-    sourceType: "module" // Allows for the use of imports
-  }
-};
+    sourceType: 'module', // Allows for the use of imports
+  },
+}
 ```
 
 ## 配合 Prettier
@@ -59,17 +57,13 @@ touch .prettierrc
 
 ```js
 module.exports = {
-  parser: "@typescript-eslint/parser",
-  extends: [
-    "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
-  ],
+  parser: '@typescript-eslint/parser',
+  extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint', 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
-    sourceType: "module" // Allows for the use of imports
-  }
-};
+    sourceType: 'module', // Allows for the use of imports
+  },
+}
 ```
 
 ## VS Code 配置自动修复代码

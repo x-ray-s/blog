@@ -2,8 +2,6 @@
 title: Electron 在 Windows 平台下的自动更新
 ---
 
-# {{$page.title}}
-
 准备好自动更新的静态服务
 
 这里使用 `vue-cli-plugin-electron-builder` 脚手架，配置与 `electron-builder` 相似

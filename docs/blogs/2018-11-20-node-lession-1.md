@@ -2,8 +2,6 @@
 title: Node 入门
 ---
 
-# {{$page.title}}
-
 ## 文档
 
 [中文](http://nodejs.cn/api/)
@@ -12,16 +10,15 @@ title: Node 入门
 
 ## 常用内建模块
 
-+ path 路径
-+ fs 文件系统 (通常会被 fs-extra 包替代)
-+ 全局变量
-    + __dirname
-    + __filename
-    + process
-+ http (会被各种 Web 框架替代)
+- path 路径
+- fs 文件系统 (通常会被 fs-extra 包替代)
+- 全局变量
+  - \_\_dirname
+  - \_\_filename
+  - process
+- http (会被各种 Web 框架替代)
 
 对于 Web 开发者来说，使用的开发语言还是 JS，语法以及扩展和工具还是通用的，例如 Lodash，浏览器 API = NODE API，Express 等 Node 框架相当于浏览器中的 jQuery。无需重新适应新语言，只需要熟悉接口就可以开发。
-
 
 ## 通过代码片段学习
 
@@ -39,22 +36,22 @@ const writeFile = promisify(fs.writeFile)
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Hello world</h1>
-</body>
+  </body>
 </html>
 ```
 
 ```js
 ;(async function () {
-    const content = await readFile(Path.resolve(__dirname, './index.html'), 'utf8')
-    console.log(content)
+  const content = await readFile(Path.resolve(__dirname, './index.html'), 'utf8')
+  console.log(content)
 })()
 ```
 
@@ -63,44 +60,45 @@ const writeFile = promisify(fs.writeFile)
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>{{title}}</h1>
-</body>
+  </body>
 </html>
 ```
 
 ```js
 ;(async function () {
-    const content = await readFile(Path.resolve(__dirname, './template.html'), 'utf8')
-    await writeFile('./about.html', content.replace(/{{title}}/g, 'About me'))
+  const content = await readFile(Path.resolve(__dirname, './template.html'), 'utf8')
+  await writeFile('./about.html', content.replace(/{{title}}/g, 'About me'))
 })()
 ```
+
 一个简单的 Web 服务器
 
 ```js
 ;(function () {
-    const server = http.createServer(async (req, res) => {
-        res.writeHead(200, { 'Content-Type': 'text/html' })
-        let file = './index.html'
-        if (url.parse(req.url).pathname === '/about') {
-            file = './about.html'
-        }
-        const content = await readFile(Path.resolve(__dirname, file), 'utf8')
-        res.end(content)
-    })
-    server.listen({
-        host: 'localhost',
-        port: 8080
-    })
-    server.on('listening', () => {
-        console.log(`listen on port 8080`)
-    })
+  const server = http.createServer(async (req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/html' })
+    let file = './index.html'
+    if (url.parse(req.url).pathname === '/about') {
+      file = './about.html'
+    }
+    const content = await readFile(Path.resolve(__dirname, file), 'utf8')
+    res.end(content)
+  })
+  server.listen({
+    host: 'localhost',
+    port: 8080,
+  })
+  server.on('listening', () => {
+    console.log(`listen on port 8080`)
+  })
 })()
 ```
 

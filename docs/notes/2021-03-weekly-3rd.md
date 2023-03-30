@@ -2,8 +2,6 @@
 title: 3月 第三周
 ---
 
-# {{$page.title}}
-
 ### CSS
 
 使用 `postcss-aspect-ratio` 处理 `aspect-ratio` 的 polyfill

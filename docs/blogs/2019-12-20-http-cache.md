@@ -2,8 +2,6 @@
 title: 一句话搞懂 HTTP 缓存
 ---
 
-# {{$page.title}}
-
 ## 剪辑版
 
 **浏览器通过请求头 `Cache-Control` 来控制是否使用缓存资源，通过 `ETag` 来验证缓存是否可用。**

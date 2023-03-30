@@ -2,8 +2,6 @@
 title: 10月 第二周
 ---
 
-# {{$page.title}}
-
 ### Electron
 
 本周替换了 `vue-electron` 维护的 `vuex-electron`，因为这个不更新，并且 blacklist 参数不生效。替换的库为 [MaverickMartyn/vuex-electron](https://github.com/MaverickMartyn/vuex-electron)
@@ -29,7 +27,7 @@ const handler = createHandler({
 
 http
   .createServer((req, res) => {
-    handler(req, res, function(err) {
+    handler(req, res, function (err) {
       if (err) {
         console.error(err)
         res.end('no such location')
@@ -41,19 +39,19 @@ http
   })
   .listen(1234)
 
-handler.on('error', err => {
+handler.on('error', (err) => {
   console.error('Error:', err.message)
 })
 
-handler.on('push', e => {
+handler.on('push', (e) => {
   try {
     const s = spawn('sh', ['./build.sh'], {
       cwd: `../${e.payload.repository.name}`,
     })
-    s.stdout.on('data', data => {
+    s.stdout.on('data', (data) => {
       console.log(`${e.payload.repository.name}: ${data}`)
     })
-    s.stderr.on('data', data => {
+    s.stderr.on('data', (data) => {
       console.log(`${e.payload.repository.name}: ${data}`)
     })
     console.log(e.payload.repository.name, 'has rebuild')

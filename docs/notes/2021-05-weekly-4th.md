@@ -2,8 +2,6 @@
 title: 5月 第四周
 ---
 
-# {{$page.title}}
-
 ## CSS
 
 更新 `postcss@8` 主要是配置的更改，不在支持 function 和 require，[详情](https://evilmartians.com/chronicles/postcss-8-plugin-migration)

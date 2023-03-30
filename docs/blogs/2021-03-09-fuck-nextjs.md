@@ -2,8 +2,6 @@
 title: FUCK Nextjs
 ---
 
-# {{$page.title}}
-
 构建 css 文件的方法已经从 `next-css` 转为内部，所以自己写的 `stylus-loader` 不敢轻易升级 10.x 只能使用 9.5.x
 
 版本 9.5.5
@@ -49,11 +47,11 @@ defaultLoaders.sass.push({
 处理 `next-babel-loader`, 因为 SWR 中的代码在经过 `babel` 中的编译时，没经过配置的 `.browserlistrc`，所以需要处理一下 `exclude`
 
 ```js
-config.module.rules.map(rule => {
+config.module.rules.map((rule) => {
   if (rule.test && rule.test.source.includes('js')) {
     rule.include.push('/Users/mac/Documents/code/xb-liveroom/node_modules/swr/**/*')
     const origin = rule.exclude
-    rule.exclude = function(path) {
+    rule.exclude = function (path) {
       if (/node_modules\/swr/.test(path)) {
         return false
       } else {
@@ -64,7 +62,6 @@ config.module.rules.map(rule => {
 })
 ```
 
-
 ### windows 下 next 9.x 报错 Invalid hook call
 
-可能出现在 Windows 的 symlinks 的引发的错误，在next 9.x | 10.x 中，使用 yarn 或 pnpm 会创建虚拟连接，主要表现为在 `_document.js` 中出现 `Invalid hook call` 错误。
+可能出现在 Windows 的 symlinks 的引发的错误，在 next 9.x | 10.x 中，使用 yarn 或 pnpm 会创建虚拟连接，主要表现为在 `_document.js` 中出现 `Invalid hook call` 错误。

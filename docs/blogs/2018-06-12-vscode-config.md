@@ -2,8 +2,6 @@
 title: 使用vscode常用配置
 ---
 
-# {{$page.title}}
-
 ## vscode 所需插件
 
 - eslint

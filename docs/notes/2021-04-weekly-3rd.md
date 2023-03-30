@@ -2,8 +2,6 @@
 title: 4月 第三周
 ---
 
-# {{$page.title}}
-
 ### Node
 
 `node-gyp` 可能会使用 `python`，最近更新了 Windows 系统，可能造成了 WSL 中一些软连接的失效，`python` 命令一直无法找到，开始一直以为是 zsh / base 的环境变量问题，升级了 ubuntu 和 重新安装 python 都没用，`/usr/bin` 下是有 `python3`，后来确定是软连接失效，重新 `ln -s` 建立 `python3` 到 `python` 的连接。

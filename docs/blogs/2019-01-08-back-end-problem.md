@@ -2,8 +2,6 @@
 title: 后端问题收集
 ---
 
-# {{$page.title}}
-
 ## Sequelize
 
 - `Model.findOrCreate` 遇到错误 **Cannot convert undefined or null to object**
@@ -51,25 +49,25 @@ model.User.findOne({
 - 验证可选值时
 
 ```js
-allowUnknown: true;
+allowUnknown: true
 ```
 
 - 跳过可选值
 
 ```js
-stripUnknown: true;
+stripUnknown: true
 ```
 
 - 单个可选值
 
 ```js
-Joi.optional();
+Joi.optional()
 ```
 
 - 允许对象为空
 
 ```js
 payload: Joi.object({
-  name: Joi.string()
-}).allow(null);
+  name: Joi.string(),
+}).allow(null)
 ```

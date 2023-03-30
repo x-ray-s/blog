@@ -2,8 +2,6 @@
 title: 使用 Electron 和 TRTC 开发直播项目
 ---
 
-# {{$page.title}}
-
 为提供更好的稳定性和使用桌面端更丰富的 API，决定使用 Electron 作为桌面端直播工具，但在开发过程中遇到了一些问题，在此列举一下。
 
 ### 安装
@@ -47,40 +45,40 @@ import qs from 'querystring'
 const isPackaged = app.isPackaged
 
 export function getUrlFromArgv(argv) {
-    const offset = isPackaged ? 1 : 2
-    const url = argv.find((arg, i) => i >= offset && arg.startsWith(process.env.VUE_APP_PROTOCOL))
-    return url
+  const offset = isPackaged ? 1 : 2
+  const url = argv.find((arg, i) => i >= offset && arg.startsWith(process.env.VUE_APP_PROTOCOL))
+  return url
 }
 
 export function parseUrl2Protocol(url) {
-    const _url = new URL(url)
-    const { search } = _url
-    let info = {
-        path: _url.pathname,
-        query: qs.parse(search && search.slice(1)),
-        fullpath: _url.pathname + _url.search,
-    }
-    return info
+  const _url = new URL(url)
+  const { search } = _url
+  let info = {
+    path: _url.pathname,
+    query: qs.parse(search && search.slice(1)),
+    fullpath: _url.pathname + _url.search,
+  }
+  return info
 }
 
 // background.js
 const args = []
 if (!isPackaged) {
-    // dist path
-    args.push(path.resolve(process.argv[1]))
+  // dist path
+  args.push(path.resolve(process.argv[1]))
 }
 // regist protocol
 app.setAsDefaultProtocolClient(process.env.VUE_APP_PROTOCOL, process.execPath, args)
 
-const protocolPush = url => {
-    if (win && url) {
-        win.send('protocol-push', parseUrl2Protocol(url))
-    }
+const protocolPush = (url) => {
+  if (win && url) {
+    win.send('protocol-push', parseUrl2Protocol(url))
+  }
 }
 
 // Mac OS
 app.on('open-url', (event, urlStr) => {
-    protocolPush(urlStr)
+  protocolPush(urlStr)
 })
 
 // Windows
@@ -88,15 +86,15 @@ app.on('open-url', (event, urlStr) => {
 protocolPush(getUrlFromArgv(process.argv))
 // handle second instance
 app.on('second-instance', (event, argv) => {
-    if (process.platform === 'win32') {
-        protocolPush(getUrlFromArgv(argv))
+  if (process.platform === 'win32') {
+    protocolPush(getUrlFromArgv(argv))
+  }
+  if (win) {
+    if (win.isMinimized()) {
+      win.restore()
     }
-    if (win) {
-        if (win.isMinimized()) {
-            win.restore()
-        }
-        win.show()
-    }
+    win.show()
+  }
 })
 ```
 

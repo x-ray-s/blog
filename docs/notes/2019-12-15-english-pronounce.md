@@ -2,8 +2,6 @@
 title: 发音组件
 ---
 
-# {{$page.title}}
-
 ## 复合元音字母的读音规则
 
 <table class="bg-none">

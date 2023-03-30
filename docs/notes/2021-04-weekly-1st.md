@@ -2,8 +2,6 @@
 title: 4月 第一周
 ---
 
-# {{$page.title}}
-
 ### 微信
 
 微信 H5 [打开小程序](https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_Open_Tag.html#21)

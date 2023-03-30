@@ -2,8 +2,6 @@
 title: WSL2 Ubuntu 20.04.3 snap 安装问题
 ---
 
-# {{$page.title}}
-
 执行 `sudo snap install zig --beta --classic` 时遇到
 
 ```bash

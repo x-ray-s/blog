@@ -2,8 +2,6 @@
 title: js代码规范化
 ---
 
-# {{$page.title}}
-
 ## Eslint
 
 ### 代码质量检查 linter -- 检查器
@@ -28,27 +26,23 @@ title: js代码规范化
 
 美化器，几乎不需要配置，因为是美化器，所以可以不需要有顾虑的直接在文件改动后直接执行
 
-
 #### [If eslint can auto fix/format code why to use Prettier?](https://github.com/prettier/prettier-eslint/issues/101)
 
+其实 `eslint --fix` 可以做到和 **prettier** 几乎相同的事情，但是 _P_ 配置更少，只是风格上的统一化，所以更适合放在开发工程中。
 
-其实 `eslint --fix` 可以做到和 __prettier__ 几乎相同的事情，但是 _P_ 配置更少，只是风格上的统一化，所以更适合放在开发工程中。
-
-所以建议是在编辑器和个人中使用 __prettier__ 来简化操作，`eslint --fix` 在提交代码和生成代码时再保证一致性。
-
+所以建议是在编辑器和个人中使用 **prettier** 来简化操作，`eslint --fix` 在提交代码和生成代码时再保证一致性。
 
 ## Sourcemap
 
-[关于sourcemap](http://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html)
-
+[关于 sourcemap](http://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html)
 
 [gulp-sourcemaps](https://github.com/gulp-sourcemaps/gulp-sourcemaps)
 
 主要接口
 
-+ addComment
+- addComment
 
-+ sourceMappingURL
+- sourceMappingURL
 
 ```javascript
 sourceMappingURL: function(file) {
@@ -57,6 +51,6 @@ sourceMappingURL: function(file) {
 
 ```
 
-[sourcemap可视化](http://sokra.github.io/source-map-visualization/)
+[sourcemap 可视化](http://sokra.github.io/source-map-visualization/)
 
 [source-map](https://github.com/mozilla/source-map)

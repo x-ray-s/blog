@@ -2,8 +2,6 @@
 title: 分享 Chrome 书签
 ---
 
-# {{$page.title}}
-
 ## 如何使用
 
 [获取书签](https://github.com/x-ray-s/bookshelf/blob/master/docs/index.html)

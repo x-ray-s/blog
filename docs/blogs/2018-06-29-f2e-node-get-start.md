@@ -2,13 +2,11 @@
 title: 写给前端工程师的 Node 教程
 ---
 
-# {{$page.title}}
-
 ## 为什么要使用 Node.js
 
-+ 不需要重新学习和适应其他语言，也同样可以完成其他语言完成的目的。
-+ Node天生的异步IO处理特性，更适合做IO密集型的业务，对CPU密集型业务没有太大优势，所以node非常适合请求层的处理。
-+ 作为辅助工具的使用，处理文件，脚手架，预编译等。
+- 不需要重新学习和适应其他语言，也同样可以完成其他语言完成的目的。
+- Node 天生的异步 IO 处理特性，更适合做 IO 密集型的业务，对 CPU 密集型业务没有太大优势，所以 node 非常适合请求层的处理。
+- 作为辅助工具的使用，处理文件，脚手架，预编译等。
 
 所以 Node 非常适合前端开发工程师学习，也更适合作为前端的脚手架以及请求中间层的开发。
 
@@ -30,16 +28,16 @@ Node 承接接口转发业务，由于上面产生的接口问题，可以由 No
 
 ## 最长使用的依赖库
 
-+ Web框架 `express` `koa2`
-+ 处理请求 `axios` `request`
-+ 文件处理 `fs-extra` `fs` `path`
-+ 进程管理 `pm2` `nodemon`
+- Web 框架 `express` `koa2`
+- 处理请求 `axios` `request`
+- 文件处理 `fs-extra` `fs` `path`
+- 进程管理 `pm2` `nodemon`
 
 ## Get Start
 
 ### 提供一个 Http 服务器
 
-```js 
+```js
 import Koa from 'koa2'
 import Router from 'koa-router'
 import views from 'koa-views'
@@ -55,7 +53,7 @@ const router = new Router()
 app.use(views(__dirname + '/views', { extension: 'ejs' }))
 
 // routes
-router.get('/', async ctx => {
+router.get('/', async (ctx) => {
   await ctx.render('index')
 })
 app.use(router.routes()).use(router.allowedMethods())
@@ -66,7 +64,7 @@ var io = socket(service)
 io.use(p2pserver)
 
 const users = []
-io.on('connection', function(socket) {
+io.on('connection', function (socket) {
   socket.on('online', (data) => {
     const find = users.findIndex((item) => {
       return item.id === socket.id
@@ -74,31 +72,31 @@ io.on('connection', function(socket) {
     if (find === -1) {
       users.push({
         id: socket.id,
-        user: data
+        user: data,
       })
     }
-    io.sockets.emit('service-online', {users, user: data})
+    io.sockets.emit('service-online', { users, user: data })
   })
-  socket.on('disconnect', function() {
+  socket.on('disconnect', function () {
     const find = users.find((item) => {
       return item.id === socket.id
     })
     if (find !== -1) {
       const index = users.indexOf(find)
       users.splice(index, 1)
-      socket.broadcast.emit('service-offline', {users, user: find});
+      socket.broadcast.emit('service-offline', { users, user: find })
     }
     console.log('user disconnected')
   })
 
-  socket.on('service-peer', function(data) {
-    console.log('Message from peer: %s', data.msg);
-    socket.broadcast.emit('service-peer', data);
+  socket.on('service-peer', function (data) {
+    console.log('Message from peer: %s', data.msg)
+    socket.broadcast.emit('service-peer', data)
   })
 
-  socket.on('go-private', function(data) {
-    socket.emit('go-private', data);
-  });
+  socket.on('go-private', function (data) {
+    socket.emit('go-private', data)
+  })
 })
 
 service.listen(3000)
@@ -108,4 +106,4 @@ service.listen(3000)
 
 ## 参考
 
-+ [Node 中文](http://nodejs.cn/api/path.html#path_path_extname_path)
+- [Node 中文](http://nodejs.cn/api/path.html#path_path_extname_path)

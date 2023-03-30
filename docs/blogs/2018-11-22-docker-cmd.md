@@ -2,9 +2,6 @@
 title: Docker 常用命令
 ---
 
-# {{$page.title}}
-
-
 ```bash
 # 停用全部运行中的容器
 docker stop $(docker ps -aq)

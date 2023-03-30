@@ -7,23 +7,17 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs:dev": "node ./dir.js && vuepress dev docs --temp .temp",
-    "docs:build": "node ./dir.js && vuepress build docs"
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vuepress/shared-utils": "^1.5.4",
-    "fs-extra": "^6.0.1",
+    "@vuepress/shared-utils": "^1.9.9",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-task-lists": "^2.1.1",
-    "vuepress": "^1.9.7"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "@vuepress/theme-blog": "^2.3.3",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "vuepress": "^1.9.9",
+    "@vuepress/theme-blog": "^2.3.3"
   }
 }

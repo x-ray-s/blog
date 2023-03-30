@@ -2,8 +2,6 @@
 title: 如何购买ChatGPT plus
 ---
 
-# {{$page.title}}
-
 准备：
 
 1. 首先下载 Depay APP, 一个虚拟信用卡的应用，详细可以见另一篇文章[使用 Depay 虚拟信用卡](https://blog.x-ray.work/blogs/2023-02-15-depay.html)

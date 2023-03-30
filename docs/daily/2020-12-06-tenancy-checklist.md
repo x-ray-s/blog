@@ -2,8 +2,6 @@
 title: 租房 Checklist
 ---
 
-# {{$page.title}}
-
 ### 💰 价格
 
 - 月租

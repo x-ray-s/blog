@@ -2,8 +2,6 @@
 title: 解决 Chrome 禁止发送不安全的内网网络请求
 ---
 
-# {{$page.title}}
-
 How to fix Chrome block your insecure private network requests?
 
 使用梅林 Clash 时公告区的提示：

@@ -2,8 +2,6 @@
 title: 2月 第四周
 ---
 
-# {{$page.title}}
-
 ### HTML
 
 Downloading resources in HTML5: `a[download]` [https://developers.google.com/web/updates/2011/08/Downloading-resources-in-HTML5-a-download]

@@ -2,8 +2,6 @@
 title: Hapi.js 起步
 ---
 
-# {{$page.title}}
-
 ## 目录
 
 [[toc]]
@@ -56,18 +54,18 @@ npm install hapi -D
 
 ```js
 // server.js
-const Hapi = require("hapi");
+const Hapi = require('hapi')
 
 const server = Hapi.server({
   port: 3000,
-  host: "localhost"
-});
+  host: 'localhost',
+})
 
 const init = async () => {
-  await server.start();
-  console.log(`Server running at: ${server.info.uri}`);
-};
-init();
+  await server.start()
+  console.log(`Server running at: ${server.info.uri}`)
+}
+init()
 ```
 
 在命令行中执行
@@ -106,18 +104,18 @@ const init = async () => {
 ```js
 // server.js
 server.route({
-  path: "/api/welcome",
-  method: "GET",
+  path: '/api/welcome',
+  method: 'GET',
   handler() {
     return {
       code: 200,
       success: true,
       data: {
-        msg: "welcome"
-      }
-    };
-  }
-});
+        msg: 'welcome',
+      },
+    }
+  },
+})
 ```
 
 重启服务，我们访问 http://localhost:3000/api/welcome
@@ -210,38 +208,38 @@ server.route({
 
 ```js
 let speech = {
-  value: "welcome",
+  value: 'welcome',
   set(val) {
-    this.value = val;
-  }
-};
+    this.value = val
+  },
+}
 server.route({
-  path: "/api/welcome/{name}",
-  method: "GET",
+  path: '/api/welcome/{name}',
+  method: 'GET',
   handler(request) {
     return {
       code: 200,
       success: true,
       data: {
-        msg: `${speech.value} ${request.params.name}`
-      }
-    };
-  }
-});
+        msg: `${speech.value} ${request.params.name}`,
+      },
+    }
+  },
+})
 server.route({
-  path: "/api/speech",
-  method: "POST",
+  path: '/api/speech',
+  method: 'POST',
   handler(request) {
-    speech.set(request.payload.word);
+    speech.set(request.payload.word)
     return {
       code: 200,
       success: true,
       data: {
-        msg: `speech is *${speech.value}* now`
-      }
-    };
-  }
-});
+        msg: `speech is *${speech.value}* now`,
+      },
+    }
+  },
+})
 ```
 
 验证一下
@@ -363,10 +361,10 @@ directory: {
 ```js
 // index.html
 $.ajax({
-  url: "http://localhost:3000/api/welcome/kenny"
-}).then(function(data) {
-  console.log(data);
-});
+  url: 'http://localhost:3000/api/welcome/kenny',
+}).then(function (data) {
+  console.log(data)
+})
 ```
 
 访问 http://localhost:3002/index 会报 js 的跨域错误
@@ -393,7 +391,7 @@ const server = Hapi.server({
 这就是 Hapi 的另一个优势，配置检查，因为 Hapi 作为以配置先行的框架，做了很多配置的检查，在你使用了不允许或不规范的配置时，会有相应的错误产生，方便你对于问题的捕捉和解决。
 
 ```js
-origin: ["*"];
+origin: ['*']
 ```
 
 然后刷新页面，你会发现跨域的错误已经没有了。
@@ -483,17 +481,17 @@ server.route({
 
 ```js
 server.route({
-  path: "/api/logout",
-  method: "POST",
+  path: '/api/logout',
+  method: 'POST',
   handler(request, h) {
     // 取消 cookie
-    h.unstate("login");
+    h.unstate('login')
     return {
       code: 200,
-      success: true
-    };
-  }
-});
+      success: true,
+    }
+  },
+})
 ```
 
 > 这个例子并不适合实际的业务场景，只是为了更简单的描述如何设置和取消 cookie
@@ -516,56 +514,56 @@ server.route({
 
 ```js
 // 引入插件
-await server.register(require("hapi-auth-jwt2"));
+await server.register(require('hapi-auth-jwt2'))
 // 自定义一个你的认证方法
-const validate = async function(decoded, request) {
+const validate = async function (decoded, request) {
   return {
-    isValid: true
-  };
-};
+    isValid: true,
+  }
+}
 // 设置认证
-server.auth.strategy("jwt", "jwt", {
-  key: "your secret key",
+server.auth.strategy('jwt', 'jwt', {
+  key: 'your secret key',
   validate,
   verifyOptions: {
-    algorithms: ["HS256"]
+    algorithms: ['HS256'],
   },
-  cookieKey: "token"
-});
+  cookieKey: 'token',
+})
 
 // 一个需要认证的路由
 server.route({
-  path: "/user/info",
-  method: "GET",
+  path: '/user/info',
+  method: 'GET',
   options: {
-    auth: "jwt"
-  }
+    auth: 'jwt',
+  },
   // ...
-});
+})
 // 一个需要认证可选的路由
 server.route({
-  path: "/list/recommond",
-  method: "GET",
+  path: '/list/recommond',
+  method: 'GET',
   options: {
     auth: {
-      strategy: "jwt",
-      mode: "optional"
-    }
-  }
+      strategy: 'jwt',
+      mode: 'optional',
+    },
+  },
   // ...
-});
+})
 // 一个需要认证尝试的路由
 server.route({
-  path: "/list/recommond",
-  method: "GET",
+  path: '/list/recommond',
+  method: 'GET',
   options: {
     auth: {
-      strategy: "jwt",
-      mode: "try"
-    }
-  }
+      strategy: 'jwt',
+      mode: 'try',
+    },
+  },
   // ...
-});
+})
 ```
 
 其中 try 与 optional 的区别在于认证错误后的返回， optional 的认证规则为你可以没有，但是有那就必须是正确的。 try 则是无所谓，都不会返回 401 错误。
@@ -582,11 +580,11 @@ npm i hapi-pino
 
 ```js
 await server.register({
-  plugin: require("hapi-pino"),
+  plugin: require('hapi-pino'),
   options: {
-    prettyPrint: true // 格式化输出
-  }
-});
+    prettyPrint: true, // 格式化输出
+  },
+})
 ```
 
 重新服务，并且访问 '/api/logout'
@@ -646,8 +644,8 @@ Server running at: http://localhost:3000
 
 ```js
 await server.register({
-  plugin: require("lout")
-});
+  plugin: require('lout'),
+})
 ```
 
 因为 Hapi 是以配置为中心的框架，所以文档也可以根据配置生成，只需要你对路由进行一定的描述，就会生成一个可用的文档。

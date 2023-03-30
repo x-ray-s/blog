@@ -2,8 +2,6 @@
 title: 10月 第三周
 ---
 
-# {{$page.title}}
-
 ### System
 
 Windows 中尝试使用新的 `Windows Terminal`，配色方案 `Dracula`， 默认命令行 `PowerShellCore`，字体 `Fira Code`

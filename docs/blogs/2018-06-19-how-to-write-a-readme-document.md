@@ -2,14 +2,13 @@
 title: 一份项目内使用的的readme参考
 ---
 
-# {{$page.title}}
 > 引用
 
 ## 安装以及启动
 
-不需要修改hosts文件，浏览器中打开<http://localhost:7878>。如果使用域名，则需要把域名指向本地，端口设置为80，浏览器中打开<http://\<PROJECT\>.com>。
+不需要修改 hosts 文件，浏览器中打开<http://localhost:7878>。如果使用域名，则需要把域名指向本地，端口设置为 80，浏览器中打开<http://\<PROJECT\>.com>。
 
-安装yarn
+安装 yarn
 
 ```js
 npm install
@@ -21,7 +20,7 @@ npm run dev
 
 执行命令结束后，浏览器中打开<http://localhost:3000>
 
-注：js与less的编译文件为 `['js/*.js', 'js/**/index.js', 'less/*/*.less', 'less/**/index.less']`
+注：js 与 less 的编译文件为 `['js/*.js', 'js/**/index.js', 'less/*/*.less', 'less/**/index.less']`
 
 ```
 npm run dev---- or ----
@@ -30,41 +29,41 @@ gulp dev
 
 ## 风格指南
 
-css规范 <https://github.com/airbnb/css>
+css 规范 <https://github.com/airbnb/css>
 
-js规范 <https://github.com/airbnb/javascript>
+js 规范 <https://github.com/airbnb/javascript>
 
 注释规范 <http://usejsdoc.org/>
 
-vscode注释支持 <https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript>
+vscode 注释支持 <https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript>
 
 编辑器格式化配置 <http://editorconfig.org/>
 
-## CSS命名规范
+## CSS 命名规范
 
-使用BEM(block__element__modifier)命名规范，为避免样式覆盖，禁止.class选择器单独使用，可嵌套在符合BEM规范的选择器内，作子选择器使用。避免嵌套过多选择器，非重用模块除外。
+使用 BEM(block**element**modifier)命名规范，为避免样式覆盖，禁止.class 选择器单独使用，可嵌套在符合 BEM 规范的选择器内，作子选择器使用。避免嵌套过多选择器，非重用模块除外。
 
 ```
 .banner ❌
-.home__banner ✅ 
+.home__banner ✅
 
 .close ❌
 .modal__login .close ✅
 ```
 
-## js检查
+## js 检查
 
-使用prettier作为formatter，eslint作为lint。
+使用 prettier 作为 formatter，eslint 作为 lint。
 
-vscode插件：
+vscode 插件：
 
-+ Prettier
-+ EditorConfig for VS Code
-+ ESLint
-+ Vetur
-+ Pug snippets
+- Prettier
+- EditorConfig for VS Code
+- ESLint
+- Vetur
+- Pug snippets
 
-settings.json配置
+settings.json 配置
 
 ```
 "eslint.validate": [ "javascript", "javascriptreact", "html", "vue" ],
@@ -75,8 +74,9 @@ settings.json配置
 ```
 sudo gulp formatter
 ```
-vue使用eslint-plugin-vue格式化代码，js文件使用eslint --fix格式化。
-编辑器内可使用prettier插件。
+
+vue 使用 eslint-plugin-vue 格式化代码，js 文件使用 eslint --fix 格式化。
+编辑器内可使用 prettier 插件。
 
 ```
   > format document
@@ -131,9 +131,9 @@ yarn.lock
 
 ## 视图
 
-+ h5 - m.pug mobile.pug
-+ hybird - h.pug hybird.pug
-+ web - index.pug
+- h5 - m.pug mobile.pug
+- hybird - h.pug hybird.pug
+- web - index.pug
 
 ## 全局变量
 
@@ -153,7 +153,7 @@ window._USER {Object} - 当前登录用户信息
 
 ## Cookie
 
-页面之间的传递临时变量尽量使用session，存储非敏感信息使用storage，频繁使用的http状态使用cookie。
+页面之间的传递临时变量尽量使用 session，存储非敏感信息使用 storage，频繁使用的 http 状态使用 cookie。
 
 ```
 <PROJECT>_a_token //access token
@@ -165,21 +165,23 @@ remember // 记住密码
 
 ## FBI WARNING
 
-+ vue的挂载点为dom最顶层，所有dom操作应在vue mount生命周期之后。提供一个'vue-ready'事件，观察者函数单次载入，多次会覆盖之前的绑定。
-+ gulp任务新增依赖后，需要手动清空部署机的cache文件。
-+ 某些XMLHttpRequest POST请求返回400错误，需使用$.csrf发送请求，包装了请求token的逻辑。 
-+ 关于请求跨域。开发模式中xmlHttpRequest通过cors.js由本地转发至线上。线上设置cors头或nginx把二级域名代理到\<PROJECT\>.com完成。
+- vue 的挂载点为 dom 最顶层，所有 dom 操作应在 vue mount 生命周期之后。提供一个'vue-ready'事件，观察者函数单次载入，多次会覆盖之前的绑定。
+- gulp 任务新增依赖后，需要手动清空部署机的 cache 文件。
+- 某些 XMLHttpRequest POST 请求返回 400 错误，需使用$.csrf 发送请求，包装了请求 token 的逻辑。
+- 关于请求跨域。开发模式中 xmlHttpRequest 通过 cors.js 由本地转发至线上。线上设置 cors 头或 nginx 把二级域名代理到\<PROJECT\>.com 完成。
 
 ## 线上日志
 
 ## 编译机，部署机
 
-## 提交PR
+## 提交 PR
+
 ```
 node tools/pr.js -a ${assign_id} -t ${target_branch}
 ```
 
-## 查看PR相关
+## 查看 PR 相关
+
 ```
 node tools/pr.js
 ```

@@ -2,8 +2,6 @@
 title: 前端性能评测指数
 ---
 
-# {{$page.title}}
-
 ## 关于前端性能评测的意义
 
 从业务角度上，性能提升对于用户体验和转化率的提升。从技术角度上，针对项目上的优化需要量化，需要诊断和分析。
@@ -68,10 +66,10 @@ tcp 链接耗时 = timing.connectEnd - timing.connectStart
 或使用 [`window.navigator.sendBeacon`](https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator/sendBeacon) 发送数据
 
 ```js
-navigator.sendBeacon("/log", {
+navigator.sendBeacon('/log', {
   startTime: 6,
-  duration: 100
-});
+  duration: 100,
+})
 ```
 
 配合采集日志使用，例如：阿里云的采集服务（[Web Tracking](https://help.aliyun.com/document_detail/31752.html))，使用 阿里云对象储存的[日志](https://help.aliyun.com/document_detail/99349.html)等方式。
@@ -83,20 +81,19 @@ navigator.sendBeacon("/log", {
 我们简单的上报时间，"首次渲染",”首次内容渲染“以及”dom 加载完成“，这里并没有做 FMP 等用户角度的测量维度。
 
 ```js
-const observer = new PerformanceObserver(list => {
+const observer = new PerformanceObserver((list) => {
   for (const entry of list.getEntries()) {
-    const metricName =
-      entry.entryType === "navigation" ? "dom-content-loaded" : entry.name;
-    const time = Math.round(entry.startTime + entry.duration);
-    gio("track", "PERFORMANCE_METRIC", {
+    const metricName = entry.entryType === 'navigation' ? 'dom-content-loaded' : entry.name
+    const time = Math.round(entry.startTime + entry.duration)
+    gio('track', 'PERFORMANCE_METRIC', {
       performance_duration: time,
-      performance_entryType: metricName
-    });
+      performance_entryType: metricName,
+    })
   }
-});
+})
 observer.observe({
-  entryTypes: ["paint", "navigation"]
-});
+  entryTypes: ['paint', 'navigation'],
+})
 ```
 
 这里是效果，也并没有详细的统计数据，只是简单的展示。

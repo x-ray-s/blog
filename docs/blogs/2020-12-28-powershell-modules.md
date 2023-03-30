@@ -2,8 +2,6 @@
 title: 为 PowerShell 安装模块
 ---
 
-# {{$page.title}}
-
 更新最新的 `PowerShellGet`
 
 ```shell

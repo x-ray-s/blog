@@ -2,8 +2,6 @@
 title: 如何搭建高效（误）舒适的工作环境
 ---
 
-# {{$page.title}}
-
 ## Network & Proxy
 
 使用 Tunnelblick 访问内网权限网络，shadowsocks 访问 GFW  权限外网络。
