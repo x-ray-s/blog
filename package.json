@@ -15,9 +15,13 @@
   "license": "ISC",
   "dependencies": {
     "@vuepress/shared-utils": "^1.9.9",
+    "@vuepress/theme-blog": "^2.3.3",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-task-lists": "^2.1.1",
-    "vuepress": "^1.9.9",
-    "@vuepress/theme-blog": "^2.3.3"
+    "vuepress": "^1.9.9"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.9",
+    "@vuepress/plugin-nprogress": "^1.9.9"
   }
 }

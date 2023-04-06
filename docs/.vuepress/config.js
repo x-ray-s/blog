@@ -13,6 +13,13 @@ module.exports = {
   },
   plugins: [
     require('./voice'),
+    '@vuepress/nprogress',
+    [
+      '@vuepress/medium-zoom',
+      {
+        selector: '#vuepress-theme-blog__post-layout :not(a) > img',
+      },
+    ],
     [
       '@vuepress/blog',
       {
