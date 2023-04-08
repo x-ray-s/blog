@@ -48,9 +48,15 @@ module.exports = {
         globalPagination: {
           sorter: (prev, next) => {
             const dayjs = require('dayjs')
-            const prevTime = dayjs(prev.frontmatter.date)
-            const nextTime = dayjs(next.frontmatter.date)
-            return prevTime - nextTime > 0 ? 1 : -1
+            let prevTime, nextTime
+            if (prev.frontmatter.date && next.frontmatter.date) {
+              prevTime = prev.frontmatter.date
+              nextTime = next.frontmatter.date
+            } else {
+              prevTime = prev.path.match(/\d{4}.\d{2}.\d{2}/gi)[0]
+              nextTime = next.path.match(/\d{4}.\d{2}.\d{2}/gi)[0]
+            }
+            return dayjs(prevTime) - dayjs(nextTime) > 0 ? -1 : 1
           },
         },
       },
