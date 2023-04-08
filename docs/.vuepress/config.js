@@ -47,7 +47,10 @@ module.exports = {
         ],
         globalPagination: {
           sorter: (prev, next) => {
-            return -1
+            const dayjs = require('dayjs')
+            const prevTime = dayjs(prev.frontmatter.date)
+            const nextTime = dayjs(next.frontmatter.date)
+            return prevTime - nextTime > 0 ? 1 : -1
           },
         },
       },
