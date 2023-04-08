@@ -53,8 +53,8 @@ module.exports = {
               prevTime = prev.frontmatter.date
               nextTime = next.frontmatter.date
             } else {
-              prevTime = prev.path.match(/\d{4}.\d{2}.\d{2}/gi)[0]
-              nextTime = next.path.match(/\d{4}.\d{2}.\d{2}/gi)[0]
+              prevTime = prev.path.match(/\d{4}.\d{2}.\d{2}/gi)?.[0]
+              nextTime = next.path.match(/\d{4}.\d{2}.\d{2}/gi)?.[0]
             }
             return dayjs(prevTime) - dayjs(nextTime) > 0 ? -1 : 1
           },
