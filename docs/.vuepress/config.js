@@ -12,8 +12,8 @@ module.exports = {
     ],
   },
   plugins: [
-    require('./voice'),
-    '@vuepress/nprogress',
+    [require('./voice')],
+    ['@vuepress/nprogress'],
     [
       '@vuepress/medium-zoom',
       {
