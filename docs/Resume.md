@@ -6,7 +6,7 @@
 
 - Email: [princesswar721@gmail.com](mailto:princesswar721@gmail.com)
 - Wechat: princess_war
-- Telegram: @x_ray_li
+- Telegram: @x_ray_i
 - 位置：北京
 - 年龄：32 (1990 年 7 月)
 - 教育：北京外国语大学 网络教育学院 商务英语 专科
