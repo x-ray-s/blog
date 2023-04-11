@@ -12,8 +12,8 @@ module.exports = {
     ],
   },
   plugins: [
-    require('./voice'),
-    '@vuepress/nprogress',
+    [require('./voice')],
+    ['@vuepress/nprogress'],
     [
       '@vuepress/medium-zoom',
       {
@@ -47,7 +47,16 @@ module.exports = {
         ],
         globalPagination: {
           sorter: (prev, next) => {
-            return -1
+            const dayjs = require('dayjs')
+            let prevTime, nextTime
+            if (prev.frontmatter.date && next.frontmatter.date) {
+              prevTime = prev.frontmatter.date
+              nextTime = next.frontmatter.date
+            } else {
+              prevTime = prev.path.match(/\d{4}.\d{2}.\d{2}/gi)?.[0]
+              nextTime = next.path.match(/\d{4}.\d{2}.\d{2}/gi)?.[0]
+            }
+            return dayjs(prevTime) - dayjs(nextTime) > 0 ? -1 : 1
           },
         },
       },
