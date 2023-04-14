@@ -2,11 +2,13 @@ module.exports = {
   title: 'Halo world - X-Ray',
   description: '分享前端编程技术和经验，记录一些生活中的点点滴滴',
   head: [
-    'meta',
-    {
-      name: 'keywords',
-      content: '前端,javascript,CSS,HTML,Linux,VPN,机场,clash',
-    },
+    [
+      'meta',
+      {
+        name: 'keywords',
+        content: '前端,javascript,CSS,HTML,Linux,VPN,机场,clash',
+      },
+    ],
   ],
   theme: '@vuepress/blog',
   themeConfig: {
