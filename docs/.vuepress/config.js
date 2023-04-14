@@ -1,5 +1,13 @@
 module.exports = {
-  title: 'Halo world',
+  title: 'Halo world - X-Ray',
+  description: '分享前端编程技术和经验，记录一些生活中的点点滴滴',
+  head: [
+    'meta',
+    {
+      name: 'keywords',
+      content: '前端,javascript,CSS,HTML,Linux,VPN,机场,clash',
+    },
+  ],
   theme: '@vuepress/blog',
   themeConfig: {
     nav: [
@@ -45,6 +53,9 @@ module.exports = {
             path: '/daily-interview-question/',
           },
         ],
+        sitemap: {
+          hostname: 'https://blog.x-ray.work/',
+        },
         globalPagination: {
           sorter: (prev, next) => {
             const dayjs = require('dayjs')
@@ -66,5 +77,6 @@ module.exports = {
     extendMarkdown: (md) => {
       md.use(require('markdown-it-imsize')).use(require('markdown-it-task-lists'))
     },
+    externalLinks: { target: '_blank', rel: 'nofollow noopener noreferrer' },
   },
 }

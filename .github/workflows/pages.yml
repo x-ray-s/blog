@@ -37,6 +37,7 @@ jobs:
         run: |
           npm i
           npm run docs:build
+          cp docs/.vuepress/googled1c69423298ff466.html docs/.vuepress/dist
           cd docs/.vuepress/dist
           echo 'blog.x-ray.work' > CNAME
       - name: Upload artifact
