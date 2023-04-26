@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Halo world - X-Ray',
+  title: 'X-Ray',
   description: '分享前端编程技术和经验，记录一些生活中的点点滴滴',
   head: [
     [

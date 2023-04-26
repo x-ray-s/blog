@@ -1,5 +1,10 @@
 ---
 title: 如何购买ChatGPT plus
+meta:
+  - name: keywords
+    content: Depay,虚拟信用卡,翻墙,梯子,chatgpt,plus,美国地址,地址
+  - name: description
+    content: 介绍了如何使用 Depay 虚拟信用卡和翻墙梯子 purefast，开通 chatgpt plus。
 ---
 
 准备：
