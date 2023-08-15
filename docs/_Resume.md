@@ -11,6 +11,7 @@
 - 年龄：32 (1990 年 7 月)
 - 教育：北京外国语大学 网络教育学院 商务英语 专科
 - Github: [https://github.com/x-ray-s](https://github.com/x-ray-s)
+- blog: [https://blog.x-ray.work/](https://blog.x-ray.work/)
 
 ### 求职意向
 
