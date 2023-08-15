@@ -1,6 +1,6 @@
 ## 李天宇
 
-### 前端/node/Javascript 开发工程师
+### 前端/node/Javascript 全栈开发工程师
 
 ### 基本信息
 
