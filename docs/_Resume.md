@@ -1,6 +1,6 @@
-## 李天宇
+## Ray
 
-### 前端/node/Javascript 全栈开发工程师
+### 前端/Node/Javascript 全栈开发工程师
 
 ### 基本信息
 
@@ -9,27 +9,35 @@
 - Telegram: @x_ray_i
 - 位置：北京
 - 年龄：32 (1990 年 7 月)
-- 教育：北京外国语大学 网络教育学院 商务英语 专科
+- 教育：专科 北京外国语大学 网络教育学院 商务英语
 - Github: [https://github.com/x-ray-s](https://github.com/x-ray-s)
 - blog: [https://blog.x-ray.work/](https://blog.x-ray.work/)
 
 ### 求职意向
 
-远程，前端/全栈工作，45K+
+远程，前端/全栈工作，50K+/月
 
 ### 个人简介
 
-我有 10 年的互联网前端开发经验和 5 年的前端团队(5-10 人)管理经验。熟练掌握常用前端技术栈，并熟悉产品研发的各个环节流程。曾负责多个从零到一的项目的研发和上线工作。
+我有 10 年的互联网前端开发经验和 5 年的前端团队(5-10 人)管理经验。熟练掌握常用前端技术栈，并熟悉设计产品研发的各个环节与流程。曾负责多个从零到一的项目的研发和上线工作。
 
 我热爱本职工作，认真负责；自我驱动力强，能够妥善处理解决问题；业务能力优秀，自学能力较好；沟通交流能力良好，善于处理人际关系。我乐于助人和分享，希望能够在团队中发挥自己的优势，为公司的发展贡献力量。
 
 ### 技能
 
 - 精通 HTML CSS Javascript，熟练使用常用前端框架 Svelte Vue React 等，熟悉前端开发工具 Vite Webpack Rollup 等。
-- 熟悉 Node.js，熟练使用后端框架 Hapi.js 进行 Web 后端开发，熟悉后端开发相关库和工具的使用。
-- 熟练常见工作流工具，熟练使用 git workflow，熟悉 Atlassian, Notion 等团队协作工具。
+- 熟悉 Node.js，熟悉 Web 开发，熟练使用后端相关框架和工具。常用框架 hono.js，hapi.js
+- 熟练常见工作流工具，熟练使用 git workflow，熟悉 Atlassian 套件, Notion 等团队协作工具。
 - 熟练使用常用操作系统和环境，熟悉 CI CD 流程，熟练使用 Github Action，Gitlab CI。
 - 熟悉设计规范和设计软件，熟练使用 Figma。
+
+### 项目经验
+
+- 负责多个产品从 0 到 1 的开发到上线工作
+- 熟悉 Web 开发从设计到研发各个环节
+- 熟练使用 Web 开发的前后端框架
+- 开发过 Electron 的 webRTC 直播客户端
+- 开发过 React Native 的 ETH 和 Vechain 钱包
 
 ### 工作经历
 
@@ -39,9 +47,9 @@
 
 优化设计与开发流程，使用 Figma 指定内部组件和设计规范，简化暗色模式中设计与开发的一致性。
 
-负责内部组件的开发，使用 storybook 验证和开发内部组件库。
+负责内部组件的开发，使用 Storybook 验证和开发内部组件库。
 
-技术栈: `vite` `vue@3` `vue-use` `storybook.js`
+技术栈: `Vite` `Vue@3` `vue-use` `Storybook.js`
 
 #### Myssistant <small>2022.02 - 2022.12</small> 技术合伙人
 
@@ -49,7 +57,7 @@
 
 日常开发的项目管理和对接，将产品需求进行落地设计和研发，负责前台和后台的后端开发，以及部分前端业务的代码开发工作。
 
-使用技术栈: `Svelte` `Hapi.js` `Prisma` `MongoDB` `Redis` `RabbitMQ` `gRPC`
+使用技术栈: `Svelte` `Hapi.js` `Prisma` `MongoDB` `Redis` `RabbitMQ` `gRPC` `Ether.js`
 
 使用服务：Cloudflare DigitalOcean
 
@@ -57,7 +65,7 @@
 
 #### Valyuu <small>2020.10 - 2021.12</small> 全栈开发工程师（兼职）
 
-负责荷兰电子产品回收售卖平台 Valyuu 的产品研发工作，独立负责整站的开发上线工作。目前业务运转和融资情况良好。
+负责荷兰电子产品回收售卖平台 Valyuu 的产品研发工作，独立负责整站的开发上线工作。
 
 使用技术栈: `Nuxt` `Strapi`
 
@@ -73,7 +81,7 @@
 
 负责小帮直播平台的前端研发和技术调研。负责直播系统的技术调研，方案落地。使用 Electron 作为开发工具，构建多平台桌面应用，基于腾讯云 webRTC 能力，打造私有的直播平台服务，满足直播需要。每月服务 500+ 次保险师服务，50 场左右的大课直播，日常直播在线人数 1 万左右。获得 2020 年产研最佳项目奖。
 
-技术栈：`Electron` `Vue` `React`
+技术栈：`Electron` `Vue` `React` `Next.js`
 
 #### 北京衣二三网络科技有限公司 <small>2018.05 - 2019-07</small> 资深前端开发工程师
 
@@ -100,13 +108,15 @@
 7. 编写功能组件，提高生产效率。与设计师统一设计风格，指定前端设计规范，避免开发后的产出不一致。统一代码规范，在生产与上线流程中加入代码检查与规范化流程。
 8. 使用 Winston 改进 PM2 日志以及日志分割系统，方便针对 Node 与后端接口错误的追踪。使用 Sentry 收集错误日志以及对线上代码的调试跟踪。
 
-技术栈：`Express` `Backbone` `Vue` `Koa`
+技术栈：`Express` `Backbone` `Vue` `Koa` `Nuxt`
 
 项目链接：https://www.xueqiu.com
 
 #### 北京美通云动科技有限公司 <small>2014.06 - 2015.06</small> 前端开发工程师
 
 负责云适配后台管理的开发
+
+技术栈：`Backbone` `Angular`
 
 #### 北京博越网维科技有限公司 <small>2013.03 - 2014.05</small> 前端开发工程师
 
