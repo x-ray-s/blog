@@ -18,7 +18,7 @@ module.exports = {
       { text: 'Notes', link: '/notes/' },
       { text: 'Interview Question', link: '/daily-interview-question/' },
       { text: 'Github', link: 'https://github.com/x-ray-s' },
-      // { text: 'About', link: '/about' },
+      { text: 'Resume', link: '/resume' },
     ],
   },
   plugins: [
@@ -53,6 +53,11 @@ module.exports = {
             id: 'interview',
             dirname: 'daily-interview-question',
             path: '/daily-interview-question/',
+          },
+          {
+            id: 'resume',
+            dirname: 'resume',
+            path: '/resume',
           },
         ],
         sitemap: {
