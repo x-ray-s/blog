@@ -50,4 +50,10 @@ export PRISMA_SCHEMA_ENGINE_BINARY="${WGET_DIR}/schema-engine"
 export PRISMA_FMT_BINARY="${WGET_DIR}/prisma-fmt"
 ```
 
+设置可执行权限，因为 prisma 要使用外部的二进制文件执行
+
+```bash
+chmod 777 -R prisma-engine
+```
+
 这样启动 `prisma` 命令时，会使用对应的 engine 文件
