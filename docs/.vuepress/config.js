@@ -23,6 +23,7 @@ module.exports = {
   },
   plugins: [
     [require('./voice')],
+    [require('./pet')],
     ['@vuepress/nprogress'],
     [
       '@vuepress/medium-zoom',
