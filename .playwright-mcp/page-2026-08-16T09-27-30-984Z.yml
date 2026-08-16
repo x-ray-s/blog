@@ -1,0 +1,88 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - link "X-Ray" [ref=e7] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Blogs" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "Daily" [ref=e13] [cursor=pointer]:
+            - /url: /daily/
+        - listitem [ref=e14]:
+          - link "Notes" [ref=e15] [cursor=pointer]:
+            - /url: /notes/
+        - listitem [ref=e16]:
+          - link "Interview Question" [ref=e17] [cursor=pointer]:
+            - /url: /daily-interview-question/
+        - listitem [ref=e18]:
+          - link "Github" [ref=e19] [cursor=pointer]:
+            - /url: https://github.com/x-ray-s
+        - listitem [ref=e20]:
+          - link "Resume" [ref=e21] [cursor=pointer]:
+            - /url: /resume.html
+      - textbox "Search" [ref=e23]:
+        - /placeholder: ""
+  - generic [ref=e26]:
+    - generic [ref=e27]:
+      - article [ref=e28]:
+        - link "魔兽世界暗影界版本指挥台随从小号指南" [ref=e30] [cursor=pointer]:
+          - /url: /2025/10/21/wow-shadowlands-venture/
+        - paragraph [ref=e31]: 角色满级账号，可以是小号，并完成暗影界盟约任务，或直接跳过暗影界引导（命运丝线任务线） 角色未使用任何盟约名望赠送的 [记忆丝缕] 开始 在准备阶段，不要使用任何你拥有的 记忆丝缕 前往暗影界主城奥利波斯，通过传送点到达二楼飞行点，在 NPC 奥·达拉 处购买 [掮灵的卓越印记]x4 前往奥利波斯一楼 飞地，与盟约大使对话，每次对话后使用一个 [掮灵的卓越 ...
+      - article [ref=e32]:
+        - link "使用 LAN 访问 WSL 2 分发" [ref=e34] [cursor=pointer]:
+          - /url: /2025/08/14/wsl-lan-network/
+        - paragraph [ref=e35]: 使用管理员开启 powershell 然后从 windows 上就可以访问 wsl 中的服务了 netsh interface portproxy add v4tov4 listenport=5000 listenaddress=0.0.0.0 connectport=3000 connectaddress=localhost 5000 是代理端口 3000 是目标端口 ...
+      - article [ref=e36]:
+        - link "魔兽世界复苏岩浆猛犸,焦黑的元素残片获取攻略" [ref=e38] [cursor=pointer]:
+          - /url: /2025/08/07/wow-quest/
+        - paragraph [ref=e39]: "巨龙群岛 觉醒海岸 在下面坐标处触发觉醒之梦事件，单人 2 分钟完成，击杀队长后 100%掉落一个焦黑的元素残片，20 个可合成坐骑 - 复苏岩浆猛犸 切换 pvp 位面更佳，几乎没有人跟你一起进行，飞到坐标就可以击杀，刷完之后可以切换其他位面或者等刷新，基本 20 分钟打完一圈，1 小时内获取。 /way #2022 37.8 73.4 Waking Dream /way #2022 ..."
+      - article [ref=e40]:
+        - link "解决魔兽世界成就追踪问题" [ref=e42] [cursor=pointer]:
+          - /url: /2025/06/07/wow-quest-tracked/
+        - paragraph [ref=e43]: 当你追踪的成就已完成，但追踪并没有被清空，再想追踪新的成就时就会提示“你在同一时间内只能追踪 10 项成就”。 为了解决这个问题，需要 WTF -> 账户 -> (账户名) -> (服务器名) -> (角色名) -> config-cache.wtf 用记事本打开，删除以下两行并保存 SET trackedQuests "v " SET trackedAchievements "v ...
+      - article [ref=e44]:
+        - link "我正在寻找一份自由 Web 开发者的工作" [ref=e46] [cursor=pointer]:
+          - /url: /2025/03/22/job-hunter/
+        - paragraph [ref=e47]: 大家好，我是 Ray，一名拥有 12 年互联网研发经验的前端（全栈）开发工程师，熟悉从 0-1 的 Web 研发工作，有多个成功从研发到上线经验，并有多个独立研发产品经验。 我常用的开发技术栈：vue(nuxt.js) react(remix.js, next.js), astro, svelte, node, express, hapi.js, hono.js，但不限于框架本身 我可 ...
+      - article [ref=e48]:
+        - link "How to choose js modules like ESM or CommonJS in 2025" [ref=e50] [cursor=pointer]:
+          - /url: /2025/02/09/js-module/
+        - paragraph [ref=e51]: If you are a frontend developer, you must have heard about AMD, UMD, CJS(CommonJS) and ESM(ES6 Module). There are too many concepts to understand. In this article, I will introduce the history of the ...
+      - article [ref=e52]:
+        - link "Prisma 下载失败或下载慢的解决方案" [ref=e54] [cursor=pointer]:
+          - /url: /2025/01/22/prisma-engine-install/
+        - paragraph [ref=e55]: "在腾讯云主机上遇到了 Prisma 下载失败或下载速度非常慢，但是可以访问 binaries.prisma.sh 具体错误为: > Downloading Prisma engines for Node-API for xxx 通过设置 PRISMAENGINESMIRROR 无果，所以决定手动下载 prisma engine. 下载地址的规则为: host + co ..."
+      - article [ref=e56]:
+        - link "一个 2FA 的小程序实现" [ref=e58] [cursor=pointer]:
+          - /url: /2024/09/03/_2fa/
+        - paragraph [ref=e59]: 国内某些安卓系统手机无法安装谷歌商店，以及需要科学上网，或者需要下载 Authenticator 的 APK 文件安装，才可以使用动态码。 并且我之前有使用过 otplib 写过一个基于命令行的动态码工具的经验，所以复刻了一个 Authenticator 的小程序，支持 Authenticator 的*导出二维码 ...
+      - article [ref=e60]:
+        - link "一个简单的稳定币套利" [ref=e62] [cursor=pointer]:
+          - /url: /2023/07/28/stable-arbitrage/
+        - paragraph [ref=e63]: 稳定币的浮动较小，除美元脱钩外的风险外，不会出现很大的价格变动，在币安上 USDC/USDT BUSD/USDT 等交易对是免手续费，所以可以在稳定币价格买入后，增加 0.0001 进行卖出，就是使用买 1 价格挂单买入，卖 1 价格挂单卖出，这样成交的话你的利润就是万 1。你可以通过互联网去搜索，很多人在使用这种策略手动赚取收益。你也可以手动在应用程序中挂单，但是因为买盘和卖盘的价格在变动，每天 ...
+      - article [ref=e64]:
+        - link "一个更简单的虚拟卡 OneKey Card" [ref=e66] [cursor=pointer]:
+          - /url: /2023/07/03/onekey-card/
+        - paragraph [ref=e67]: 之前推荐过 depay 的虚拟卡（已经升级为 dupay），因为使用中暂停过过充值，所以就把所有钱都提出来了。也就没有去找其他替代品，期间也知道过 OneKey 也开放了 Beta 的测试，但是没有第一时间使用，昨天也是闲来无事就把卡开了. OneKey Card 相比其他虚拟卡更具有认可度，因为公司本身是做硬件钱包的，个人认为要比单纯没有背书直接就做虚 ...
+    - list [ref=e68]:
+      - listitem:
+        - generic [ref=e69]: Prev
+      - listitem:
+        - generic [ref=e70]: "1"
+      - listitem:
+        - generic [ref=e71] [cursor=pointer]: "2"
+      - listitem:
+        - generic [ref=e72] [cursor=pointer]: "3"
+      - listitem:
+        - generic [ref=e73]: …
+      - listitem:
+        - generic [ref=e74] [cursor=pointer]: "12"
+      - listitem:
+        - generic [ref=e75] [cursor=pointer]: Next
+  - contentinfo [ref=e76]:
+    - generic [ref=e77]:
+      - list
+    - generic [ref=e78]:
+      - list

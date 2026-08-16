@@ -1,5 +1,6 @@
 <template>
   <div
+    v-if="ready"
     class="floating-dog-pet"
     :style="{ left: petX + 'px' }"
     aria-hidden="true"
@@ -96,10 +97,27 @@ function angleToDirectionFrame(degrees) {
   return lerp(80, 95, (angle - 180) / 45)
 }
 
+function preloadImages(urls) {
+  return Promise.all(
+    urls.map(
+      (url) =>
+        new Promise((resolve, reject) => {
+          const image = new Image()
+          image.onload = () => resolve(url)
+          image.onerror = () => reject(new Error(`Failed to preload ${url}`))
+          image.src = url
+        })
+    )
+  )
+}
+
+const SPRITE_URLS = [...new Set(Object.values(animations).map((animation) => animation.image))]
+
 export default {
   name: 'FloatingDogPet',
   data() {
     return {
+      ready: false,
       state: 'idleLook',
       petX: 0,
       moveDirection: 0,
@@ -149,7 +167,16 @@ export default {
       }
     },
   },
-  mounted() {
+  async mounted() {
+    try {
+      await preloadImages(SPRITE_URLS)
+    } catch (error) {
+      return
+    }
+
+    this.ready = true
+    await this.$nextTick()
+
     this.petX = Math.max(0, window.innerWidth - PET_SIZE - BOTTOM_GAP)
     this.pointer = {
       x: window.innerWidth,
