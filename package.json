@@ -8,7 +8,8 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "test:pup-pass": "node tests/pup-pass.test.js"
   },
   "keywords": [],
   "author": "",

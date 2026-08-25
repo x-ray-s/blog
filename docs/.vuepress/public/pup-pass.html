@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pup Pass</title>
+    <meta name="description" content="一张会跟随鼠标移动和倾斜的小狗工卡。" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;700;800;900&family=Varela+Round&display=swap');
+
+      :root {
+        --ink: #17130f;
+        --tile-x: 0px;
+        --tile-y: 0px;
+        --tilt-x: 0deg;
+        --tilt-y: 0deg;
+        --shine-x: 50%;
+        --shine-y: 20%;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+      }
+
+      html {
+        overflow-x: hidden;
+      }
+
+      body {
+        margin: 0;
+        overflow-x: hidden;
+        color: var(--ink);
+        font-family: 'Nunito Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: radial-gradient(circle at 16% 18%, rgba(73, 197, 166, 0.26), transparent 26rem),
+          radial-gradient(circle at 84% 22%, rgba(37, 99, 235, 0.18), transparent 28rem),
+          linear-gradient(135deg, #fff8ec 0%, #ffe8bd 45%, #ffd086 100%);
+      }
+
+      .page {
+        position: relative;
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+        padding: clamp(20px, 5vw, 64px);
+        isolation: isolate;
+        perspective: 1200px;
+      }
+
+      .tile-field {
+        position: fixed;
+        inset: -8vh -8vw;
+        z-index: -2;
+        pointer-events: none;
+        background-image: linear-gradient(rgba(23, 19, 15, 0.1) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(23, 19, 15, 0.1) 1px, transparent 1px);
+        background-position: var(--tile-x) var(--tile-y);
+        background-size: 72px 72px;
+        transform: translate3d(calc(var(--tile-x) * -0.18), calc(var(--tile-y) * -0.18), 0);
+        transition: transform 180ms ease-out, background-position 180ms ease-out;
+      }
+
+      .tile-field::before,
+      .tile-field::after {
+        position: absolute;
+        inset: 0;
+        content: '';
+      }
+
+      .tile-field::before {
+        background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.35) 0 2px, transparent 2px 18px);
+        mask-image: radial-gradient(circle at center, #000 0 40%, transparent 72%);
+        animation: tile-drift 15s linear infinite;
+      }
+
+      .tile-field::after {
+        background: radial-gradient(circle at 20% 76%, rgba(239, 111, 46, 0.28), transparent 18rem),
+          radial-gradient(circle at 76% 72%, rgba(73, 197, 166, 0.24), transparent 20rem);
+      }
+
+      .scene {
+        width: min(100%, 520px);
+        display: grid;
+        place-items: center;
+      }
+
+      .card-wrap {
+        display: grid;
+        width: min(86vw, 360px);
+        aspect-ratio: 0.64;
+        place-items: center;
+        perspective: 1100px;
+        transform-style: preserve-3d;
+      }
+
+      .pass-card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border: 3px solid rgba(23, 19, 15, 0.94);
+        border-radius: 28px;
+        background: radial-gradient(circle at var(--shine-x) var(--shine-y), rgba(255, 255, 255, 0.95), transparent 22%),
+          linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 248, 236, 0.96));
+        box-shadow: 0 28px 0 rgba(23, 19, 15, 0.16), 0 38px 80px rgba(67, 36, 5, 0.28);
+        transform: rotateX(var(--tilt-x)) rotateY(var(--tilt-y)) translateZ(0);
+        transform-style: preserve-3d;
+        transition: transform 180ms ease-out, box-shadow 180ms ease-out;
+      }
+
+      .pass-card::before {
+        position: absolute;
+        inset: 14px;
+        border: 2px dashed rgba(23, 19, 15, 0.14);
+        border-radius: 20px;
+        background-image: linear-gradient(rgba(23, 19, 15, 0.06) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(23, 19, 15, 0.06) 1px, transparent 1px);
+        background-position: var(--tile-x) var(--tile-y);
+        background-size: 28px 28px;
+        content: '';
+        opacity: 0.85;
+        pointer-events: none;
+        transition: background-position 180ms ease-out;
+      }
+
+      .pass-card::after {
+        position: absolute;
+        inset: -30%;
+        background: linear-gradient(115deg, transparent 38%, rgba(255, 255, 255, 0.6) 48%, transparent 58%);
+        content: '';
+        opacity: 0.52;
+        transform: translateX(calc((var(--shine-x) - 50%) * 0.4));
+        pointer-events: none;
+      }
+
+      .card-head {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 28px 0;
+        transform: translateZ(44px);
+      }
+
+      .serial {
+        color: #6f4c2a;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .serial {
+        border: 2px solid rgba(23, 19, 15, 0.2);
+        border-radius: 999px;
+        padding: 7px 10px;
+        background: rgba(255, 255, 255, 0.6);
+      }
+
+      .portrait {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        width: calc(100% - 76px);
+        aspect-ratio: 0.98;
+        place-items: end center;
+        margin: 14px auto 0;
+        overflow: hidden;
+        border: 3px solid var(--ink);
+        border-radius: 24px;
+        background: linear-gradient(135deg, rgba(37, 99, 235, 0.12), transparent 46%),
+          radial-gradient(circle at 64% 30%, rgba(246, 168, 59, 0.72), transparent 48%), #f8ddaa;
+        box-shadow: inset 0 -12px 0 rgba(23, 19, 15, 0.08);
+        transform: translateZ(70px);
+      }
+
+      .portrait::before {
+        position: absolute;
+        inset: 18px;
+        border-radius: 18px;
+        background-image: linear-gradient(rgba(23, 19, 15, 0.08) 2px, transparent 2px),
+          linear-gradient(90deg, rgba(23, 19, 15, 0.08) 2px, transparent 2px);
+        background-size: 26px 26px;
+        content: '';
+      }
+
+      .portrait img {
+        position: relative;
+        z-index: 1;
+        width: 104%;
+        max-width: none;
+        transform: translate3d(-1%, 8%, 78px) scale(1.1);
+        filter: drop-shadow(0 16px 0 rgba(23, 19, 15, 0.16));
+        user-select: none;
+      }
+
+      .details {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        gap: 10px;
+        align-items: end;
+        padding: 20px 28px 28px;
+        transform: translateZ(48px);
+      }
+
+      .name {
+        margin: 0;
+        font-family: 'Varela Round', 'Nunito Sans', sans-serif;
+        font-size: 32px;
+        line-height: 1;
+      }
+
+      .identity {
+        min-width: 0;
+      }
+
+      .fact-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 6px;
+      }
+
+      .fact {
+        display: grid;
+        gap: 1px;
+        min-height: 36px;
+        border: 2px solid rgba(23, 19, 15, 0.1);
+        border-radius: 14px;
+        padding: 5px 9px;
+        background: rgba(255, 255, 255, 0.5);
+      }
+
+      .fact span {
+        color: #8a5a30;
+        font-size: 10px;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .fact strong {
+        color: #201914;
+        font-size: 13px;
+        font-weight: 900;
+      }
+
+      .barcode {
+        position: absolute;
+        right: 28px;
+        bottom: 16px;
+        left: 28px;
+        height: 18px;
+        border-radius: 999px;
+        background: linear-gradient(
+          90deg,
+          var(--ink) 0 6%,
+          transparent 6% 10%,
+          var(--ink) 10% 13%,
+          transparent 13% 20%,
+          var(--ink) 20% 29%,
+          transparent 29% 36%,
+          var(--ink) 36% 42%,
+          transparent 42% 49%,
+          var(--ink) 49% 55%,
+          transparent 55% 63%,
+          var(--ink) 63% 70%,
+          transparent 70% 75%,
+          var(--ink) 75% 82%,
+          transparent 82% 89%,
+          var(--ink) 89% 100%
+        );
+        opacity: 0.12;
+      }
+
+      @keyframes tile-drift {
+        from {
+          transform: translate3d(0, 0, 0);
+        }
+        to {
+          transform: translate3d(72px, 72px, 0);
+        }
+      }
+
+      @media (max-width: 480px) {
+        .page {
+          padding: 20px;
+        }
+
+        .pass-card {
+          border-radius: 22px;
+        }
+
+        .card-head,
+        .details {
+          padding-right: 22px;
+          padding-left: 22px;
+        }
+
+        .name {
+          font-size: 30px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.001ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.001ms !important;
+        }
+
+        .pass-card {
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <div class="tile-field" aria-hidden="true"></div>
+      <section class="scene" aria-label="Pup Pass 小狗工卡页面">
+        <div class="card-wrap">
+          <article class="pass-card" aria-label="Pup Pass 小狗工卡">
+            <header class="card-head">
+              <div class="identity">
+                <p class="name">Diudiu</p>
+              </div>
+              <span class="serial">K9-360</span>
+            </header>
+
+            <figure class="portrait">
+              <img src="assets/pup-pass-avatar.png" alt="可爱小狗头像插画" draggable="false" />
+            </figure>
+
+            <div class="details">
+              <div class="fact-grid" aria-label="Diudiu pet details">
+                <div class="fact">
+                  <span>Sex</span>
+                  <strong>Male</strong>
+                </div>
+                <div class="fact">
+                  <span>Age</span>
+                  <strong data-age-value data-birthday="2020-06-14">Age</strong>
+                </div>
+                <div class="fact">
+                  <span>Birthday</span>
+                  <strong>2020.06.14</strong>
+                </div>
+                <div class="fact">
+                  <span>City</span>
+                  <strong>Beijing</strong>
+                </div>
+              </div>
+            </div>
+            <div class="barcode" aria-hidden="true"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const root = document.documentElement
+      const cardWrap = document.querySelector('.card-wrap')
+      const ageValue = document.querySelector('[data-age-value]')
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
+
+      function calculateAge(birthday, today = new Date()) {
+        const birthDate = new Date(`${birthday}T00:00:00`)
+        let age = today.getFullYear() - birthDate.getFullYear()
+        const birthdayThisYear = new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate())
+
+        if (today < birthdayThisYear) {
+          age -= 1
+        }
+
+        return age
+      }
+
+      if (ageValue) {
+        ageValue.textContent = `Age ${calculateAge(ageValue.dataset.birthday)}`
+      }
+
+      function resetPointerState() {
+        root.style.setProperty('--tile-x', '0px')
+        root.style.setProperty('--tile-y', '0px')
+        root.style.setProperty('--tilt-x', '0deg')
+        root.style.setProperty('--tilt-y', '0deg')
+        root.style.setProperty('--shine-x', '50%')
+        root.style.setProperty('--shine-y', '20%')
+      }
+
+      function setPointerState(clientX, clientY) {
+        if (!cardWrap || reduceMotion.matches) return
+
+        const rect = cardWrap.getBoundingClientRect()
+        const cardX = (clientX - rect.left) / rect.width - 0.5
+        const cardY = (clientY - rect.top) / rect.height - 0.5
+
+        root.style.setProperty('--tile-x', `${cardX * 34}px`)
+        root.style.setProperty('--tile-y', `${cardY * 34}px`)
+        root.style.setProperty('--tilt-x', `${cardY * -14}deg`)
+        root.style.setProperty('--tilt-y', `${cardX * 18}deg`)
+        root.style.setProperty('--shine-x', `${50 + cardX * 70}%`)
+        root.style.setProperty('--shine-y', `${20 + cardY * 58}%`)
+      }
+
+      cardWrap.addEventListener('pointermove', (event) => {
+        requestAnimationFrame(() => {
+          setPointerState(event.clientX, event.clientY)
+        })
+      })
+
+      cardWrap.addEventListener('pointerleave', () => {
+        resetPointerState()
+      })
+    </script>
+  </body>
+</html>
